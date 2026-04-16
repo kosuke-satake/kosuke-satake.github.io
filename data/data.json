@@ -1,0 +1,32 @@
+{
+  "profile": {
+    "username": "github-actions[bot]",
+    "name": null,
+    "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "bio": null,
+    "url": "https://github.com/github-actions%5Bbot%5D",
+    "followers": 0,
+    "following": 0
+  },
+  "repositories": [
+    {
+      "name": "kosuke-satake.github.io",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-16T07:12:59Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": []
+    }
+  ],
+  "languages": [
+    {
+      "name": "JavaScript",
+      "count": 1,
+      "color": "#f1e05a"
+    }
+  ],
+  "lastFetched": "2026-04-16T07:13:17.118Z"
+}
