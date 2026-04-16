@@ -38,9 +38,6 @@ const GRAPHQL_QUERY = `
       issues {
         totalCount
       }
-      gists {
-        totalCount
-      }
       starredRepositories {
         totalCount
       }
@@ -240,7 +237,6 @@ async function fetchGitHubData() {
       totalForks: repos.reduce((sum, r) => sum + r.forks, 0),
       totalPRs: user.pullRequests.totalCount,
       totalIssues: user.issues.totalCount,
-      totalGists: user.gists.totalCount,
       totalStarred: user.starredRepositories.totalCount,
       totalDiskUsage: repos.reduce((sum, r) => sum + r.diskUsage, 0), // in KB
     },

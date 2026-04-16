@@ -40,7 +40,6 @@ function renderDashboard(data) {
   document.getElementById('insight-issues').textContent = profile.totalIssues.toLocaleString();
   document.getElementById('insight-stars').textContent = profile.totalStars.toLocaleString();
   document.getElementById('insight-forks').textContent = profile.totalForks.toLocaleString();
-  document.getElementById('insight-gists').textContent = profile.totalGists.toLocaleString();
   document.getElementById('insight-starred').textContent = profile.totalStarred.toLocaleString();
   
   // Storage Conversion
