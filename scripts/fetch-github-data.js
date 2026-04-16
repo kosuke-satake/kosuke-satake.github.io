@@ -38,6 +38,36 @@ const GRAPHQL_QUERY = `
       issues {
         totalCount
       }
+      gists {
+        totalCount
+      }
+      starredRepositories {
+        totalCount
+      }
+      pinnedItems(first: 6, types: [REPOSITORY]) {
+        nodes {
+          ... on Repository {
+            name
+            description
+            url
+            stargazerCount
+            forkCount
+            diskUsage
+            pushedAt
+            primaryLanguage {
+              name
+              color
+            }
+            repositoryTopics(first: 5) {
+              nodes {
+                topic {
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
       contributionsCollection {
         contributionCalendar {
           totalContributions
@@ -121,6 +151,7 @@ async function fetchGitHubData() {
   const allCommits = [];
   const topicCounts = {};
 
+  // Process all repos
   const repos = user.repositories.nodes.map(repo => {
     // Extract commits if they exist
     const repoCommits = repo.defaultBranchRef?.target?.history?.nodes || [];
@@ -153,6 +184,20 @@ async function fetchGitHubData() {
       topics: repo.repositoryTopics.nodes.map(node => node.topic.name)
     };
   });
+
+  // Process pinned repos
+  const pinnedRepos = user.pinnedItems.nodes.map(repo => ({
+    name: repo.name,
+    description: repo.description,
+    url: repo.url,
+    stars: repo.stargazerCount,
+    forks: repo.forkCount,
+    diskUsage: repo.diskUsage,
+    pushedAt: repo.pushedAt,
+    language: repo.primaryLanguage ? repo.primaryLanguage.name : null,
+    languageColor: repo.primaryLanguage ? repo.primaryLanguage.color : null,
+    topics: repo.repositoryTopics.nodes.map(node => node.topic.name)
+  }));
 
   // Sort and slice all commits to get the most recent activity across all repos
   const recentActivity = allCommits
@@ -192,11 +237,15 @@ async function fetchGitHubData() {
       following: user.following.totalCount,
       totalRepos: user.repositories.totalCount,
       totalStars: repos.reduce((sum, r) => sum + r.stars, 0),
+      totalForks: repos.reduce((sum, r) => sum + r.forks, 0),
       totalPRs: user.pullRequests.totalCount,
       totalIssues: user.issues.totalCount,
+      totalGists: user.gists.totalCount,
+      totalStarred: user.starredRepositories.totalCount,
       totalDiskUsage: repos.reduce((sum, r) => sum + r.diskUsage, 0), // in KB
     },
     calendar: user.contributionsCollection.contributionCalendar,
+    pinnedRepositories: pinnedRepos,
     repositories: repos,
     languages: sortedLanguages,
     topics: sortedTopics,

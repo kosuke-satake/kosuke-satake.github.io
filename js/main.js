@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function renderDashboard(data) {
-  const { profile, repositories, languages, topics, activity, calendar, lastFetched } = data;
+  const { profile, pinnedRepositories, repositories, languages, topics, activity, calendar, lastFetched } = data;
   
   // Profile
   document.getElementById('name').textContent = profile.name || profile.username;
   document.getElementById('bio').textContent = profile.bio || '';
-  document.getElementById('followers').textContent = profile.followers;
-  document.getElementById('following').textContent = profile.following;
+  document.getElementById('followers').textContent = profile.followers.toLocaleString();
+  document.getElementById('following').textContent = profile.following.toLocaleString();
   
   const avatar = document.getElementById('avatar');
   avatar.src = profile.avatarUrl;
@@ -38,9 +38,13 @@ function renderDashboard(data) {
   document.getElementById('insight-contributions').textContent = calendar ? calendar.totalContributions.toLocaleString() : '0';
   document.getElementById('insight-prs').textContent = profile.totalPRs.toLocaleString();
   document.getElementById('insight-issues').textContent = profile.totalIssues.toLocaleString();
+  document.getElementById('insight-stars').textContent = profile.totalStars.toLocaleString();
+  document.getElementById('insight-forks').textContent = profile.totalForks.toLocaleString();
+  document.getElementById('insight-gists').textContent = profile.totalGists.toLocaleString();
+  document.getElementById('insight-starred').textContent = profile.totalStarred.toLocaleString();
   
   // Storage Conversion
-  const storageMB = (profile.totalDiskUsage / 1024).toFixed(2);
+  const storageMB = (profile.totalDiskUsage / 1024).toFixed(1);
   document.getElementById('insight-storage').textContent = `${storageMB} MB`;
 
   // Last Fetched
@@ -50,28 +54,15 @@ function renderDashboard(data) {
   // Calendar
   renderCalendar(calendar);
 
-  // Languages
-  const langContainer = document.getElementById('languages-container');
-  languages.forEach(lang => {
-    const pill = document.createElement('div');
-    pill.className = 'language-pill';
-    pill.innerHTML = `
-      <span class="lang-color" style="background-color: ${lang.color || '#ccc'}"></span>
-      <span>${lang.name} <span style="color: var(--muted-color)">(${lang.count})</span></span>
-    `;
-    langContainer.appendChild(pill);
-  });
+  // Analysis Charts
+  renderBarChart('languages-chart', languages, (item) => item.name, (item) => item.count, profile.totalRepos);
+  renderBarChart('topics-chart', topics, (item) => item.name, (item) => item.count, profile.totalRepos);
 
-  // Topics Cloud
-  const topicsContainer = document.getElementById('topics-container');
-  if (topics && topics.length > 0) {
-    topics.forEach(topic => {
-      const tag = document.createElement('span');
-      tag.className = 'topic-tag';
-      tag.textContent = `${topic.name} (${topic.count})`;
-      topicsContainer.appendChild(tag);
-    });
-  }
+  // Pinned Repositories
+  const pinnedContainer = document.getElementById('pinned-container');
+  pinnedRepositories.forEach(repo => {
+    pinnedContainer.appendChild(createRepoCard(repo));
+  });
 
   // Activity Horizontal
   const activityContainer = document.getElementById('activity-container');
@@ -88,26 +79,54 @@ function renderDashboard(data) {
     });
   }
 
-  // Repositories
+  // All Repositories
   const reposContainer = document.getElementById('repos-container');
   repositories.forEach(repo => {
-    const card = document.createElement('div');
-    card.className = 'repo-card';
-    const topicsHtml = repo.topics.map(t => `<span class="topic">${t}</span>`).join('');
-    const date = new Date(repo.pushedAt).toLocaleDateString();
+    reposContainer.appendChild(createRepoCard(repo));
+  });
+}
 
-    card.innerHTML = `
-      <h3><a href="${repo.url}" target="_blank">${repo.name}</a></h3>
-      <p class="repo-desc">${repo.description || ''}</p>
-      <div class="repo-meta">
-        ${repo.language ? `<span><span class="lang-color" style="background-color: ${repo.languageColor || '#ccc'}"></span>${repo.language}</span>` : ''}
-        <span>★ ${repo.stars}</span>
-        <span>⑂ ${repo.forks}</span>
-        <span>${(repo.diskUsage / 1024).toFixed(1)} MB</span>
+function createRepoCard(repo) {
+  const card = document.createElement('div');
+  card.className = 'repo-card';
+  const topicsHtml = repo.topics.map(t => `<span class="topic">${t}</span>`).join('');
+  const date = new Date(repo.pushedAt).toLocaleDateString();
+
+  card.innerHTML = `
+    <h3><a href="${repo.url}" target="_blank">${repo.name}</a></h3>
+    <p class="repo-desc">${repo.description || ''}</p>
+    <div class="repo-meta">
+      ${repo.language ? `<span><span class="lang-color" style="background-color: ${repo.languageColor || '#ccc'}"></span>${repo.language}</span>` : ''}
+      <span>★ ${repo.stars}</span>
+      <span>⑂ ${repo.forks}</span>
+      <span>${(repo.diskUsage / 1024).toFixed(1)} MB</span>
+    </div>
+    <div class="repo-topics">${topicsHtml}</div>
+  `;
+  return card;
+}
+
+function renderBarChart(containerId, items, labelFn, valueFn, total) {
+  const container = document.getElementById(containerId);
+  if (!items || items.length === 0) return;
+
+  const maxVal = Math.max(...items.map(valueFn));
+
+  items.slice(0, 5).forEach(item => {
+    const val = valueFn(item);
+    const percentage = ((val / total) * 100).toFixed(0);
+    const row = document.createElement('div');
+    row.className = 'chart-row';
+    row.innerHTML = `
+      <div class="chart-label">
+        <span>${labelFn(item)}</span>
+        <span>${val} (${percentage}%)</span>
       </div>
-      <div class="repo-topics">${topicsHtml}</div>
+      <div class="chart-bar-bg">
+        <div class="chart-bar-fill" style="width: ${(val / maxVal) * 100}%"></div>
+      </div>
     `;
-    reposContainer.appendChild(card);
+    container.appendChild(row);
   });
 }
 
@@ -125,7 +144,10 @@ function renderCalendar(calendar) {
     week.contributionDays.forEach(day => {
       const dayEl = document.createElement('div');
       dayEl.className = 'calendar-day';
-      dayEl.style.backgroundColor = day.color;
+      
+      // Override empty days to dark gray
+      const color = (day.contributionCount === 0 || day.color === '#ebedf0') ? '#161b22' : day.color;
+      dayEl.style.backgroundColor = color;
       dayEl.title = `${day.contributionCount} contributions on ${day.date}`;
       weekEl.appendChild(dayEl);
     });
