@@ -1,10 +1,10 @@
 {
   "profile": {
-    "username": "github-actions[bot]",
-    "name": null,
-    "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-    "bio": null,
-    "url": "https://github.com/github-actions%5Bbot%5D",
+    "username": "kosuke-satake",
+    "name": "kosuke",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/246223926?u=841fdc4ab18622fdf042a519b454086682167784&v=4",
+    "bio": "",
+    "url": "https://github.com/kosuke-satake",
     "followers": 0,
     "following": 0
   },
@@ -15,20 +15,127 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-04-16T07:43:27Z",
+      "pushedAt": "2026-04-16T07:47:53Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
+      "topics": []
+    },
+    {
+      "name": "keyastro",
+      "description": "A lightning-fast, multilingual website template powered by Astro, Tailwind CSS, and Keystatic CMS. Zero backend required.",
+      "url": "https://github.com/kosuke-satake/keyastro",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-07T01:30:07Z",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "topics": [
+        "astro",
+        "cms",
+        "i18n",
+        "keystatic",
+        "mulitilingual"
+      ]
+    },
+    {
+      "name": "ros2_mac_workspace",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-06T08:39:52Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
+      "name": "ros2_ws",
+      "description": "A containerized ROS 2 workspace for experimenting and learning robotics.",
+      "url": "https://github.com/kosuke-satake/ros2_ws",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-06T01:51:36Z",
+      "language": "Dockerfile",
+      "languageColor": "#384d54",
+      "topics": []
+    },
+    {
+      "name": "ros2_tutorial_ws",
+      "description": "My ROS 2 Jazzy learning workspace and sandbox.",
+      "url": "https://github.com/kosuke-satake/ros2_tutorial_ws",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-06T01:50:23Z",
+      "language": "Dockerfile",
+      "languageColor": "#384d54",
+      "topics": []
+    },
+    {
+      "name": "scholar-static",
+      "description": "A lightning-fast, ultra-lightweight academic portfolio template powered by raw HTML/JS/CSS and a fully functional Keystatic CMS. Zero backend required.",
+      "url": "https://github.com/kosuke-satake/scholar-static",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-04T09:14:47Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": [
+        "academic-portfolio",
+        "astro",
+        "cms",
+        "keystatic",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "my_first_container",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/my_first_container",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-03-30T03:22:36Z",
+      "language": "Dockerfile",
+      "languageColor": "#384d54",
       "topics": []
     }
   ],
   "languages": [
     {
+      "name": "Dockerfile",
+      "count": 3,
+      "color": "#384d54"
+    },
+    {
       "name": "JavaScript",
-      "count": 1,
+      "count": 2,
       "color": "#f1e05a"
+    },
+    {
+      "name": "Astro",
+      "count": 1,
+      "color": "#ff5a03"
+    },
+    {
+      "name": "Python",
+      "count": 1,
+      "color": "#3572A5"
     }
   ],
   "activity": [
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "fix(data): ensure fetch script targets user profile instead of bot viewer",
+      "date": "2026-04-16T07:47:51Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/5bbf7822a43c0eee502ab9264e1eda91b848eff8"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-16T07:43:39Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/77dd33c3155dfff0f0bf7469f32034eda778413b"
+    },
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
@@ -77,7 +184,49 @@
       "message": "chore(setup): initialize project and node dependencies",
       "date": "2026-04-16T06:50:02Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/08396019dec0ff174e4a1f454ef8b437048615a1"
+    },
+    {
+      "repoName": "keyastro",
+      "repoUrl": "https://github.com/kosuke-satake/keyastro",
+      "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
+      "date": "2026-04-07T01:30:04Z",
+      "url": "https://github.com/kosuke-satake/keyastro/commit/1b3dc59441ebef9df08974696deab64dcbfcca65"
+    },
+    {
+      "repoName": "ros2_mac_workspace",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "message": "feat: add dynamic parameter callback and auto-source workspace",
+      "date": "2026-04-06T07:19:05Z",
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/5cc9636ffc15b11ebd92a9c5e3c2291a3c3bb4e2"
+    },
+    {
+      "repoName": "ros2_mac_workspace",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "message": "feat: add publish_frequency parameter to temperature sensor",
+      "date": "2026-04-06T04:53:52Z",
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/595871e9e0ff052e6fc59465f30b9e7f61864cf2"
+    },
+    {
+      "repoName": "ros2_mac_workspace",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "message": "feat: add temperature sensor simulation node",
+      "date": "2026-04-06T03:32:57Z",
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/b490201ac7669febc2646f81dd3d32072c3fc8d0"
+    },
+    {
+      "repoName": "ros2_mac_workspace",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "message": "feat: add simple subscriber node",
+      "date": "2026-04-06T02:46:18Z",
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/52c779d0ad6d7c56f7ecc313ea550101017f4902"
+    },
+    {
+      "repoName": "ros2_mac_workspace",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "message": "fix: update package metadata and add missing dependencies",
+      "date": "2026-04-06T02:44:54Z",
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/391ce24fe7305d65d9c3676d781785dcaf927ad4"
     }
   ],
-  "lastFetched": "2026-04-16T07:43:39.043Z"
+  "lastFetched": "2026-04-16T07:48:03.202Z"
 }
