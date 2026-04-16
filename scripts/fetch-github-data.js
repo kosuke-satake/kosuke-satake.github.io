@@ -25,13 +25,27 @@ const GRAPHQL_QUERY = `
       avatarUrl
       bio
       url
+      createdAt
       followers {
         totalCount
       }
       following {
         totalCount
       }
-      repositories(first: 50, privacy: PUBLIC, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
+      contributionsCollection {
+        contributionCalendar {
+          totalContributions
+          weeks {
+            contributionDays {
+              contributionCount
+              date
+              color
+            }
+          }
+        }
+      }
+      repositories(first: 100, privacy: PUBLIC, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
+        totalCount
         nodes {
           name
           description
@@ -125,7 +139,7 @@ async function fetchGitHubData() {
     };
   });
 
-  // Sort and slice all commits to get the most recent activity
+  // Sort and slice all commits to get the most recent activity across all repos
   const recentActivity = allCommits
     .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, 15);
@@ -152,9 +166,13 @@ async function fetchGitHubData() {
       avatarUrl: user.avatarUrl,
       bio: user.bio,
       url: user.url,
+      createdAt: user.createdAt,
       followers: user.followers.totalCount,
       following: user.following.totalCount,
+      totalRepos: user.repositories.totalCount,
+      totalStars: repos.reduce((sum, r) => sum + r.stars, 0),
     },
+    calendar: user.contributionsCollection.contributionCalendar,
     repositories: repos,
     languages: sortedLanguages,
     activity: recentActivity,
