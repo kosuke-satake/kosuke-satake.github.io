@@ -15,7 +15,7 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-04-16T07:12:59Z",
+      "pushedAt": "2026-04-16T07:43:27Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -28,5 +28,56 @@
       "color": "#f1e05a"
     }
   ],
-  "lastFetched": "2026-04-16T07:13:17.118Z"
+  "activity": [
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(ci): update github actions to commit as user instead of bot",
+      "date": "2026-04-16T07:42:58Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/39e17e2aa65a6a4953fa1a8486d5ffa8257c10d8"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "feat(activity): add recent commit timeline to dashboard",
+      "date": "2026-04-16T07:42:58Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ffa8c98d649dfd764ec3d8d968c3ac36190aa81b"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-16T07:13:17Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ed32e7d266b7f14469508c0298c04e2c0526a26f"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "docs(readme): add detailed read me and configure github actions",
+      "date": "2026-04-16T06:52:46Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/4bc9b76cf83f1b46a23cdf0ae6ab7e8cae829ecd"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "feat(ui): implement vanilla frontend to render github data",
+      "date": "2026-04-16T06:52:17Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/b760bbf0f33244da25e7d3968b46b45de8dc4d22"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "feat(data): implement node script to fetch github stats via graphql",
+      "date": "2026-04-16T06:51:31Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/f4b9e1c9339b55446fa93912498d46388bf0e0fa"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(setup): initialize project and node dependencies",
+      "date": "2026-04-16T06:50:02Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/08396019dec0ff174e4a1f454ef8b437048615a1"
+    }
+  ],
+  "lastFetched": "2026-04-16T07:43:39.043Z"
 }
