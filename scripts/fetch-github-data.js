@@ -32,6 +32,12 @@ const GRAPHQL_QUERY = `
       following {
         totalCount
       }
+      pullRequests {
+        totalCount
+      }
+      issues {
+        totalCount
+      }
       contributionsCollection {
         contributionCalendar {
           totalContributions
@@ -52,6 +58,7 @@ const GRAPHQL_QUERY = `
           url
           stargazerCount
           forkCount
+          diskUsage
           pushedAt
           primaryLanguage {
             name
@@ -112,6 +119,7 @@ async function fetchGitHubData() {
 
   const user = result.data.user;
   const allCommits = [];
+  const topicCounts = {};
 
   const repos = user.repositories.nodes.map(repo => {
     // Extract commits if they exist
@@ -126,12 +134,19 @@ async function fetchGitHubData() {
       });
     });
 
+    // Extract topics
+    repo.repositoryTopics.nodes.forEach(node => {
+      const topicName = node.topic.name;
+      topicCounts[topicName] = (topicCounts[topicName] || 0) + 1;
+    });
+
     return {
       name: repo.name,
       description: repo.description,
       url: repo.url,
       stars: repo.stargazerCount,
       forks: repo.forkCount,
+      diskUsage: repo.diskUsage,
       pushedAt: repo.pushedAt,
       language: repo.primaryLanguage ? repo.primaryLanguage.name : null,
       languageColor: repo.primaryLanguage ? repo.primaryLanguage.color : null,
@@ -159,6 +174,12 @@ async function fetchGitHubData() {
     .sort(([, a], [, b]) => b.count - a.count)
     .map(([name, data]) => ({ name, ...data }));
 
+  // Sort topics by frequency
+  const sortedTopics = Object.entries(topicCounts)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 15)
+    .map(([name, count]) => ({ name, count }));
+
   const data = {
     profile: {
       username: user.login,
@@ -171,10 +192,14 @@ async function fetchGitHubData() {
       following: user.following.totalCount,
       totalRepos: user.repositories.totalCount,
       totalStars: repos.reduce((sum, r) => sum + r.stars, 0),
+      totalPRs: user.pullRequests.totalCount,
+      totalIssues: user.issues.totalCount,
+      totalDiskUsage: repos.reduce((sum, r) => sum + r.diskUsage, 0), // in KB
     },
     calendar: user.contributionsCollection.contributionCalendar,
     repositories: repos,
     languages: sortedLanguages,
+    topics: sortedTopics,
     activity: recentActivity,
     lastFetched: new Date().toISOString(),
   };

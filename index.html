@@ -37,15 +37,39 @@
       </section>
 
       <section class="sidebar-section">
-        <h3>Recent Activity</h3>
-        <div id="activity-container" class="activity-timeline"></div>
+        <h3>Top Topics</h3>
+        <div id="topics-container" class="topics-cloud"></div>
       </section>
     </aside>
 
     <main class="main-content">
       <section class="content-section">
         <div class="section-header">
-          <h2>Contributions</h2>
+          <h2>Account Insights</h2>
+        </div>
+        <div id="insights-container" class="insights-grid">
+          <div class="insight-card">
+            <span class="insight-label">Contributions</span>
+            <span class="insight-value" id="insight-contributions">--</span>
+          </div>
+          <div class="insight-card">
+            <span class="insight-label">Pull Requests</span>
+            <span class="insight-value" id="insight-prs">--</span>
+          </div>
+          <div class="insight-card">
+            <span class="insight-label">Issues</span>
+            <span class="insight-value" id="insight-issues">--</span>
+          </div>
+          <div class="insight-card">
+            <span class="insight-label">Storage Used</span>
+            <span class="insight-value" id="insight-storage">--</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-header">
+          <h2>Contribution History</h2>
           <span id="total-contributions" class="badge">-- total</span>
         </div>
         <div class="calendar-wrapper">
@@ -69,6 +93,13 @@
           <h2>Top Repositories</h2>
         </div>
         <div id="repos-container" class="repos-grid"></div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-header">
+          <h2>Recent Activity</h2>
+        </div>
+        <div id="activity-container" class="activity-timeline-horizontal"></div>
       </section>
     </main>
 
