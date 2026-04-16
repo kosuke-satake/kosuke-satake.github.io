@@ -18,8 +18,8 @@ if (!GITHUB_TOKEN) {
 }
 
 const GRAPHQL_QUERY = `
-  query {
-    viewer {
+  query($username: String!) {
+    user(login: $username) {
       login
       name
       avatarUrl
@@ -77,7 +77,10 @@ async function fetchGitHubData() {
       'Authorization': `Bearer ${GITHUB_TOKEN}`,
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ query: GRAPHQL_QUERY }),
+    body: JSON.stringify({ 
+      query: GRAPHQL_QUERY,
+      variables: { username: 'kosuke-satake' } 
+    }),
   });
 
   if (!response.ok) {
@@ -93,10 +96,10 @@ async function fetchGitHubData() {
     process.exit(1);
   }
 
-  const viewer = result.data.viewer;
+  const user = result.data.user;
   const allCommits = [];
 
-  const repos = viewer.repositories.nodes.map(repo => {
+  const repos = user.repositories.nodes.map(repo => {
     // Extract commits if they exist
     const repoCommits = repo.defaultBranchRef?.target?.history?.nodes || [];
     repoCommits.forEach(commit => {
@@ -144,13 +147,13 @@ async function fetchGitHubData() {
 
   const data = {
     profile: {
-      username: viewer.login,
-      name: viewer.name,
-      avatarUrl: viewer.avatarUrl,
-      bio: viewer.bio,
-      url: viewer.url,
-      followers: viewer.followers.totalCount,
-      following: viewer.following.totalCount,
+      username: user.login,
+      name: user.name,
+      avatarUrl: user.avatarUrl,
+      bio: user.bio,
+      url: user.url,
+      followers: user.followers.totalCount,
+      following: user.following.totalCount,
     },
     repositories: repos,
     languages: sortedLanguages,
