@@ -32,13 +32,13 @@
       </header>
 
       <section class="sidebar-section">
-        <h3>Languages</h3>
-        <div id="languages-container" class="languages-vertical"></div>
+        <h3>Language Analysis</h3>
+        <div id="languages-chart" class="analysis-chart"></div>
       </section>
 
       <section class="sidebar-section">
-        <h3>Top Topics</h3>
-        <div id="topics-container" class="topics-cloud"></div>
+        <h3>Topic Analysis</h3>
+        <div id="topics-chart" class="analysis-chart"></div>
       </section>
     </aside>
 
@@ -61,10 +61,33 @@
             <span class="insight-value" id="insight-issues">--</span>
           </div>
           <div class="insight-card">
+            <span class="insight-label">Stars Earned</span>
+            <span class="insight-value" id="insight-stars">--</span>
+          </div>
+          <div class="insight-card">
+            <span class="insight-label">Total Forks</span>
+            <span class="insight-value" id="insight-forks">--</span>
+          </div>
+          <div class="insight-card">
+            <span class="insight-label">Public Gists</span>
+            <span class="insight-value" id="insight-gists">--</span>
+          </div>
+          <div class="insight-card">
+            <span class="insight-label">Starred Repos</span>
+            <span class="insight-value" id="insight-starred">--</span>
+          </div>
+          <div class="insight-card">
             <span class="insight-label">Storage Used</span>
             <span class="insight-value" id="insight-storage">--</span>
           </div>
         </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-header">
+          <h2>Pinned Repositories</h2>
+        </div>
+        <div id="pinned-container" class="repos-grid"></div>
       </section>
 
       <section class="content-section">
