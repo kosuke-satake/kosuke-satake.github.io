@@ -37,8 +37,8 @@ jobs:
 
       - name: Commit data.json if changed
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "246223926+kosuke-satake@users.noreply.github.com"
+          git config --local user.name "kosuke"
           git add data/data.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update github metrics" && git push)
 
