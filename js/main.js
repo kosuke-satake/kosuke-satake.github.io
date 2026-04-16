@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function renderDashboard(data) {
-  const { profile, repositories, languages, activity, calendar, lastFetched } = data;
+  const { profile, repositories, languages, topics, activity, calendar, lastFetched } = data;
   
   // Profile
   document.getElementById('name').textContent = profile.name || profile.username;
@@ -34,6 +34,15 @@ function renderDashboard(data) {
   const joinDate = new Date(profile.createdAt).toLocaleDateString(undefined, { month: 'short', year: 'numeric' });
   document.getElementById('joined-date').textContent = `Joined ${joinDate}`;
 
+  // Insights
+  document.getElementById('insight-contributions').textContent = calendar ? calendar.totalContributions.toLocaleString() : '0';
+  document.getElementById('insight-prs').textContent = profile.totalPRs.toLocaleString();
+  document.getElementById('insight-issues').textContent = profile.totalIssues.toLocaleString();
+  
+  // Storage Conversion
+  const storageMB = (profile.totalDiskUsage / 1024).toFixed(2);
+  document.getElementById('insight-storage').textContent = `${storageMB} MB`;
+
   // Last Fetched
   const fetchDate = new Date(lastFetched);
   document.getElementById('last-fetched').textContent = `Data last updated: ${fetchDate.toLocaleString()}`;
@@ -53,7 +62,18 @@ function renderDashboard(data) {
     langContainer.appendChild(pill);
   });
 
-  // Activity
+  // Topics Cloud
+  const topicsContainer = document.getElementById('topics-container');
+  if (topics && topics.length > 0) {
+    topics.forEach(topic => {
+      const tag = document.createElement('span');
+      tag.className = 'topic-tag';
+      tag.textContent = `${topic.name} (${topic.count})`;
+      topicsContainer.appendChild(tag);
+    });
+  }
+
+  // Activity Horizontal
   const activityContainer = document.getElementById('activity-container');
   if (activity && activity.length > 0) {
     activity.forEach(item => {
@@ -61,11 +81,8 @@ function renderDashboard(data) {
       entry.className = 'activity-item';
       const date = new Date(item.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
       entry.innerHTML = `
-        <div class="activity-dot"></div>
-        <div class="activity-content">
-          <p class="activity-msg"><a href="${item.url}" target="_blank">${item.message}</a></p>
-          <p class="activity-meta">in ${item.repoName} • ${date}</p>
-        </div>
+        <p class="activity-msg"><a href="${item.url}" target="_blank">${item.message}</a></p>
+        <p class="activity-meta">in <strong>${item.repoName}</strong> • ${date}</p>
       `;
       activityContainer.appendChild(entry);
     });
@@ -85,7 +102,8 @@ function renderDashboard(data) {
       <div class="repo-meta">
         ${repo.language ? `<span><span class="lang-color" style="background-color: ${repo.languageColor || '#ccc'}"></span>${repo.language}</span>` : ''}
         <span>★ ${repo.stars}</span>
-        <span>Updated ${date}</span>
+        <span>⑂ ${repo.forks}</span>
+        <span>${(repo.diskUsage / 1024).toFixed(1)} MB</span>
       </div>
       <div class="repo-topics">${topicsHtml}</div>
     `;
@@ -98,6 +116,7 @@ function renderCalendar(calendar) {
 
   document.getElementById('total-contributions').textContent = `${calendar.totalContributions} total`;
   const container = document.getElementById('calendar-container');
+  container.innerHTML = '';
   
   calendar.weeks.forEach(week => {
     const weekEl = document.createElement('div');
