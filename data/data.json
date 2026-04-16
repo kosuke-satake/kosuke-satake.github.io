@@ -9,10 +9,13 @@
     "followers": 0,
     "following": 0,
     "totalRepos": 7,
-    "totalStars": 0
+    "totalStars": 0,
+    "totalPRs": 0,
+    "totalIssues": 0,
+    "totalDiskUsage": 525
   },
   "calendar": {
-    "totalContributions": 191,
+    "totalContributions": 192,
     "weeks": [
       {
         "contributionDays": [
@@ -1282,7 +1285,7 @@
           {
             "contributionCount": 6,
             "date": "2025-11-26",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 0,
@@ -1365,7 +1368,7 @@
           {
             "contributionCount": 6,
             "date": "2025-12-11",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 4,
@@ -2013,7 +2016,7 @@
           {
             "contributionCount": 9,
             "date": "2026-04-06",
-            "color": "#216e39"
+            "color": "#30a14e"
           },
           {
             "contributionCount": 5,
@@ -2033,7 +2036,7 @@
           {
             "contributionCount": 6,
             "date": "2026-04-10",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 0,
@@ -2052,7 +2055,7 @@
           {
             "contributionCount": 6,
             "date": "2026-04-13",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 0,
@@ -2065,7 +2068,7 @@
             "color": "#ebedf0"
           },
           {
-            "contributionCount": 11,
+            "contributionCount": 12,
             "date": "2026-04-16",
             "color": "#216e39"
           }
@@ -2080,7 +2083,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-04-16T07:57:47Z",
+      "diskUsage": 22,
+      "pushedAt": "2026-04-16T08:08:02Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2091,6 +2095,7 @@
       "url": "https://github.com/kosuke-satake/ros2_ws",
       "stars": 0,
       "forks": 0,
+      "diskUsage": 1,
       "pushedAt": "2026-04-06T01:51:36Z",
       "language": "Dockerfile",
       "languageColor": "#384d54",
@@ -2102,6 +2107,7 @@
       "url": "https://github.com/kosuke-satake/ros2_tutorial_ws",
       "stars": 0,
       "forks": 0,
+      "diskUsage": 1,
       "pushedAt": "2026-04-06T01:50:23Z",
       "language": "Dockerfile",
       "languageColor": "#384d54",
@@ -2113,6 +2119,7 @@
       "url": "https://github.com/kosuke-satake/keyastro",
       "stars": 0,
       "forks": 0,
+      "diskUsage": 220,
       "pushedAt": "2026-04-07T01:30:07Z",
       "language": "Astro",
       "languageColor": "#ff5a03",
@@ -2130,6 +2137,7 @@
       "url": "https://github.com/kosuke-satake/scholar-static",
       "stars": 0,
       "forks": 0,
+      "diskUsage": 264,
       "pushedAt": "2026-04-04T09:14:47Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
@@ -2147,6 +2155,7 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace",
       "stars": 0,
       "forks": 0,
+      "diskUsage": 17,
       "pushedAt": "2026-04-06T08:39:52Z",
       "language": "Python",
       "languageColor": "#3572A5",
@@ -2158,6 +2167,7 @@
       "url": "https://github.com/kosuke-satake/my_first_container",
       "stars": 0,
       "forks": 0,
+      "diskUsage": 0,
       "pushedAt": "2026-03-30T03:22:36Z",
       "language": "Dockerfile",
       "languageColor": "#384d54",
@@ -2186,7 +2196,51 @@
       "color": "#3572A5"
     }
   ],
+  "topics": [
+    {
+      "name": "astro",
+      "count": 2
+    },
+    {
+      "name": "cms",
+      "count": 2
+    },
+    {
+      "name": "keystatic",
+      "count": 2
+    },
+    {
+      "name": "i18n",
+      "count": 1
+    },
+    {
+      "name": "mulitilingual",
+      "count": 1
+    },
+    {
+      "name": "academic-portfolio",
+      "count": 1
+    },
+    {
+      "name": "portfolio",
+      "count": 1
+    }
+  ],
   "activity": [
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "feat(analytics): add account insights, disk usage, and top topics analysis",
+      "date": "2026-04-16T08:07:59Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/a14eeca6de7a0d5ddfdff15929a28a2b0ae47bde"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-16T07:57:59Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/23d04a6e56caaf2ddf06eb201035180355749dd4"
+    },
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
@@ -2244,20 +2298,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/4bc9b76cf83f1b46a23cdf0ae6ab7e8cae829ecd"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "feat(ui): implement vanilla frontend to render github data",
-      "date": "2026-04-16T06:52:17Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/b760bbf0f33244da25e7d3968b46b45de8dc4d22"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "feat(data): implement node script to fetch github stats via graphql",
-      "date": "2026-04-16T06:51:31Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/f4b9e1c9339b55446fa93912498d46388bf0e0fa"
-    },
-    {
       "repoName": "keyastro",
       "repoUrl": "https://github.com/kosuke-satake/keyastro",
       "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
@@ -2293,5 +2333,5 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/52c779d0ad6d7c56f7ecc313ea550101017f4902"
     }
   ],
-  "lastFetched": "2026-04-16T07:57:59.903Z"
+  "lastFetched": "2026-04-16T08:08:14.101Z"
 }
