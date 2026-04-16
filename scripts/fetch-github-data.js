@@ -31,7 +31,7 @@ const GRAPHQL_QUERY = `
       following {
         totalCount
       }
-      repositories(first: 100, privacy: PUBLIC, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
+      repositories(first: 50, privacy: PUBLIC, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
         nodes {
           name
           description
@@ -47,6 +47,19 @@ const GRAPHQL_QUERY = `
             nodes {
               topic {
                 name
+              }
+            }
+          }
+          defaultBranchRef {
+            target {
+              ... on Commit {
+                history(first: 10) {
+                  nodes {
+                    message
+                    committedDate
+                    url
+                  }
+                }
               }
             }
           }
@@ -81,17 +94,38 @@ async function fetchGitHubData() {
   }
 
   const viewer = result.data.viewer;
-  const repos = viewer.repositories.nodes.map(repo => ({
-    name: repo.name,
-    description: repo.description,
-    url: repo.url,
-    stars: repo.stargazerCount,
-    forks: repo.forkCount,
-    pushedAt: repo.pushedAt,
-    language: repo.primaryLanguage ? repo.primaryLanguage.name : null,
-    languageColor: repo.primaryLanguage ? repo.primaryLanguage.color : null,
-    topics: repo.repositoryTopics.nodes.map(node => node.topic.name)
-  }));
+  const allCommits = [];
+
+  const repos = viewer.repositories.nodes.map(repo => {
+    // Extract commits if they exist
+    const repoCommits = repo.defaultBranchRef?.target?.history?.nodes || [];
+    repoCommits.forEach(commit => {
+      allCommits.push({
+        repoName: repo.name,
+        repoUrl: repo.url,
+        message: commit.message,
+        date: commit.committedDate,
+        url: commit.url
+      });
+    });
+
+    return {
+      name: repo.name,
+      description: repo.description,
+      url: repo.url,
+      stars: repo.stargazerCount,
+      forks: repo.forkCount,
+      pushedAt: repo.pushedAt,
+      language: repo.primaryLanguage ? repo.primaryLanguage.name : null,
+      languageColor: repo.primaryLanguage ? repo.primaryLanguage.color : null,
+      topics: repo.repositoryTopics.nodes.map(node => node.topic.name)
+    };
+  });
+
+  // Sort and slice all commits to get the most recent activity
+  const recentActivity = allCommits
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 15);
 
   // Aggregate language stats
   const languages = {};
@@ -120,6 +154,7 @@ async function fetchGitHubData() {
     },
     repositories: repos,
     languages: sortedLanguages,
+    activity: recentActivity,
     lastFetched: new Date().toISOString(),
   };
 

@@ -32,6 +32,28 @@ function renderDashboard(data) {
   const fetchDate = new Date(lastFetched);
   document.getElementById('last-fetched').textContent = `Data last updated: ${fetchDate.toLocaleString()}`;
 
+  // Activity
+  const activityContainer = document.getElementById('activity-container');
+  if (data.activity && data.activity.length > 0) {
+    data.activity.forEach(item => {
+      const entry = document.createElement('div');
+      entry.className = 'activity-item';
+      const date = new Date(item.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+      entry.innerHTML = `
+        <div class="activity-dot"></div>
+        <div class="activity-content">
+          <p class="activity-msg"><a href="${item.url}" target="_blank">${item.message}</a></p>
+          <p class="activity-meta">
+            in <a href="${item.repoUrl}" target="_blank">${item.repoName}</a> on ${date}
+          </p>
+        </div>
+      `;
+      activityContainer.appendChild(entry);
+    });
+  } else {
+    activityContainer.innerHTML = '<p class="muted-text">No recent activity found.</p>';
+  }
+
   // Languages
   const langContainer = document.getElementById('languages-container');
   languages.forEach(lang => {
