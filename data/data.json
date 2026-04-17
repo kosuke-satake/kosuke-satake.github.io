@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 525
+    "totalDiskUsage": 535
   },
   "calendar": {
-    "totalContributions": 197,
+    "totalContributions": 198,
     "weeks": [
       {
         "contributionDays": [
@@ -2070,9 +2070,14 @@
             "color": "#ebedf0"
           },
           {
-            "contributionCount": 17,
+            "contributionCount": 18,
             "date": "2026-04-16",
             "color": "#216e39"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-17",
+            "color": "#ebedf0"
           }
         ]
       }
@@ -2123,8 +2128,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 22,
-      "pushedAt": "2026-04-16T08:35:58Z",
+      "diskUsage": 32,
+      "pushedAt": "2026-04-16T08:36:13Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2270,6 +2275,13 @@
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-16T08:36:12Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/4b1275d31c4e313922cdb50a0b415c27d0bb0e57"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "style(ui): improve view profile button prominence and contribution calendar visibility",
       "date": "2026-04-16T08:35:56Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e6891bd89821816c39b9ab3086e77e3ae6667411"
@@ -2331,13 +2343,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/838f068d572f783b0e841b4b5a1be97c310e39a1"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "fix(data): ensure fetch script targets user profile instead of bot viewer",
-      "date": "2026-04-16T07:47:51Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/5bbf7822a43c0eee502ab9264e1eda91b848eff8"
-    },
-    {
       "repoName": "keyastro",
       "repoUrl": "https://github.com/kosuke-satake/keyastro",
       "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
@@ -2373,5 +2378,5 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/52c779d0ad6d7c56f7ecc313ea550101017f4902"
     }
   ],
-  "lastFetched": "2026-04-16T08:36:12.655Z"
+  "lastFetched": "2026-04-17T03:22:21.029Z"
 }
