@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 537
+    "totalDiskUsage": 538
   },
   "calendar": {
-    "totalContributions": 201,
+    "totalContributions": 202,
     "weeks": [
       {
         "contributionDays": [
@@ -2055,8 +2055,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-04-20",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-21",
             "color": "#ebedf0"
           }
         ]
@@ -2108,8 +2113,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 34,
-      "pushedAt": "2026-04-19T03:29:27Z",
+      "diskUsage": 35,
+      "pushedAt": "2026-04-20T03:31:40Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2256,6 +2261,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-20T03:31:40Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/42115a409fda40a7580b4b9fc907f0ee594d562f"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-04-19T03:29:26Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/b6cc14cbb7c469ca3d7777ac92aaeb3016149914"
     },
@@ -2316,13 +2328,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/3aa8d0165590f03829418909a96b908e97159b66"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "feat(analytics): add account insights, disk usage, and top topics analysis",
-      "date": "2026-04-16T08:07:59Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/a14eeca6de7a0d5ddfdff15929a28a2b0ae47bde"
-    },
-    {
       "repoName": "keyastro",
       "repoUrl": "https://github.com/kosuke-satake/keyastro",
       "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
@@ -2358,5 +2363,5 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/52c779d0ad6d7c56f7ecc313ea550101017f4902"
     }
   ],
-  "lastFetched": "2026-04-20T03:31:39.933Z"
+  "lastFetched": "2026-04-21T03:23:13.929Z"
 }
