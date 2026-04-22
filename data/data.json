@@ -8,16 +8,16 @@
     "createdAt": "2025-11-26T05:56:12Z",
     "followers": 0,
     "following": 0,
-    "totalRepos": 7,
+    "totalRepos": 8,
     "totalStars": 0,
     "totalForks": 0,
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 538
+    "totalDiskUsage": 539
   },
   "calendar": {
-    "totalContributions": 202,
+    "totalContributions": 205,
     "weeks": [
       {
         "contributionDays": [
@@ -2060,8 +2060,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 3,
             "date": "2026-04-21",
+            "color": "#40c463"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-22",
             "color": "#ebedf0"
           }
         ]
@@ -2108,13 +2113,25 @@
   ],
   "repositories": [
     {
+      "name": "jules_ws",
+      "description": "test repo for jules",
+      "url": "https://github.com/kosuke-satake/jules_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 1,
+      "pushedAt": "2026-04-21T07:02:49Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
       "name": "kosuke-satake.github.io",
       "description": null,
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
       "diskUsage": 35,
-      "pushedAt": "2026-04-20T03:31:40Z",
+      "pushedAt": "2026-04-21T03:23:14Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2211,6 +2228,11 @@
       "color": "#384d54"
     },
     {
+      "name": "Python",
+      "count": 2,
+      "color": "#3572A5"
+    },
+    {
       "name": "JavaScript",
       "count": 2,
       "color": "#f1e05a"
@@ -2219,11 +2241,6 @@
       "name": "Astro",
       "count": 1,
       "color": "#ff5a03"
-    },
-    {
-      "name": "Python",
-      "count": 1,
-      "color": "#3572A5"
     }
   ],
   "topics": [
@@ -2257,6 +2274,20 @@
     }
   ],
   "activity": [
+    {
+      "repoName": "jules_ws",
+      "repoUrl": "https://github.com/kosuke-satake/jules_ws",
+      "message": "Add initial showcase files\n\n- Created README.md\n- Added fibonacci.py with logic\n- Added test_fibonacci.py with tests\n- Added .gitignore for python caching\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
+      "date": "2026-04-21T07:02:48Z",
+      "url": "https://github.com/kosuke-satake/jules_ws/commit/f696ecfb9dc104bbd31d28db44e8f2f1a8f543b4"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-21T03:23:14Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/87c47676e3647ae537a7dae6987f21df5c6c8c19"
+    },
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
@@ -2321,13 +2352,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/24ca4ae3dc1dc0b62990b8c13cc0f238eb33feef"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-04-16T08:08:14Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/3aa8d0165590f03829418909a96b908e97159b66"
-    },
-    {
       "repoName": "keyastro",
       "repoUrl": "https://github.com/kosuke-satake/keyastro",
       "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
@@ -2354,14 +2378,7 @@
       "message": "feat: add temperature sensor simulation node",
       "date": "2026-04-06T03:32:57Z",
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/b490201ac7669febc2646f81dd3d32072c3fc8d0"
-    },
-    {
-      "repoName": "ros2_mac_workspace",
-      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
-      "message": "feat: add simple subscriber node",
-      "date": "2026-04-06T02:46:18Z",
-      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/52c779d0ad6d7c56f7ecc313ea550101017f4902"
     }
   ],
-  "lastFetched": "2026-04-21T03:23:13.929Z"
+  "lastFetched": "2026-04-22T03:21:23.995Z"
 }
