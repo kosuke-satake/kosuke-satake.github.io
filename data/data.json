@@ -14,50 +14,11 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 542
+    "totalDiskUsage": 543
   },
   "calendar": {
-    "totalContributions": 217,
+    "totalContributions": 250,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-04-20",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-04-21",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-04-22",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-04-23",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-04-24",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-04-25",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-04-26",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -1248,7 +1209,7 @@
           {
             "contributionCount": 6,
             "date": "2025-11-26",
-            "color": "#30a14e"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -1263,7 +1224,7 @@
           {
             "contributionCount": 4,
             "date": "2025-11-29",
-            "color": "#40c463"
+            "color": "#9be9a8"
           }
         ]
       },
@@ -1331,12 +1292,12 @@
           {
             "contributionCount": 6,
             "date": "2025-12-11",
-            "color": "#30a14e"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 4,
             "date": "2025-12-12",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -1536,7 +1497,7 @@
           {
             "contributionCount": 11,
             "date": "2026-01-17",
-            "color": "#216e39"
+            "color": "#40c463"
           }
         ]
       },
@@ -1570,7 +1531,7 @@
           {
             "contributionCount": 11,
             "date": "2026-01-23",
-            "color": "#216e39"
+            "color": "#40c463"
           },
           {
             "contributionCount": 0,
@@ -1609,7 +1570,7 @@
           {
             "contributionCount": 7,
             "date": "2026-01-30",
-            "color": "#30a14e"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -1638,12 +1599,12 @@
           {
             "contributionCount": 10,
             "date": "2026-02-04",
-            "color": "#216e39"
+            "color": "#40c463"
           },
           {
             "contributionCount": 5,
             "date": "2026-02-05",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -1950,7 +1911,7 @@
           {
             "contributionCount": 5,
             "date": "2026-04-01",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -1972,19 +1933,19 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 11,
+            "contributionCount": 18,
             "date": "2026-04-05",
-            "color": "#216e39"
+            "color": "#30a14e"
           },
           {
             "contributionCount": 9,
             "date": "2026-04-06",
-            "color": "#216e39"
+            "color": "#40c463"
           },
           {
             "contributionCount": 5,
             "date": "2026-04-07",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -1999,7 +1960,7 @@
           {
             "contributionCount": 6,
             "date": "2026-04-10",
-            "color": "#30a14e"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -2013,12 +1974,12 @@
           {
             "contributionCount": 7,
             "date": "2026-04-12",
-            "color": "#30a14e"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 6,
             "date": "2026-04-13",
-            "color": "#30a14e"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
@@ -2026,12 +1987,12 @@
             "color": "#ebedf0"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 5,
             "date": "2026-04-15",
-            "color": "#ebedf0"
+            "color": "#9be9a8"
           },
           {
-            "contributionCount": 18,
+            "contributionCount": 31,
             "date": "2026-04-16",
             "color": "#216e39"
           },
@@ -2062,7 +2023,7 @@
           {
             "contributionCount": 4,
             "date": "2026-04-21",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 1,
@@ -2077,11 +2038,20 @@
           {
             "contributionCount": 9,
             "date": "2026-04-24",
-            "color": "#216e39"
+            "color": "#40c463"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 8,
             "date": "2026-04-25",
+            "color": "#40c463"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-04-26",
             "color": "#ebedf0"
           }
         ]
@@ -2145,8 +2115,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 38,
-      "pushedAt": "2026-04-24T03:27:50Z",
+      "diskUsage": 39,
+      "pushedAt": "2026-04-25T02:55:28Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2293,6 +2263,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-04-25T02:55:27Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/cf46d2bc9132261c5fe14d3e9ed3a3b82819636d"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-04-24T03:27:49Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/bc0cd46773d0e983cbb85a8ef1fc06284861a162"
     },
@@ -2360,13 +2337,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/4b1275d31c4e313922cdb50a0b415c27d0bb0e57"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "style(ui): improve view profile button prominence and contribution calendar visibility",
-      "date": "2026-04-16T08:35:56Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e6891bd89821816c39b9ab3086e77e3ae6667411"
-    },
-    {
       "repoName": "keyastro",
       "repoUrl": "https://github.com/kosuke-satake/keyastro",
       "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
@@ -2395,5 +2365,5 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/b490201ac7669febc2646f81dd3d32072c3fc8d0"
     }
   ],
-  "lastFetched": "2026-04-25T02:55:27.779Z"
+  "lastFetched": "2026-04-26T03:34:31.918Z"
 }
