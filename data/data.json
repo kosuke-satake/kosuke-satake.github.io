@@ -17,7 +17,7 @@
     "totalDiskUsage": 557
   },
   "calendar": {
-    "totalContributions": 303,
+    "totalContributions": 308,
     "weeks": [
       {
         "contributionDays": [
@@ -2021,7 +2021,7 @@
             "color": "#30a14e"
           },
           {
-            "contributionCount": 16,
+            "contributionCount": 18,
             "date": "2026-05-05",
             "color": "#30a14e"
           },
@@ -2065,8 +2065,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 3,
             "date": "2026-05-13",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-05-14",
             "color": "#ebedf0"
           }
         ]
@@ -2131,7 +2136,7 @@
       "stars": 0,
       "forks": 0,
       "diskUsage": 53,
-      "pushedAt": "2026-05-12T03:45:52Z",
+      "pushedAt": "2026-05-13T03:54:27Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2278,6 +2283,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-05-13T03:54:27Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/4334d43103b58053899fbc740b8d277bde30298d"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-05-12T03:45:51Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/4c27417cd48ba55c1c0818b3ff09b70191eb30bb"
     },
@@ -2338,13 +2350,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/81d583bc47f48dc0d1b32223f67017d7338be715"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-03T03:48:52Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c66db36c22c68d1dd351e91b59deadbe078719bd"
-    },
-    {
       "repoName": "jules_ws",
       "repoUrl": "https://github.com/kosuke-satake/jules_ws",
       "message": "Add initial showcase files\n\n- Created README.md\n- Added fibonacci.py with logic\n- Added test_fibonacci.py with tests\n- Added .gitignore for python caching\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
@@ -2380,5 +2385,5 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/b490201ac7669febc2646f81dd3d32072c3fc8d0"
     }
   ],
-  "lastFetched": "2026-05-13T03:54:27.031Z"
+  "lastFetched": "2026-05-14T03:54:01.802Z"
 }
