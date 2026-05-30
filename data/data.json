@@ -8,16 +8,16 @@
     "createdAt": "2025-11-26T05:56:12Z",
     "followers": 0,
     "following": 0,
-    "totalRepos": 8,
+    "totalRepos": 9,
     "totalStars": 0,
     "totalForks": 0,
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 554
+    "totalDiskUsage": 572
   },
   "calendar": {
-    "totalContributions": 323,
+    "totalContributions": 326,
     "weeks": [
       {
         "contributionDays": [
@@ -2075,8 +2075,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 3,
             "date": "2026-05-29",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-05-30",
             "color": "#ebedf0"
           }
         ]
@@ -2123,6 +2128,18 @@
   ],
   "repositories": [
     {
+      "name": "go2-w_ws",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/go2-w_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 17,
+      "pushedAt": "2026-05-29T05:14:57Z",
+      "language": null,
+      "languageColor": null,
+      "topics": []
+    },
+    {
       "name": "jules_ws",
       "description": "test repo for jules",
       "url": "https://github.com/kosuke-satake/jules_ws",
@@ -2140,8 +2157,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 50,
-      "pushedAt": "2026-05-28T04:08:28Z",
+      "diskUsage": 51,
+      "pushedAt": "2026-05-29T04:10:16Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2285,6 +2302,20 @@
   ],
   "activity": [
     {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "chore: initialize Unitree Go2-W learning and simulation workspace",
+      "date": "2026-05-29T04:26:28Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/6aa0a4b2d359de5530140781722459b929b922ba"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-05-29T04:10:16Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9549354388b2d2c90424b4e11af5e14bd85263e0"
+    },
+    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2348,13 +2379,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e1628c0afbe25382a5d23bca007e8a01d2245744"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-19T04:04:57Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/19ec1cc5d2d81ac2c965427a5a9873433cc7dcaa"
-    },
-    {
       "repoName": "jules_ws",
       "repoUrl": "https://github.com/kosuke-satake/jules_ws",
       "message": "Add initial showcase files\n\n- Created README.md\n- Added fibonacci.py with logic\n- Added test_fibonacci.py with tests\n- Added .gitignore for python caching\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
@@ -2381,14 +2405,7 @@
       "message": "feat: add publish_frequency parameter to temperature sensor",
       "date": "2026-04-06T04:53:52Z",
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/595871e9e0ff052e6fc59465f30b9e7f61864cf2"
-    },
-    {
-      "repoName": "ros2_mac_workspace",
-      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
-      "message": "feat: add temperature sensor simulation node",
-      "date": "2026-04-06T03:32:57Z",
-      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/b490201ac7669febc2646f81dd3d32072c3fc8d0"
     }
   ],
-  "lastFetched": "2026-05-29T04:10:16.140Z"
+  "lastFetched": "2026-05-30T03:56:09.914Z"
 }
