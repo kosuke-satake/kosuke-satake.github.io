@@ -17,47 +17,8 @@
     "totalDiskUsage": 572
   },
   "calendar": {
-    "totalContributions": 326,
+    "totalContributions": 327,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-05-25",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-05-26",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-05-27",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-05-28",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-05-29",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-05-30",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-05-31",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -2080,8 +2041,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-05-30",
+            "color": "#9be9a8"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-05-31",
             "color": "#ebedf0"
           }
         ]
@@ -2158,7 +2128,7 @@
       "stars": 0,
       "forks": 0,
       "diskUsage": 51,
-      "pushedAt": "2026-05-29T04:10:16Z",
+      "pushedAt": "2026-05-30T03:56:10Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2302,6 +2272,13 @@
   ],
   "activity": [
     {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-05-30T03:56:10Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/292b12d1f12547cdc8c15ea05e2a9fb9e98911cd"
+    },
+    {
       "repoName": "go2-w_ws",
       "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
       "message": "chore: initialize Unitree Go2-W learning and simulation workspace",
@@ -2372,13 +2349,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/bb1512ed107fe43ec64ca338dff2302788cf3399"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-20T04:05:45Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e1628c0afbe25382a5d23bca007e8a01d2245744"
-    },
-    {
       "repoName": "jules_ws",
       "repoUrl": "https://github.com/kosuke-satake/jules_ws",
       "message": "Add initial showcase files\n\n- Created README.md\n- Added fibonacci.py with logic\n- Added test_fibonacci.py with tests\n- Added .gitignore for python caching\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
@@ -2407,5 +2377,5 @@
       "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/595871e9e0ff052e6fc59465f30b9e7f61864cf2"
     }
   ],
-  "lastFetched": "2026-05-30T03:56:09.914Z"
+  "lastFetched": "2026-05-31T04:21:24.534Z"
 }
