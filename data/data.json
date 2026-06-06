@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 576
+    "totalDiskUsage": 611
   },
   "calendar": {
-    "totalContributions": 332,
+    "totalContributions": 340,
     "weeks": [
       {
         "contributionDays": [
@@ -2075,8 +2075,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 8,
             "date": "2026-06-05",
+            "color": "#40c463"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-06-06",
             "color": "#ebedf0"
           }
         ]
@@ -2128,10 +2133,10 @@
       "url": "https://github.com/kosuke-satake/go2-w_ws",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 17,
-      "pushedAt": "2026-05-29T05:14:57Z",
-      "language": null,
-      "languageColor": null,
+      "diskUsage": 51,
+      "pushedAt": "2026-06-05T08:09:18Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
       "topics": []
     },
     {
@@ -2152,8 +2157,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 55,
-      "pushedAt": "2026-06-04T04:42:51Z",
+      "diskUsage": 56,
+      "pushedAt": "2026-06-05T04:17:06Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2245,14 +2250,14 @@
   ],
   "languages": [
     {
+      "name": "Python",
+      "count": 3,
+      "color": "#3572A5"
+    },
+    {
       "name": "Dockerfile",
       "count": 3,
       "color": "#384d54"
-    },
-    {
-      "name": "Python",
-      "count": 2,
-      "color": "#3572A5"
     },
     {
       "name": "JavaScript",
@@ -2296,6 +2301,62 @@
     }
   ],
   "activity": [
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "refactor(sdk): resolve imports and styling lint in custom control scripts",
+      "date": "2026-06-05T07:47:42Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/28420b52440c366d00a09bed07f50c8bc45dbf57"
+    },
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "feat(sdk): add high_level_attitude and low_level_leg_sine control scripts",
+      "date": "2026-06-05T07:38:45Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/903e559c02a077dc7d30338da8a4d7540f63338e"
+    },
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "fix(sdk): correct python import module names to unitree_sdk2py",
+      "date": "2026-06-05T07:36:50Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/0c1ebfa2652adcafcce7657587b4a8acd21b0b5c"
+    },
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "feat(sdk): add cyclonedds.xml network interface configuration",
+      "date": "2026-06-05T07:35:37Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/1bf030a2c6ba3939c8652c54710fbbb5e3e0a163"
+    },
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "docs: align root and phase READMEs with 6-phase workspace architecture",
+      "date": "2026-06-05T07:18:43Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/b1168954ff2b775eb8aff0bcefb777c5a1b5538d"
+    },
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "docs: add top-level academic and professional README",
+      "date": "2026-06-05T07:08:41Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/8e60aebecc2c3d44c36957d7d5bd15e039b719f6"
+    },
+    {
+      "repoName": "go2-w_ws",
+      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
+      "message": "feat(sdk): add high-level, low-level, and ROS 2 template scripts",
+      "date": "2026-06-05T06:51:59Z",
+      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/01254b9673a2cbe24e8052bacd99c05218c94349"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-06-05T04:17:05Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e74a7a1cc86f16179a6de6cfb8543065975dab4a"
+    },
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
@@ -2344,63 +2405,7 @@
       "message": "chore: initialize Unitree Go2-W learning and simulation workspace",
       "date": "2026-05-29T04:26:28Z",
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/6aa0a4b2d359de5530140781722459b929b922ba"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-29T04:10:16Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9549354388b2d2c90424b4e11af5e14bd85263e0"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-28T04:08:27Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/6b23c90ff9553e4a7e2ffb5652a08af2530ebd8c"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-27T04:19:09Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/662994334076902d9a488c999a23ca93740b03ae"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-05-26T04:05:00Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9d93bf1a6abef555766211891de3ea6df6039880"
-    },
-    {
-      "repoName": "jules_ws",
-      "repoUrl": "https://github.com/kosuke-satake/jules_ws",
-      "message": "Add initial showcase files\n\n- Created README.md\n- Added fibonacci.py with logic\n- Added test_fibonacci.py with tests\n- Added .gitignore for python caching\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
-      "date": "2026-04-21T07:02:48Z",
-      "url": "https://github.com/kosuke-satake/jules_ws/commit/f696ecfb9dc104bbd31d28db44e8f2f1a8f543b4"
-    },
-    {
-      "repoName": "keyastro",
-      "repoUrl": "https://github.com/kosuke-satake/keyastro",
-      "message": "fix: remove layout typo and legacy organization dates\n\n- Removed rogue 'l>' typo from the closing </html> tag in Layout.astro that was visible at the bottom of all pages.\n- Replaced hardcoded 'Established 2018' badges in the About pages with a generic 'Open Source' tag.",
-      "date": "2026-04-07T01:30:04Z",
-      "url": "https://github.com/kosuke-satake/keyastro/commit/1b3dc59441ebef9df08974696deab64dcbfcca65"
-    },
-    {
-      "repoName": "ros2_mac_workspace",
-      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
-      "message": "feat: add dynamic parameter callback and auto-source workspace",
-      "date": "2026-04-06T07:19:05Z",
-      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/5cc9636ffc15b11ebd92a9c5e3c2291a3c3bb4e2"
-    },
-    {
-      "repoName": "ros2_mac_workspace",
-      "repoUrl": "https://github.com/kosuke-satake/ros2_mac_workspace",
-      "message": "feat: add publish_frequency parameter to temperature sensor",
-      "date": "2026-04-06T04:53:52Z",
-      "url": "https://github.com/kosuke-satake/ros2_mac_workspace/commit/595871e9e0ff052e6fc59465f30b9e7f61864cf2"
     }
   ],
-  "lastFetched": "2026-06-05T04:17:05.685Z"
+  "lastFetched": "2026-06-06T03:59:21.005Z"
 }
