@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 621
+    "totalDiskUsage": 622
   },
   "calendar": {
-    "totalContributions": 344,
+    "totalContributions": 345,
     "weeks": [
       {
         "contributionDays": [
@@ -2065,8 +2065,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-06-10",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-06-11",
             "color": "#ebedf0"
           }
         ]
@@ -2142,8 +2147,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 60,
-      "pushedAt": "2026-06-09T04:02:36Z",
+      "diskUsage": 61,
+      "pushedAt": "2026-06-10T04:14:18Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2290,6 +2295,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-06-10T04:14:17Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ac412b3770d3c46eef4328c924420ab8addbc72d"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-06-09T04:02:35Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/92d1265d7ce06c67efeb3e54eef93266840adc01"
     },
@@ -2383,14 +2395,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-06-03T04:48:23Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/031a6188947e0b46d6df3dccdae991e624d7ec71"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-06-02T04:39:37Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/0bebb20153d7179ed2e1ba7200a0a0f99cf9faf0"
     }
   ],
-  "lastFetched": "2026-06-10T04:14:17.669Z"
+  "lastFetched": "2026-06-11T04:26:28.710Z"
 }
