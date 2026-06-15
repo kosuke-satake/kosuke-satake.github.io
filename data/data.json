@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 624
+    "totalDiskUsage": 625
   },
   "calendar": {
-    "totalContributions": 348,
+    "totalContributions": 349,
     "weeks": [
       {
         "contributionDays": [
@@ -2050,8 +2050,13 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-06-14",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-06-15",
             "color": "#ebedf0"
           }
         ]
@@ -2127,8 +2132,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 63,
-      "pushedAt": "2026-06-13T04:18:07Z",
+      "diskUsage": 64,
+      "pushedAt": "2026-06-14T04:45:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2275,6 +2280,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-06-14T04:45:30Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/edbbce8b8859a8078f006a161a1f57d603554658"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-06-13T04:18:07Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/430aae4273266fafe6838cb15cee30136eb58742"
     },
@@ -2368,14 +2380,7 @@
       "message": "docs: add top-level academic and professional README",
       "date": "2026-06-05T07:08:41Z",
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/8e60aebecc2c3d44c36957d7d5bd15e039b719f6"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "feat(sdk): add high-level, low-level, and ROS 2 template scripts",
-      "date": "2026-06-05T06:51:59Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/01254b9673a2cbe24e8052bacd99c05218c94349"
     }
   ],
-  "lastFetched": "2026-06-14T04:45:30.689Z"
+  "lastFetched": "2026-06-15T05:00:55.744Z"
 }
