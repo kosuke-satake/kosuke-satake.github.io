@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 625
+    "totalDiskUsage": 626
   },
   "calendar": {
-    "totalContributions": 349,
+    "totalContributions": 350,
     "weeks": [
       {
         "contributionDays": [
@@ -2055,8 +2055,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-06-15",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-06-16",
             "color": "#ebedf0"
           }
         ]
@@ -2132,8 +2137,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 64,
-      "pushedAt": "2026-06-14T04:45:31Z",
+      "diskUsage": 65,
+      "pushedAt": "2026-06-15T05:00:56Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2280,6 +2285,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-06-15T05:00:55Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9fb02f7aa34bfd8ebd2bfb0bf7a4eb86f48ad60e"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-06-14T04:45:30Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/edbbce8b8859a8078f006a161a1f57d603554658"
     },
@@ -2373,14 +2385,7 @@
       "message": "docs: align root and phase READMEs with 6-phase workspace architecture",
       "date": "2026-06-05T07:18:43Z",
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/b1168954ff2b775eb8aff0bcefb777c5a1b5538d"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "docs: add top-level academic and professional README",
-      "date": "2026-06-05T07:08:41Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/8e60aebecc2c3d44c36957d7d5bd15e039b719f6"
     }
   ],
-  "lastFetched": "2026-06-15T05:00:55.744Z"
+  "lastFetched": "2026-06-16T05:02:47.938Z"
 }
