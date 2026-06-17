@@ -17,7 +17,7 @@
     "totalDiskUsage": 626
   },
   "calendar": {
-    "totalContributions": 350,
+    "totalContributions": 351,
     "weeks": [
       {
         "contributionDays": [
@@ -2060,8 +2060,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-06-16",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-06-17",
             "color": "#ebedf0"
           }
         ]
@@ -2138,7 +2143,7 @@
       "stars": 0,
       "forks": 0,
       "diskUsage": 65,
-      "pushedAt": "2026-06-15T05:00:56Z",
+      "pushedAt": "2026-06-16T05:02:48Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2285,6 +2290,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-06-16T05:02:48Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/d023835397e5edc1162f4c33f2dea91b44b8866c"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-06-15T05:00:55Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9fb02f7aa34bfd8ebd2bfb0bf7a4eb86f48ad60e"
     },
@@ -2345,13 +2357,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/a80b2571cf1c41dbe48af0222fbee82ecb9eb531"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-06-06T03:59:21Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/8587be0c49677abc8bf529d28434755af7d78756"
-    },
-    {
       "repoName": "go2-w_ws",
       "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
       "message": "refactor(sdk): resolve imports and styling lint in custom control scripts",
@@ -2387,5 +2392,5 @@
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/b1168954ff2b775eb8aff0bcefb777c5a1b5538d"
     }
   ],
-  "lastFetched": "2026-06-16T05:02:47.938Z"
+  "lastFetched": "2026-06-17T04:45:40.052Z"
 }
