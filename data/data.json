@@ -14,10 +14,10 @@
     "totalPRs": 0,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 636
+    "totalDiskUsage": 667
   },
   "calendar": {
-    "totalContributions": 363,
+    "totalContributions": 364,
     "weeks": [
       {
         "contributionDays": [
@@ -2055,8 +2055,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-06-29",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-06-30",
             "color": "#ebedf0"
           }
         ]
@@ -2108,8 +2113,8 @@
       "url": "https://github.com/kosuke-satake/go2-w_ws",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 57,
-      "pushedAt": "2026-06-09T08:27:01Z",
+      "diskUsage": 87,
+      "pushedAt": "2026-06-30T00:29:44Z",
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": []
@@ -2132,8 +2137,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 75,
-      "pushedAt": "2026-06-28T04:19:56Z",
+      "diskUsage": 76,
+      "pushedAt": "2026-06-29T04:26:36Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2280,6 +2285,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-06-29T04:26:36Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/47e032927f649634208c74a98d82720f45661663"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-06-28T04:19:56Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1a7fd7164f80e4f1624edbfd9db71ccf7917b05d"
     },
@@ -2340,13 +2352,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/0fbf674f1c1ce561628126d6f778e0e538ccbd8a"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-06-19T04:57:41Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/683ebd6754c3cf4e5addcb700c1bcda8bb6d7e0a"
-    },
-    {
       "repoName": "go2-w_ws",
       "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
       "message": "refactor(sdk): resolve imports and styling lint in custom control scripts",
@@ -2382,5 +2387,5 @@
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/b1168954ff2b775eb8aff0bcefb777c5a1b5538d"
     }
   ],
-  "lastFetched": "2026-06-29T04:26:36.087Z"
+  "lastFetched": "2026-06-30T04:06:07.686Z"
 }
