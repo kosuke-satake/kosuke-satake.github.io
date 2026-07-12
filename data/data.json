@@ -11,53 +11,14 @@
     "totalRepos": 9,
     "totalStars": 0,
     "totalForks": 0,
-    "totalPRs": 0,
+    "totalPRs": 1,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 690
+    "totalDiskUsage": 738
   },
   "calendar": {
-    "totalContributions": 375,
+    "totalContributions": 379,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-07-06",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-07-07",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-07-08",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-07-09",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-07-10",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-07-11",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-07-12",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -2080,8 +2041,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 4,
             "date": "2026-07-11",
+            "color": "#9be9a8"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-07-12",
             "color": "#ebedf0"
           }
         ]
@@ -2145,8 +2115,8 @@
       "url": "https://github.com/kosuke-satake/jules_ws",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 1,
-      "pushedAt": "2026-04-21T07:02:49Z",
+      "diskUsage": 61,
+      "pushedAt": "2026-07-11T12:27:09Z",
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": []
@@ -2157,8 +2127,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 84,
-      "pushedAt": "2026-07-10T03:50:24Z",
+      "diskUsage": 72,
+      "pushedAt": "2026-07-11T03:16:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2302,6 +2272,27 @@
   ],
   "activity": [
     {
+      "repoName": "jules_ws",
+      "repoUrl": "https://github.com/kosuke-satake/jules_ws",
+      "message": "Merge pull request #1 from kosuke-satake/add-raytracer-9294296661675306004\n\nfeat: implement 3D raytracer",
+      "date": "2026-07-11T07:48:03Z",
+      "url": "https://github.com/kosuke-satake/jules_ws/commit/fcc9b9df80f97c9dbb31b260d383a0ad116dcea4"
+    },
+    {
+      "repoName": "jules_ws",
+      "repoUrl": "https://github.com/kosuke-satake/jules_ws",
+      "message": "Add pure Python raytracer and unit tests\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
+      "date": "2026-07-11T07:46:48Z",
+      "url": "https://github.com/kosuke-satake/jules_ws/commit/27fe1023959c3c6fec43a281f63951600bd925e7"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-07-11T03:16:30Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/f693c8739033788d601f148d2d28fa67ee17c5a1"
+    },
+    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2365,13 +2356,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/31737f5cd334ccebfefdb9c8baf8646d09c3c666"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-07-01T04:22:22Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ee454970ff864e510b97a5b368fee13dc194761e"
-    },
-    {
       "repoName": "go2-w_ws",
       "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
       "message": "refactor(sdk): resolve imports and styling lint in custom control scripts",
@@ -2391,21 +2375,7 @@
       "message": "fix(sdk): correct python import module names to unitree_sdk2py",
       "date": "2026-06-05T07:36:50Z",
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/0c1ebfa2652adcafcce7657587b4a8acd21b0b5c"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "feat(sdk): add cyclonedds.xml network interface configuration",
-      "date": "2026-06-05T07:35:37Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/1bf030a2c6ba3939c8652c54710fbbb5e3e0a163"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "docs: align root and phase READMEs with 6-phase workspace architecture",
-      "date": "2026-06-05T07:18:43Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/b1168954ff2b775eb8aff0bcefb777c5a1b5538d"
     }
   ],
-  "lastFetched": "2026-07-11T03:16:30.358Z"
+  "lastFetched": "2026-07-12T03:28:23.446Z"
 }
