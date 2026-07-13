@@ -14,10 +14,10 @@
     "totalPRs": 1,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 738
+    "totalDiskUsage": 739
   },
   "calendar": {
-    "totalContributions": 379,
+    "totalContributions": 391,
     "weeks": [
       {
         "contributionDays": [
@@ -2041,7 +2041,7 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 4,
+            "contributionCount": 6,
             "date": "2026-07-11",
             "color": "#9be9a8"
           }
@@ -2050,9 +2050,14 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 0,
+            "contributionCount": 9,
             "date": "2026-07-12",
-            "color": "#ebedf0"
+            "color": "#40c463"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-13",
+            "color": "#9be9a8"
           }
         ]
       }
@@ -2127,8 +2132,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 72,
-      "pushedAt": "2026-07-11T03:16:31Z",
+      "diskUsage": 73,
+      "pushedAt": "2026-07-12T03:28:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2272,6 +2277,13 @@
   ],
   "activity": [
     {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-07-12T03:28:23Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ecfa96d50eda298705c2aaa707ec4bd55db42a07"
+    },
+    {
       "repoName": "jules_ws",
       "repoUrl": "https://github.com/kosuke-satake/jules_ws",
       "message": "Merge pull request #1 from kosuke-satake/add-raytracer-9294296661675306004\n\nfeat: implement 3D raytracer",
@@ -2349,13 +2361,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/7e2de07dfd0d9db9b651c0c370ff43dbb5afd8c6"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-07-02T04:01:36Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/31737f5cd334ccebfefdb9c8baf8646d09c3c666"
-    },
-    {
       "repoName": "go2-w_ws",
       "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
       "message": "refactor(sdk): resolve imports and styling lint in custom control scripts",
@@ -2377,5 +2382,5 @@
       "url": "https://github.com/kosuke-satake/go2-w_ws/commit/0c1ebfa2652adcafcce7657587b4a8acd21b0b5c"
     }
   ],
-  "lastFetched": "2026-07-12T03:28:23.446Z"
+  "lastFetched": "2026-07-13T03:31:02.052Z"
 }
