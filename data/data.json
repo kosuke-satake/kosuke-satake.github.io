@@ -14,50 +14,11 @@
     "totalPRs": 1,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 807
+    "totalDiskUsage": 819
   },
   "calendar": {
-    "totalContributions": 421,
+    "totalContributions": 427,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-08-03",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-08-04",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-08-05",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-08-06",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-08-07",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-08-08",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-08-09",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -2080,8 +2041,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 6,
             "date": "2026-08-08",
+            "color": "#9be9a8"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-08-09",
             "color": "#ebedf0"
           }
         ]
@@ -2157,8 +2127,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 93,
-      "pushedAt": "2026-08-07T02:53:15Z",
+      "diskUsage": 94,
+      "pushedAt": "2026-08-08T01:57:54Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2169,8 +2139,8 @@
       "url": "https://github.com/kosuke-satake/ros2_ws",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 1,
-      "pushedAt": "2026-04-06T01:51:36Z",
+      "diskUsage": 12,
+      "pushedAt": "2026-08-08T09:40:29Z",
       "language": "Dockerfile",
       "languageColor": "#384d54",
       "topics": []
@@ -2302,6 +2272,48 @@
   ],
   "activity": [
     {
+      "repoName": "ros2_ws",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
+      "message": "docs(ai): establish global AI guidelines for communication and git workflow\n\nDefines strict rules for AI agents interacting with the repository, prioritizing explicit communication, professional documentation, and standardized git workflows (Conventional Commits).",
+      "date": "2026-08-08T09:40:18Z",
+      "url": "https://github.com/kosuke-satake/ros2_ws/commit/3bfe859071192898047b7d48297d0ced36393ff5"
+    },
+    {
+      "repoName": "ros2_ws",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
+      "message": "chore: initialize professional repo structure with README and MIT License",
+      "date": "2026-08-08T09:36:22Z",
+      "url": "https://github.com/kosuke-satake/ros2_ws/commit/4a228528c5cee9a93816efc21aab4120c6697c98"
+    },
+    {
+      "repoName": "ros2_ws",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
+      "message": "docs: create master README as index and quick-start",
+      "date": "2026-08-08T09:34:47Z",
+      "url": "https://github.com/kosuke-satake/ros2_ws/commit/33ea53e0dd54562a5bda6262fbda745cdab9d931"
+    },
+    {
+      "repoName": "ros2_ws",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
+      "message": "docs: add comprehensive milestone 1 details",
+      "date": "2026-08-08T09:34:02Z",
+      "url": "https://github.com/kosuke-satake/ros2_ws/commit/7d0a39b3a954bda074c8cc23494e1752a973cf4a"
+    },
+    {
+      "repoName": "ros2_ws",
+      "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
+      "message": "build(devcontainer): separate mac and thinkpad hardware profiles\n\n- Split single devcontainer.json into mac/ and thinkpad-gpu/ variants.\n\n- Mac config explicitly skips Gazebo simulation and GPU passthrough for lightweight use.\n\n- ThinkPad config installs Gazebo and passes NVIDIA GPU / X11 flags.\n\n- Install 'agy' CLI dynamically via curl in Dockerfile to avoid large binaries in repo.\n\n- Add .dockerignore to speed up build context transfers.\n\n- Add ros2-shell.sh helper script for ThinkPad X11 terminals.",
+      "date": "2026-08-08T09:30:19Z",
+      "url": "https://github.com/kosuke-satake/ros2_ws/commit/3261c4df786203d2de51a46aaf842b2276b2abc9"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-08-08T01:57:53Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e1e35f666ace33302b811e9611016b4e8f504d74"
+    },
+    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2363,49 +2375,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-07-30T02:46:23Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1958047a1a718a6073c27b56ff7c71816b654699"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-07-29T03:13:48Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/d64ea7d95a9c8d23e4d4e53d7ccec91d15158966"
-    },
-    {
-      "repoName": "jules_ws",
-      "repoUrl": "https://github.com/kosuke-satake/jules_ws",
-      "message": "Merge pull request #1 from kosuke-satake/add-raytracer-9294296661675306004\n\nfeat: implement 3D raytracer",
-      "date": "2026-07-11T07:48:03Z",
-      "url": "https://github.com/kosuke-satake/jules_ws/commit/fcc9b9df80f97c9dbb31b260d383a0ad116dcea4"
-    },
-    {
-      "repoName": "jules_ws",
-      "repoUrl": "https://github.com/kosuke-satake/jules_ws",
-      "message": "Add pure Python raytracer and unit tests\n\nCo-authored-by: kosuke-satake <246223926+kosuke-satake@users.noreply.github.com>",
-      "date": "2026-07-11T07:46:48Z",
-      "url": "https://github.com/kosuke-satake/jules_ws/commit/27fe1023959c3c6fec43a281f63951600bd925e7"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "refactor(sdk): resolve imports and styling lint in custom control scripts",
-      "date": "2026-06-05T07:47:42Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/28420b52440c366d00a09bed07f50c8bc45dbf57"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "feat(sdk): add high_level_attitude and low_level_leg_sine control scripts",
-      "date": "2026-06-05T07:38:45Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/903e559c02a077dc7d30338da8a4d7540f63338e"
-    },
-    {
-      "repoName": "go2-w_ws",
-      "repoUrl": "https://github.com/kosuke-satake/go2-w_ws",
-      "message": "fix(sdk): correct python import module names to unitree_sdk2py",
-      "date": "2026-06-05T07:36:50Z",
-      "url": "https://github.com/kosuke-satake/go2-w_ws/commit/0c1ebfa2652adcafcce7657587b4a8acd21b0b5c"
     }
   ],
-  "lastFetched": "2026-08-08T01:57:53.289Z"
+  "lastFetched": "2026-08-09T02:05:38.320Z"
 }
