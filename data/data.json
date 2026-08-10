@@ -8,16 +8,16 @@
     "createdAt": "2025-11-26T05:56:12Z",
     "followers": 0,
     "following": 0,
-    "totalRepos": 9,
+    "totalRepos": 10,
     "totalStars": 0,
     "totalForks": 0,
     "totalPRs": 1,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 819
+    "totalDiskUsage": 833
   },
   "calendar": {
-    "totalContributions": 427,
+    "totalContributions": 434,
     "weeks": [
       {
         "contributionDays": [
@@ -1324,7 +1324,7 @@
             "color": "#ebedf0"
           },
           {
-            "contributionCount": 5,
+            "contributionCount": 6,
             "date": "2026-04-01",
             "color": "#9be9a8"
           },
@@ -2050,8 +2050,13 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 0,
+            "contributionCount": 6,
             "date": "2026-08-09",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-08-10",
             "color": "#ebedf0"
           }
         ]
@@ -2098,6 +2103,18 @@
   ],
   "repositories": [
     {
+      "name": "mujoco_ws",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/mujoco_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 13,
+      "pushedAt": "2026-08-09T04:14:15Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
       "name": "go2-w_ws",
       "description": null,
       "url": "https://github.com/kosuke-satake/go2-w_ws",
@@ -2127,8 +2144,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 94,
-      "pushedAt": "2026-08-08T01:57:54Z",
+      "diskUsage": 95,
+      "pushedAt": "2026-08-09T02:05:39Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2221,7 +2238,7 @@
   "languages": [
     {
       "name": "Python",
-      "count": 3,
+      "count": 4,
       "color": "#3572A5"
     },
     {
@@ -2271,6 +2288,41 @@
     }
   ],
   "activity": [
+    {
+      "repoName": "mujoco_ws",
+      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
+      "message": "merge(init): complete workspace initialization\n\nMerges docs/workspace-init into main with:\n- GEMINI.md: workspace memory, communication rules, git standards\n- README.md: public masterclass curriculum, .venv & menagerie setup\n- docs/: documentation index and initial setup notes\n- 6-phase folder structure (01_basics through 06_rl_and_gymnasium)\n- requirements.txt: mujoco, numpy, matplotlib, scipy, gymnasium\n- LICENSE: MIT\n- Scripts reorganized into phase folders with relative path resolution",
+      "date": "2026-08-09T03:51:51Z",
+      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/bf912bfe3cc80213bdba7b44d74e0d4ea78e781e"
+    },
+    {
+      "repoName": "mujoco_ws",
+      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
+      "message": "chore(init): add scipy & gymnasium to requirements, clarify external deps in README\n\n- requirements.txt: add scipy (Phase 5 IK/optimization) and gymnasium\n  (Phase 6 RL wrappers)\n- README.md: visually separate tracked files from external/local-only\n  dirs (mujoco_menagerie, .venv); add Step 4 to clone mujoco_menagerie\n- Verified all imports: mujoco 3.11.0, numpy 2.5.1, scipy 1.18.0,\n  gymnasium 1.3.0, matplotlib 3.11.1",
+      "date": "2026-08-09T03:49:35Z",
+      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/b1db3339aa9f6111ae3edae9bd4ea3f3c8206deb"
+    },
+    {
+      "repoName": "mujoco_ws",
+      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
+      "message": "refactor(workspace): organize scripts into phase folders and add project files\n\n- Move hello_mujoco.py, load_robot.py → 01_basics/\n- Move dog_pushups.py, robot_system.py → 02_actuation_and_control/\n- Fix xml_path resolution in all moved scripts (os.path relative to script)\n- Create placeholder dirs with .gitkeep: 03–06 phases\n- Add requirements.txt (mujoco, numpy, matplotlib)\n- Add MIT LICENSE\n- Update README.md to reflect new folder structure and pip install -r",
+      "date": "2026-08-09T03:41:31Z",
+      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/c9b8edfdcf4765c0ef44cdc31b264a9ad2ebe99d"
+    },
+    {
+      "repoName": "mujoco_ws",
+      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
+      "message": "docs(workspace): add GEMINI.md, README.md, and docs/ for MuJoCo masterclass\n\n- GEMINI.md: workspace memory with communication, documentation, git,\n  and code quality guidelines; 6-phase learning roadmap; MuJoCo API reference\n- README.md: public-facing beginner-to-advanced curriculum with .venv\n  setup instructions and concepts cheatsheet\n- docs/README.md: documentation index with table of contents\n- docs/01_workspace_setup.md: initial architecture and setup notes",
+      "date": "2026-08-09T03:35:18Z",
+      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/3fbd9bf2260e6a06c6e607106cfc1a99619f72f1"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-08-09T02:05:38Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/df11cd13d26db24eb21e4919689b7c5395a55e05"
+    },
     {
       "repoName": "ros2_ws",
       "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
@@ -2340,42 +2392,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-08-04T03:12:43Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9e939c045e8fd2b08cddacc9154450fe7c2aa9c7"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-08-03T03:29:49Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/74e664291320ea2122214b86d6657686700c3f35"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-08-02T03:27:40Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9f282a02bf10735adfc61e253417bc4ebf058cb3"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-08-01T03:28:07Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/a630a31fdc3041df725893a15288cc096aa27082"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-07-31T03:29:17Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/23cb68c4c4c2ce4910272ce00b3959157da298af"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-07-30T02:46:23Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1958047a1a718a6073c27b56ff7c71816b654699"
     }
   ],
-  "lastFetched": "2026-08-09T02:05:38.320Z"
+  "lastFetched": "2026-08-10T02:10:00.930Z"
 }
