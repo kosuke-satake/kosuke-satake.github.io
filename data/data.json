@@ -14,10 +14,10 @@
     "totalPRs": 1,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 838
+    "totalDiskUsage": 839
   },
   "calendar": {
-    "totalContributions": 438,
+    "totalContributions": 439,
     "weeks": [
       {
         "contributionDays": [
@@ -2075,8 +2075,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-08-14",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-08-15",
             "color": "#ebedf0"
           }
         ]
@@ -2164,8 +2169,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 100,
-      "pushedAt": "2026-08-13T02:24:00Z",
+      "diskUsage": 101,
+      "pushedAt": "2026-08-14T02:21:51Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2312,6 +2317,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-08-14T02:21:50Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/619fe656ff1d180eb734deb4e1e5c72373867140"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-08-13T02:23:59Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/025d7145875a54bfc565d1a73ba47e51386d1249"
     },
@@ -2405,14 +2417,7 @@
       "message": "build(devcontainer): separate mac and thinkpad hardware profiles\n\n- Split single devcontainer.json into mac/ and thinkpad-gpu/ variants.\n\n- Mac config explicitly skips Gazebo simulation and GPU passthrough for lightweight use.\n\n- ThinkPad config installs Gazebo and passes NVIDIA GPU / X11 flags.\n\n- Install 'agy' CLI dynamically via curl in Dockerfile to avoid large binaries in repo.\n\n- Add .dockerignore to speed up build context transfers.\n\n- Add ros2-shell.sh helper script for ThinkPad X11 terminals.",
       "date": "2026-08-08T09:30:19Z",
       "url": "https://github.com/kosuke-satake/ros2_ws/commit/3261c4df786203d2de51a46aaf842b2276b2abc9"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-08-08T01:57:53Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e1e35f666ace33302b811e9611016b4e8f504d74"
     }
   ],
-  "lastFetched": "2026-08-14T02:21:50.823Z"
+  "lastFetched": "2026-08-15T01:34:03.771Z"
 }
