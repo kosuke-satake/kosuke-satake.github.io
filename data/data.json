@@ -14,10 +14,10 @@
     "totalPRs": 1,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 851
+    "totalDiskUsage": 838
   },
   "calendar": {
-    "totalContributions": 455,
+    "totalContributions": 456,
     "weeks": [
       {
         "contributionDays": [
@@ -2055,8 +2055,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-08-31",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-09-01",
             "color": "#ebedf0"
           }
         ]
@@ -2144,8 +2149,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 113,
-      "pushedAt": "2026-08-30T04:47:49Z",
+      "diskUsage": 100,
+      "pushedAt": "2026-08-31T04:51:41Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2292,6 +2297,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-08-31T04:51:40Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/53c646586fd03936c627986f99ee0e883c69daaa"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-08-30T04:47:48Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9459e720d9fb32011a0faf353cb5ebe06b8b2570"
     },
@@ -2352,13 +2364,6 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/475e2e8a1548ebde81f10aed9fba2f4436c8b788"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-08-21T01:39:58Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/7bd3bb001d232403e0420074994a03fa97c7fc17"
-    },
-    {
       "repoName": "mujoco_ws",
       "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
       "message": "merge(init): complete workspace initialization\n\nMerges docs/workspace-init into main with:\n- GEMINI.md: workspace memory, communication rules, git standards\n- README.md: public masterclass curriculum, .venv & menagerie setup\n- docs/: documentation index and initial setup notes\n- 6-phase folder structure (01_basics through 06_rl_and_gymnasium)\n- requirements.txt: mujoco, numpy, matplotlib, scipy, gymnasium\n- LICENSE: MIT\n- Scripts reorganized into phase folders with relative path resolution",
@@ -2394,5 +2399,5 @@
       "url": "https://github.com/kosuke-satake/ros2_ws/commit/3bfe859071192898047b7d48297d0ced36393ff5"
     }
   ],
-  "lastFetched": "2026-08-31T04:51:40.228Z"
+  "lastFetched": "2026-09-01T04:30:42.933Z"
 }
