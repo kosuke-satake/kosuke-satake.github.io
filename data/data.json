@@ -8,56 +8,17 @@
     "createdAt": "2025-11-26T05:56:12Z",
     "followers": 0,
     "following": 0,
-    "totalRepos": 10,
+    "totalRepos": 11,
     "totalStars": 0,
     "totalForks": 0,
-    "totalPRs": 1,
+    "totalPRs": 4,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 858
+    "totalDiskUsage": 897
   },
   "calendar": {
-    "totalContributions": 481,
+    "totalContributions": 503,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-09-21",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-09-22",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-09-23",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-09-24",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-09-25",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-09-26",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-09-27",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -2080,9 +2041,18 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 5,
             "date": "2026-09-26",
-            "color": "#ebedf0"
+            "color": "#9be9a8"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 17,
+            "date": "2026-09-27",
+            "color": "#30a14e"
           }
         ]
       }
@@ -2128,6 +2098,24 @@
   ],
   "repositories": [
     {
+      "name": "esp32-ros2-rover",
+      "description": "A low-cost ROS 2 mobile robot with an ESP32 body, built up in stages toward vision, SLAM, autonomous driving, and natural-language interaction.",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 39,
+      "pushedAt": "2026-09-27T04:25:29Z",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "topics": [
+        "arduino",
+        "esp32",
+        "mobile-robot",
+        "robotics",
+        "ros2"
+      ]
+    },
+    {
       "name": "mujoco_ws",
       "description": null,
       "url": "https://github.com/kosuke-satake/mujoco_ws",
@@ -2170,7 +2158,7 @@
       "stars": 0,
       "forks": 0,
       "diskUsage": 120,
-      "pushedAt": "2026-09-25T04:21:34Z",
+      "pushedAt": "2026-09-26T04:25:40Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2277,6 +2265,11 @@
       "color": "#f1e05a"
     },
     {
+      "name": "C++",
+      "count": 1,
+      "color": "#f34b7d"
+    },
+    {
       "name": "Astro",
       "count": 1,
       "color": "#ff5a03"
@@ -2296,6 +2289,26 @@
       "count": 2
     },
     {
+      "name": "arduino",
+      "count": 1
+    },
+    {
+      "name": "esp32",
+      "count": 1
+    },
+    {
+      "name": "mobile-robot",
+      "count": 1
+    },
+    {
+      "name": "robotics",
+      "count": 1
+    },
+    {
+      "name": "ros2",
+      "count": 1
+    },
+    {
       "name": "i18n",
       "count": 1
     },
@@ -2313,6 +2326,83 @@
     }
   ],
   "activity": [
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Merge pull request #2 from kosuke-satake/feat/firmware-control-core\n\nAdd hardware-independent firmware control logic",
+      "date": "2026-09-27T04:18:28Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/e8fd112c35a5aaa3495e93183e97ea2e6b7473d3"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Merge pull request #1 from kosuke-satake/feat/initial-structure\n\nSet up initial repository structure and design docs",
+      "date": "2026-09-27T04:09:52Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/c2fa9989096562ba97566ab4c6565969c43c7708"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Document PlatformIO and the firmware test command\n\nRecord the choice of PlatformIO, the rule that hardware-independent\nlogic stays in firmware/lib with host tests, and mark Stage 1 as in\nprogress in both READMEs.",
+      "date": "2026-09-27T03:13:23Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/518f81a0cc6f319a807a5e3086e90a676c869e1f"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Run firmware host tests in CI\n\nThe tests use PlatformIO's native environment, so they can run on every\npull request without an ESP32 attached.",
+      "date": "2026-09-27T03:12:46Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/9140dfa70d6ec2f6987a0ef597b33c10889650cf"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Add command timeout detection\n\nThe body must stop the motors when velocity commands stop arriving. The\ntimeout starts expired, so the motors stay stopped until the first\ncommand, and latches once expired so a long silence cannot look short\nafter millis() wraps around.",
+      "date": "2026-09-27T03:12:36Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/165bb0e1a13c3c78e42cb8c776a4f7bca3611076"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Add a PID controller for wheel speed\n\nIncludes feedforward, derivative on measurement to avoid kicks when the\ntarget speed jumps, and anti-windup so a stalled wheel does not leave a\nlarge integral behind.",
+      "date": "2026-09-27T03:12:36Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/755d0eb52422cb10424ff280684bf4171170b1fe"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Add differential-drive kinematics with host tests\n\nThe body receives only linear and angular velocity, so it needs its own\nconversion to left and right wheel speeds. When a wheel would exceed its\nlimit, both wheels are scaled together to keep the turning radius.\n\nThe PlatformIO project starts with a native environment only, so the\nlogic can be tested without hardware; the ESP32 environment follows\nonce the board is chosen.",
+      "date": "2026-09-27T03:12:36Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/11586813302d8a84eab124475e95765dc4959060"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Note the use of AI assistants in the README\n\nCommits no longer carry AI co-author trailers, so state the use of AI\ntools once in the README instead of hiding it.",
+      "date": "2026-09-27T03:04:53Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/1727530deb76507d9eb7b5aebc15ed3abf709c9b"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Require agents to ask before important decisions\n\nAgents should check with the maintainer instead of pressing on, and\nmust stop and ask when unsure whether something is a secret rather\nthan commit it and report afterwards.",
+      "date": "2026-09-27T02:53:47Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/f15949a8678148e5441f09c7a3f1d6f7026467f8"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Keep motor driver inputs stopped during ESP32 reset\n\nThe hardware watchdog only makes the robot safe if a reset actually\nstops the motors. While the ESP32 resets or boots its pins float and\nsome may toggle, so the driver inputs need to default to stopped in\nhardware.",
+      "date": "2026-09-27T02:53:41Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/9161d5e7cfb81b46cdf914de56091b147301c6f5"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-09-26T04:25:38Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/07472d248251a8ee804183929f2c3fff4ae379ae"
+    },
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
@@ -2340,84 +2430,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-09-22T04:15:28Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/375a6d671ed790e92e4e7fe25a64b0644d5b8af1"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-21T04:19:50Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1c85e8fd39cfc1013cf17da1607f2c39b93f184b"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-20T04:22:05Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/dc0cfaf1b31f78321b9cb5debe300eafa56aad5d"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-19T04:03:05Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/b5df98a8401455c89af092256bc7a626a260e21f"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-18T04:05:49Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/a7b5d569f96fc4f22b25707e6c0eaae964189aaa"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-17T04:22:00Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/cc0236d061bc335655fcacf8e189cf8d85108130"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-16T04:15:39Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1d34b9e02b6bb0b36614274b6249af1da929c079"
-    },
-    {
-      "repoName": "mujoco_ws",
-      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
-      "message": "merge(init): complete workspace initialization\n\nMerges docs/workspace-init into main with:\n- GEMINI.md: workspace memory, communication rules, git standards\n- README.md: public masterclass curriculum, .venv & menagerie setup\n- docs/: documentation index and initial setup notes\n- 6-phase folder structure (01_basics through 06_rl_and_gymnasium)\n- requirements.txt: mujoco, numpy, matplotlib, scipy, gymnasium\n- LICENSE: MIT\n- Scripts reorganized into phase folders with relative path resolution",
-      "date": "2026-08-09T03:51:51Z",
-      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/bf912bfe3cc80213bdba7b44d74e0d4ea78e781e"
-    },
-    {
-      "repoName": "mujoco_ws",
-      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
-      "message": "chore(init): add scipy & gymnasium to requirements, clarify external deps in README\n\n- requirements.txt: add scipy (Phase 5 IK/optimization) and gymnasium\n  (Phase 6 RL wrappers)\n- README.md: visually separate tracked files from external/local-only\n  dirs (mujoco_menagerie, .venv); add Step 4 to clone mujoco_menagerie\n- Verified all imports: mujoco 3.11.0, numpy 2.5.1, scipy 1.18.0,\n  gymnasium 1.3.0, matplotlib 3.11.1",
-      "date": "2026-08-09T03:49:35Z",
-      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/b1db3339aa9f6111ae3edae9bd4ea3f3c8206deb"
-    },
-    {
-      "repoName": "mujoco_ws",
-      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
-      "message": "refactor(workspace): organize scripts into phase folders and add project files\n\n- Move hello_mujoco.py, load_robot.py → 01_basics/\n- Move dog_pushups.py, robot_system.py → 02_actuation_and_control/\n- Fix xml_path resolution in all moved scripts (os.path relative to script)\n- Create placeholder dirs with .gitkeep: 03–06 phases\n- Add requirements.txt (mujoco, numpy, matplotlib)\n- Add MIT LICENSE\n- Update README.md to reflect new folder structure and pip install -r",
-      "date": "2026-08-09T03:41:31Z",
-      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/c9b8edfdcf4765c0ef44cdc31b264a9ad2ebe99d"
-    },
-    {
-      "repoName": "mujoco_ws",
-      "repoUrl": "https://github.com/kosuke-satake/mujoco_ws",
-      "message": "docs(workspace): add GEMINI.md, README.md, and docs/ for MuJoCo masterclass\n\n- GEMINI.md: workspace memory with communication, documentation, git,\n  and code quality guidelines; 6-phase learning roadmap; MuJoCo API reference\n- README.md: public-facing beginner-to-advanced curriculum with .venv\n  setup instructions and concepts cheatsheet\n- docs/README.md: documentation index with table of contents\n- docs/01_workspace_setup.md: initial architecture and setup notes",
-      "date": "2026-08-09T03:35:18Z",
-      "url": "https://github.com/kosuke-satake/mujoco_ws/commit/3fbd9bf2260e6a06c6e607106cfc1a99619f72f1"
-    },
-    {
-      "repoName": "ros2_ws",
-      "repoUrl": "https://github.com/kosuke-satake/ros2_ws",
-      "message": "docs(ai): establish global AI guidelines for communication and git workflow\n\nDefines strict rules for AI agents interacting with the repository, prioritizing explicit communication, professional documentation, and standardized git workflows (Conventional Commits).",
-      "date": "2026-08-08T09:40:18Z",
-      "url": "https://github.com/kosuke-satake/ros2_ws/commit/3bfe859071192898047b7d48297d0ced36393ff5"
     }
   ],
-  "lastFetched": "2026-09-26T04:25:38.684Z"
+  "lastFetched": "2026-09-27T04:43:40.099Z"
 }
