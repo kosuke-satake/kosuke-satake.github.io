@@ -6,18 +6,18 @@
     "bio": "",
     "url": "https://github.com/kosuke-satake",
     "createdAt": "2025-11-26T05:56:12Z",
-    "followers": 0,
+    "followers": 1,
     "following": 0,
     "totalRepos": 11,
     "totalStars": 0,
     "totalForks": 0,
-    "totalPRs": 4,
+    "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 897
+    "totalDiskUsage": 957
   },
   "calendar": {
-    "totalContributions": 503,
+    "totalContributions": 523,
     "weeks": [
       {
         "contributionDays": [
@@ -1068,7 +1068,7 @@
           {
             "contributionCount": 25,
             "date": "2026-04-04",
-            "color": "#216e39"
+            "color": "#30a14e"
           }
         ]
       },
@@ -1077,12 +1077,12 @@
           {
             "contributionCount": 18,
             "date": "2026-04-05",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 9,
             "date": "2026-04-06",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 5,
@@ -1180,12 +1180,12 @@
           {
             "contributionCount": 9,
             "date": "2026-04-24",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 8,
             "date": "2026-04-25",
-            "color": "#40c463"
+            "color": "#9be9a8"
           }
         ]
       },
@@ -1238,12 +1238,12 @@
           {
             "contributionCount": 16,
             "date": "2026-05-04",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 18,
             "date": "2026-05-05",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
             "contributionCount": 1,
@@ -1414,7 +1414,7 @@
           {
             "contributionCount": 8,
             "date": "2026-06-05",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 1,
@@ -1623,7 +1623,7 @@
           {
             "contributionCount": 9,
             "date": "2026-07-12",
-            "color": "#40c463"
+            "color": "#9be9a8"
           },
           {
             "contributionCount": 2,
@@ -2050,9 +2050,14 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 17,
+            "contributionCount": 37,
             "date": "2026-09-27",
-            "color": "#30a14e"
+            "color": "#216e39"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-09-28",
+            "color": "#ebedf0"
           }
         ]
       }
@@ -2103,8 +2108,8 @@
       "url": "https://github.com/kosuke-satake/esp32-ros2-rover",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 39,
-      "pushedAt": "2026-09-27T04:25:29Z",
+      "diskUsage": 96,
+      "pushedAt": "2026-09-27T16:00:24Z",
       "language": "C++",
       "languageColor": "#f34b7d",
       "topics": [
@@ -2157,8 +2162,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 120,
-      "pushedAt": "2026-09-26T04:25:40Z",
+      "diskUsage": 123,
+      "pushedAt": "2026-09-27T04:43:41Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2329,72 +2334,79 @@
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Merge pull request #2 from kosuke-satake/feat/firmware-control-core\n\nAdd hardware-independent firmware control logic",
-      "date": "2026-09-27T04:18:28Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/e8fd112c35a5aaa3495e93183e97ea2e6b7473d3"
+      "message": "Merge pull request #5 from kosuke-satake/feat/message-protocol\n\nSpecify the brain-body message format and implement it on the body",
+      "date": "2026-09-27T16:00:21Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/dab7b63f8752a945dd2aac0e5009317e057e6723"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Merge pull request #1 from kosuke-satake/feat/initial-structure\n\nSet up initial repository structure and design docs",
-      "date": "2026-09-27T04:09:52Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/c2fa9989096562ba97566ab4c6565969c43c7708"
+      "message": "Merge pull request #4 from kosuke-satake/docs/member-branches\n\nDocument personal branches for hardware members",
+      "date": "2026-09-27T16:00:07Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/25265e32eab7599236f67ab71c985aec4f739bbe"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Document PlatformIO and the firmware test command\n\nRecord the choice of PlatformIO, the rule that hardware-independent\nlogic stays in firmware/lib with host tests, and mark Stage 1 as in\nprogress in both READMEs.",
-      "date": "2026-09-27T03:13:23Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/518f81a0cc6f319a807a5e3086e90a676c869e1f"
+      "message": "Point the READMEs and guides to the message protocol\n\nStage 1 now has a defined message format, so the status lines move on\nto choosing the parts, and the software guide names protocol.md as the\nreference every implementation follows.",
+      "date": "2026-09-27T05:09:55Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/2bde679ecb62f58ade56627f181941d394260e52"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Run firmware host tests in CI\n\nThe tests use PlatformIO's native environment, so they can run on every\npull request without an ESP32 attached.",
-      "date": "2026-09-27T03:12:46Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/9140dfa70d6ec2f6987a0ef597b33c10889650cf"
+      "message": "Add a line reader for serial input\n\nSerial delivers bytes, not lines. The reader is fed whatever has\narrived and reports each complete line, so the main loop never waits.\nA line that is too long or contains a NUL is dropped whole rather than\ncut, so a truncated command can never be parsed as a valid one.",
+      "date": "2026-09-27T05:09:32Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/49fc9febebac231a47365779be19ed6d44fe2adf"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Add command timeout detection\n\nThe body must stop the motors when velocity commands stop arriving. The\ntimeout starts expired, so the motors stay stopped until the first\ncommand, and latches once expired so a long silence cannot look short\nafter millis() wraps around.",
-      "date": "2026-09-27T03:12:36Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/165bb0e1a13c3c78e42cb8c776a4f7bca3611076"
+      "message": "Parse velocity commands and format odometry on the body\n\nImplements docs/protocol.md for the body side. The number check is\nstricter than strtof, which would also accept exponents, hexadecimal,\nnan and inf. A rejected line leaves the last command untouched, and an\ninvalid state produces no line rather than being reported as OK.",
+      "date": "2026-09-27T05:08:33Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/339fb871bdff94736c9246b36b20b6c0fd90a0dc"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Add a PID controller for wheel speed\n\nIncludes feedforward, derivative on measurement to avoid kicks when the\ntarget speed jumps, and anti-windup so a stalled wheel does not leave a\nlarge integral behind.",
-      "date": "2026-09-27T03:12:36Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/755d0eb52422cb10424ff280684bf4171170b1fe"
+      "message": "Specify the brain-body message format\n\nTwo line-based ASCII messages: V carries the velocity command from the\nbrain, O carries cumulative encoder ticks, battery voltage and state\nfrom the body. Plain text keeps the format identical over UDP and\nserial and lets anyone test the body by typing lines by hand. Receivers\nignore extra trailing fields, so fields can be appended later without\nbreaking older implementations.",
+      "date": "2026-09-27T05:06:36Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/a9cbb2995aebe98d247b0bc191ff82f7b8475d0a"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Add differential-drive kinematics with host tests\n\nThe body receives only linear and angular velocity, so it needs its own\nconversion to left and right wheel speeds. When a wheel would exceed its\nlimit, both wheels are scaled together to keep the turning radius.\n\nThe PlatformIO project starts with a native environment only, so the\nlogic can be tested without hardware; the ESP32 environment follows\nonce the board is chosen.",
-      "date": "2026-09-27T03:12:36Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/11586813302d8a84eab124475e95765dc4959060"
+      "message": "Document personal branches for hardware members\n\nThe two hardware members are new to Git, so each keeps one branch and\ncommits to it from the browser instead of creating a branch per change.\nTheir work reaches main through pull requests from those branches, which\nmust stay alive after each merge.",
+      "date": "2026-09-27T05:02:17Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/70c39ca1fcbe3e6bc159fa48b00b997d0e1f3366"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Note the use of AI assistants in the README\n\nCommits no longer carry AI co-author trailers, so state the use of AI\ntools once in the README instead of hiding it.",
-      "date": "2026-09-27T03:04:53Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/1727530deb76507d9eb7b5aebc15ed3abf709c9b"
+      "message": "Merge pull request #3 from kosuke-satake/chore/team-folder-structure\n\nOrganize the repository by team role and add folder guides",
+      "date": "2026-09-27T05:00:54Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/1e81ff3455dbd1cbb34b603aaaa7d3dc6d5b2b7b"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-09-27T04:43:40Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/3e67994afb07dcb226f230460798b2a2b8497772"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Require agents to ask before important decisions\n\nAgents should check with the maintainer instead of pressing on, and\nmust stop and ask when unsure whether something is a secret rather\nthan commit it and report afterwards.",
-      "date": "2026-09-27T02:53:47Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/f15949a8678148e5441f09c7a3f1d6f7026467f8"
+      "message": "Allow budget figures and part models in the repository\n\nThe parts list needs models and prices, and the maintainer is fine with\npublishing the budget. Personal devices such as the phone and computer\nstay generic.",
+      "date": "2026-09-27T04:25:25Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/40af961ae1d60d298627f149652ad06bc9104e22"
     },
     {
       "repoName": "esp32-ros2-rover",
       "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Keep motor driver inputs stopped during ESP32 reset\n\nThe hardware watchdog only makes the robot safe if a reset actually\nstops the motors. While the ESP32 resets or boots its pins float and\nsome may toggle, so the driver inputs need to default to stopped in\nhardware.",
-      "date": "2026-09-27T02:53:41Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/9161d5e7cfb81b46cdf914de56091b147301c6f5"
+      "message": "Describe the team folder layout in AGENTS.md and the READMEs\n\nAgents must read a folder's guide before working in it and keep both\nlanguage versions current. The rule against empty folders stays, but a\nnew folder now arrives together with its guides.",
+      "date": "2026-09-27T04:25:24Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/2836eea69b3d1a6b7d5c6389139f8dc448820d84"
     },
     {
       "repoName": "kosuke-satake.github.io",
@@ -2423,14 +2435,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-09-23T04:12:49Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1b77a105b2509d838400a220783d7a29fd72e5ff"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-22T04:15:28Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/375a6d671ed790e92e4e7fe25a64b0644d5b8af1"
     }
   ],
-  "lastFetched": "2026-09-27T04:43:40.099Z"
+  "lastFetched": "2026-09-28T04:45:22.526Z"
 }
