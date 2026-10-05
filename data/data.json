@@ -8,16 +8,16 @@
     "createdAt": "2025-11-26T05:56:12Z",
     "followers": 1,
     "following": 0,
-    "totalRepos": 11,
+    "totalRepos": 12,
     "totalStars": 0,
     "totalForks": 0,
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 963
+    "totalDiskUsage": 3360
   },
   "calendar": {
-    "totalContributions": 529,
+    "totalContributions": 560,
     "weeks": [
       {
         "contributionDays": [
@@ -2041,17 +2041,22 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 16,
             "date": "2026-10-03",
-            "color": "#9be9a8"
+            "color": "#40c463"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 0,
+            "contributionCount": 16,
             "date": "2026-10-04",
+            "color": "#40c463"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-10-05",
             "color": "#ebedf0"
           }
         ]
@@ -2097,6 +2102,24 @@
     }
   ],
   "repositories": [
+    {
+      "name": "headway",
+      "description": "Live Madison, WI bus map for iPhone: offline map with every route and stop, live buses, trip planner with transfers, and punctuality measured from its own recordings.",
+      "url": "https://github.com/kosuke-satake/headway",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 2396,
+      "pushedAt": "2026-10-05T00:21:20Z",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "topics": [
+        "cloudflare-workers",
+        "gtfs",
+        "gtfs-realtime",
+        "ios",
+        "madison"
+      ]
+    },
     {
       "name": "esp32-ros2-rover",
       "description": "A low-cost ROS 2 mobile robot with an ESP32 body, built up in stages toward vision, SLAM, autonomous driving, and natural-language interaction.",
@@ -2157,8 +2180,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 129,
-      "pushedAt": "2026-10-03T04:44:27Z",
+      "diskUsage": 130,
+      "pushedAt": "2026-10-04T05:15:57Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2265,6 +2288,11 @@
       "color": "#f1e05a"
     },
     {
+      "name": "Swift",
+      "count": 1,
+      "color": "#F05138"
+    },
+    {
       "name": "C++",
       "count": 1,
       "color": "#f34b7d"
@@ -2287,6 +2315,26 @@
     {
       "name": "keystatic",
       "count": 2
+    },
+    {
+      "name": "cloudflare-workers",
+      "count": 1
+    },
+    {
+      "name": "gtfs",
+      "count": 1
+    },
+    {
+      "name": "gtfs-realtime",
+      "count": 1
+    },
+    {
+      "name": "ios",
+      "count": 1
+    },
+    {
+      "name": "madison",
+      "count": 1
     },
     {
       "name": "arduino",
@@ -2315,17 +2363,86 @@
     {
       "name": "mulitilingual",
       "count": 1
-    },
-    {
-      "name": "academic-portfolio",
-      "count": 1
-    },
-    {
-      "name": "portfolio",
-      "count": 1
     }
   ],
   "activity": [
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Lay routes onto shared centre lines and show which way each stop serves\n\n- Routes on the same street now follow one shared centre line, so their lanes are parallel; lane changes slide in small steps, or happen at once near a turn; bus bays no longer bulge. A saved older drawing is shown until the new one is ready, and the drawing is only computed when the timetable or the method changes.\n- Stops say which way their buses go (from the feed's cardinal_direction): in the stop sheet, search, planner steps, share text and timetable, and with an arrow on the map. A stop served both ways labels each departure.\n- feedanalysis overview exports the layout to GeoJSON for checking it in a browser.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-05T00:21:18Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/fab2af7d48eb6276fa3f4ec89570445e455ca3b6"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Merge route directions into one line with smooth lanes, and fix the menu over the journey\n\n- The network view draws one line per route (directions and variants merged where they share streets) and lays routes that share a street side by side, with lanes decided by the neighbouring routes, smoothed over about 100 m, kept for at least about 160 m and ramped between; spikes out to a stop are removed. A route on its own still shows each direction on the street.\n- Opening the menu puts any sheet away; the journey sheet can be dragged down into the bar, and the bar swiped up again. A swipe from the left edge opens the menu.\n- The collector stores snapshots as sent (gzip cost more CPU than the free plan allows), keeps 6 days, and the pull skips what the Mac recorder already saved. MIT licence. The 24-hour feed report.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T23:39:18Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/61989441905581910a00a2fae597711cb573aaa4"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Say that Headway is independent of the City of Madison\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T17:21:03Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/fd3bce269d16bfd344ae137829f6cea60755ce70"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Document lanes, route status and stops on the way\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T17:20:48Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/f99b056dc747dc668cfa07db6f7a70787307b656"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Remove references to other private projects from the docs\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T17:20:39Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/a8336e6923f8e513c5ccafe4b6a9bff796b9733a"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Make routes easier to read and plan trips with stops on the way\n\n- Routes that share a street are drawn side by side in lanes instead of on top of each other; both directions of a route share a lane, and a route crossing a street is not pushed sideways.\n- Tapping lines of several routes asks which one; tapping one route no longer moves the camera, and tapping the empty map lets go of it.\n- The route list and the focus chip say how many buses run in each direction, or why there are none (not running today, between trips, not reporting), with the next trip.\n- Faded routes can be made fainter (default much fainter); the alert chip explains the dashed line.\n- A trip can have up to three stops on the way, each with a stay time, also working backwards from an arrival time; saved trips sit under the saved places and keep their stops, and more recent trips are shown.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T17:20:21Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/7c88eb7d3d01aa5b2bf33ab5ab45e70d2acbd962"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Show the project version in the app and call this 0.2.0\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T16:59:51Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/9df7b6c3085b0ff612d6ac0d141740af0af274c6"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Update the project label",
+      "date": "2026-10-04T16:04:35Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/cda40f6b9e26b6c8ac1f863e6f0ffad83a22fdcd"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Add third-party notices and the font licence text\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T16:03:50Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/040572cb7f99be60615165f396788cc8569e4c51"
+    },
+    {
+      "repoName": "headway",
+      "repoUrl": "https://github.com/kosuke-satake/headway",
+      "message": "Update the docs for directions, notifications, the collector and Release builds\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-04T16:03:04Z",
+      "url": "https://github.com/kosuke-satake/headway/commit/1ea0feef6108441c6285c04ac1b9c67afbed72c6"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-04T05:15:56Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c2872167c6acb1d71f64a96e373e92eddf6fc3dd"
+    },
     {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
@@ -2353,84 +2470,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-09-30T04:58:51Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/50f1bf5613a7955c2b46f10e3c18cb600ad04d49"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-29T05:11:26Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/fa1e05773f56ed81caf3f7515e85b26cef31fc90"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-28T04:45:22Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e6c496c7c6cb6a6538ad92557d853014789eb308"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Merge pull request #5 from kosuke-satake/feat/message-protocol\n\nSpecify the brain-body message format and implement it on the body",
-      "date": "2026-09-27T16:00:21Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/dab7b63f8752a945dd2aac0e5009317e057e6723"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Merge pull request #4 from kosuke-satake/docs/member-branches\n\nDocument personal branches for hardware members",
-      "date": "2026-09-27T16:00:07Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/25265e32eab7599236f67ab71c985aec4f739bbe"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Point the READMEs and guides to the message protocol\n\nStage 1 now has a defined message format, so the status lines move on\nto choosing the parts, and the software guide names protocol.md as the\nreference every implementation follows.",
-      "date": "2026-09-27T05:09:55Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/2bde679ecb62f58ade56627f181941d394260e52"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Add a line reader for serial input\n\nSerial delivers bytes, not lines. The reader is fed whatever has\narrived and reports each complete line, so the main loop never waits.\nA line that is too long or contains a NUL is dropped whole rather than\ncut, so a truncated command can never be parsed as a valid one.",
-      "date": "2026-09-27T05:09:32Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/49fc9febebac231a47365779be19ed6d44fe2adf"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Parse velocity commands and format odometry on the body\n\nImplements docs/protocol.md for the body side. The number check is\nstricter than strtof, which would also accept exponents, hexadecimal,\nnan and inf. A rejected line leaves the last command untouched, and an\ninvalid state produces no line rather than being reported as OK.",
-      "date": "2026-09-27T05:08:33Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/339fb871bdff94736c9246b36b20b6c0fd90a0dc"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Specify the brain-body message format\n\nTwo line-based ASCII messages: V carries the velocity command from the\nbrain, O carries cumulative encoder ticks, battery voltage and state\nfrom the body. Plain text keeps the format identical over UDP and\nserial and lets anyone test the body by typing lines by hand. Receivers\nignore extra trailing fields, so fields can be appended later without\nbreaking older implementations.",
-      "date": "2026-09-27T05:06:36Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/a9cbb2995aebe98d247b0bc191ff82f7b8475d0a"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Document personal branches for hardware members\n\nThe two hardware members are new to Git, so each keeps one branch and\ncommits to it from the browser instead of creating a branch per change.\nTheir work reaches main through pull requests from those branches, which\nmust stay alive after each merge.",
-      "date": "2026-09-27T05:02:17Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/70c39ca1fcbe3e6bc159fa48b00b997d0e1f3366"
-    },
-    {
-      "repoName": "esp32-ros2-rover",
-      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
-      "message": "Merge pull request #3 from kosuke-satake/chore/team-folder-structure\n\nOrganize the repository by team role and add folder guides",
-      "date": "2026-09-27T05:00:54Z",
-      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/1e81ff3455dbd1cbb34b603aaaa7d3dc6d5b2b7b"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-09-27T04:43:40Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/3e67994afb07dcb226f230460798b2a2b8497772"
     }
   ],
-  "lastFetched": "2026-10-04T05:15:56.877Z"
+  "lastFetched": "2026-10-05T05:00:12.055Z"
 }
