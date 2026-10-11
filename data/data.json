@@ -14,50 +14,11 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3366
+    "totalDiskUsage": 3367
   },
   "calendar": {
-    "totalContributions": 567,
+    "totalContributions": 672,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-10-05",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-06",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-07",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-08",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-09",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-10",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-11",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -1894,7 +1855,7 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 3,
             "date": "2026-09-06",
             "color": "#9be9a8"
           },
@@ -1914,17 +1875,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 4,
             "date": "2026-09-10",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 7,
             "date": "2026-09-11",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 3,
             "date": "2026-09-12",
             "color": "#9be9a8"
           }
@@ -1933,9 +1894,9 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 37,
             "date": "2026-09-13",
-            "color": "#9be9a8"
+            "color": "#216e39"
           },
           {
             "contributionCount": 1,
@@ -1958,23 +1919,23 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 7,
             "date": "2026-09-18",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 12,
             "date": "2026-09-19",
-            "color": "#9be9a8"
+            "color": "#40c463"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 23,
             "date": "2026-09-20",
-            "color": "#9be9a8"
+            "color": "#30a14e"
           },
           {
             "contributionCount": 1,
@@ -1987,12 +1948,12 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 7,
             "date": "2026-09-23",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 3,
             "date": "2026-09-24",
             "color": "#9be9a8"
           },
@@ -2080,8 +2041,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 9,
             "date": "2026-10-10",
+            "color": "#9be9a8"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-10-11",
             "color": "#ebedf0"
           }
         ]
@@ -2205,8 +2175,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 136,
-      "pushedAt": "2026-10-09T05:32:34Z",
+      "diskUsage": 137,
+      "pushedAt": "2026-10-10T05:16:28Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2395,6 +2365,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-10T05:16:27Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/d4fa1a875944318097d6c8d5a42830756e0bb57b"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-10-09T05:32:33Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/32a434b7c65acea1692149cfda997cf9029bb351"
     },
@@ -2488,14 +2465,7 @@
       "message": "Add third-party notices and the font licence text\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
       "date": "2026-10-04T16:03:50Z",
       "url": "https://github.com/kosuke-satake/headway/commit/040572cb7f99be60615165f396788cc8569e4c51"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Update the docs for directions, notifications, the collector and Release builds\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T16:03:04Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/1ea0feef6108441c6285c04ac1b9c67afbed72c6"
     }
   ],
-  "lastFetched": "2026-10-10T05:16:27.195Z"
+  "lastFetched": "2026-10-11T05:07:22.533Z"
 }
