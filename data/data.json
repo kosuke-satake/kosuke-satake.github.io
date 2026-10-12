@@ -14,10 +14,10 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3367
+    "totalDiskUsage": 3533
   },
   "calendar": {
-    "totalContributions": 672,
+    "totalContributions": 717,
     "weeks": [
       {
         "contributionDays": [
@@ -1855,7 +1855,7 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 3,
+            "contributionCount": 4,
             "date": "2026-09-06",
             "color": "#9be9a8"
           },
@@ -1924,7 +1924,7 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 12,
+            "contributionCount": 16,
             "date": "2026-09-19",
             "color": "#40c463"
           }
@@ -1933,7 +1933,7 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 23,
+            "contributionCount": 24,
             "date": "2026-09-20",
             "color": "#30a14e"
           },
@@ -1948,17 +1948,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 7,
+            "contributionCount": 9,
             "date": "2026-09-23",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 3,
+            "contributionCount": 6,
             "date": "2026-09-24",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 6,
             "date": "2026-09-25",
             "color": "#9be9a8"
           },
@@ -2021,12 +2021,12 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 8,
             "date": "2026-10-06",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 3,
+            "contributionCount": 7,
             "date": "2026-10-07",
             "color": "#9be9a8"
           },
@@ -2041,17 +2041,22 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 9,
+            "contributionCount": 22,
             "date": "2026-10-10",
-            "color": "#9be9a8"
+            "color": "#30a14e"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 0,
+            "contributionCount": 5,
             "date": "2026-10-11",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-10-12",
             "color": "#ebedf0"
           }
         ]
@@ -2098,13 +2103,13 @@
   ],
   "repositories": [
     {
-      "name": "headway",
+      "name": "Headway",
       "description": "Live Madison, WI bus map for iPhone: offline map with every route and stop, live buses, trip planner with transfers, and punctuality measured from its own recordings.",
-      "url": "https://github.com/kosuke-satake/headway",
+      "url": "https://github.com/kosuke-apps/Headway",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 2396,
-      "pushedAt": "2026-10-05T00:21:20Z",
+      "diskUsage": 2561,
+      "pushedAt": "2026-10-11T15:00:37Z",
       "language": "Swift",
       "languageColor": "#F05138",
       "topics": [
@@ -2175,8 +2180,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 137,
-      "pushedAt": "2026-10-10T05:16:28Z",
+      "diskUsage": 138,
+      "pushedAt": "2026-10-11T05:07:23Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2365,6 +2370,48 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-11T05:07:22Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ff9e76e0c40e5555830c6d60151f922c20938458"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Open a licence text from its row\n\nTapping a row in Settings > Licences left a blank page: a value-based link had no destination it could use, because the\nSettings sheet already reaches this screen through its own link. Each row now carries its own destination.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-10T15:46:04Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/3d05a6bde57a8a0f055d1c5f642910589844b7fd"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Stop tracking the private label file\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-10T15:30:30Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/34030f3bf41a66d174cbbec94907870fb21badae"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Document third-party material, privacy and the use of AI\n\nTHIRD_PARTY.md lists what ships and what only builds or tests, with licences, and says that no copyleft or\nnon-commercial licence is used. PRIVACY.md says what stays on the phone and lists every network address in the code. The\nREADME gains permissions, installation, licence and the AI-assistance statement. data-sources.md notes the clause that\nmakes the city the owner of derived data, compared again with the feed's terms of use.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-10T15:30:30Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/02065cf6da69c9abea0bb76ff92017a5826b7956"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Show the licence of everything the app contains, inside the app\n\nBSD and Apache licences require their text to come with a binary. Settings > Licences lists MapLibre Native,\nSwiftProtobuf, the GTFS Realtime definition, ZIPFoundation, Noto Sans and the Protomaps styles with their full\nlicence texts (bundled as App/Resources/Licenses/*.txt), the OpenStreetMap and City of Madison credits, and the\napp's own MIT licence. A test checks that every entry's text is in the app.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-10T15:30:30Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/701fce745aacdb60ca185a6d7e8ebdfdbd12207b"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Name the copyright holder in full, in LICENSE and in the app's Info.plist\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-10T15:30:30Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/b28ada9eeaf5fabbcbb25861d8ee95ccde13ea81"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-10-10T05:16:27Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/d4fa1a875944318097d6c8d5a42830756e0bb57b"
     },
@@ -2390,82 +2437,40 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e242eb024530c44b5f909ce650ee36743ef121a6"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-06T05:47:40Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/28f789c3b5b3b634422f97e23ad9165a71cd65b2"
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Open the history behind a punctuality bar, fix the squeezed bus counts, and tidy the tiles, credits and favourite stops\n\nTouching a punctuality bar under \"Usually at this stop\" opens a screen with hour-by-hour charts for weekdays, Saturdays\nor Sundays (this stop or the whole route): the share of early, on-time and late arrivals, and the spread from the\ntimetable. The bus counts beside a route are coloured numbers (red, green, blue) instead of numbers in capsules, which\nwere squeezed on a real phone. The first and last stop of a route are purple and black (white on the dark map) so that\nthey differ from the lateness colours. The three tiles on the service board are equal squares across the full width.\nFavourite stops are solid dots instead of an orange ring. The map credits sit level with each other, lower and in from\nthe corners of a rounded screen. Version 0.5.1.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-07T02:14:14Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/09e353e19f37ea6116b1985010743c84c276811d"
     },
     {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-05T05:00:12Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/cb96b4418108f8543382f16301548cfaf90e3cd9"
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Colour the buses of each route by lateness, mark buses that are not on a trip, ring first and last stops, and open the live bar\n\nLateness: the routes list, the route chooser and the chip over the map count the buses of a route, of each direction and of\neach destination, and colour them red (over 5 min late), green (on time) or blue (over 2 min early); routes with an alert\nget a triangle. A bus's sheet says how far it is from its timetable and what trip it runs next. The live bar over the map\nopens a card with the same for the whole network and a refresh button. Settings > Times is one choice: off, minutes, or\nminutes with the timetable's time; the last leads the stop board with the timetable's time and puts the live countdown\nunder it.\n\nBuses that are not on a trip (5 to 7 of about 125) are pale with an orange ring and \"!\", or show the route they will run\nnext and when, from the trip updates. A route in focus rings its first stop green and its last red, labelled D1/D2 where a\ndirection has several destinations.\n\nAlso: the service info summary is three square tiles with the number under the symbol, the map credits sit lower and in\nfrom the corners on phones with rounded screens, and feedanalysis gets `fleet` and `layover`. Version 0.5.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-06T21:13:08Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/57868774820e9218b9851dc37e741bed406c468d"
     },
     {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Lay routes onto shared centre lines and show which way each stop serves\n\n- Routes on the same street now follow one shared centre line, so their lanes are parallel; lane changes slide in small steps, or happen at once near a turn; bus bays no longer bulge. A saved older drawing is shown until the new one is ready, and the drawing is only computed when the timetable or the method changes.\n- Stops say which way their buses go (from the feed's cardinal_direction): in the stop sheet, search, planner steps, share text and timetable, and with an arrow on the map. A stop served both ways labels each departure.\n- feedanalysis overview exports the layout to GeoJSON for checking it in a browser.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-05T00:21:18Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/fab2af7d48eb6276fa3f4ec89570445e455ca3b6"
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Make the launch five times faster, and add destination focus, back to list and scheduled times beside live ones\n\nLaunch: slides between lanes were cut into pieces of a few metres, so the saved map data held 90 000 line pieces and\n13 MB. Slides now go in steps of an eighth of a lane and one route, and every line is thinned to 1 m: 23 000 pieces and\n3 MB, and the saved data is read and drawn in 0.5 s instead of 2.5 s on a Mac.\n\nFocus: the chip over the map opens its choices from anywhere on it and lists the destinations of each direction (D1,\nD2, ...); one can be shown on its own (line, stops, buses). \"Show on map\" from the service info or the routes list leaves\na back button. A journey is drawn on the map only while its steps are open.\n\nTimes: a live bus keeps its timetable time (stop board, next stops, full timetable with +3 / -2 marks); a setting turns\nit off. Also: the routes list shows the bus count beside each name, the service info chips wrap and say which ones are\nbuttons, the status pill stays on one line, the map credits sit in from the screen corners, and the buses and route\nlines are smaller when zoomed out. Version 0.4.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-06T20:40:48Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/c38cd40b2d3e84074a6d02e17e836cacc19d320a"
     },
     {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Merge route directions into one line with smooth lanes, and fix the menu over the journey\n\n- The network view draws one line per route (directions and variants merged where they share streets) and lays routes that share a street side by side, with lanes decided by the neighbouring routes, smoothed over about 100 m, kept for at least about 160 m and ramped between; spikes out to a stop are removed. A route on its own still shows each direction on the street.\n- Opening the menu puts any sheet away; the journey sheet can be dragged down into the bar, and the bar swiped up again. A swipe from the left edge opens the menu.\n- The collector stores snapshots as sent (gzip cost more CPU than the free plan allows), keeps 6 days, and the pull skips what the Mac recorder already saved. MIT licence. The 24-hour feed report.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T23:39:18Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/61989441905581910a00a2fae597711cb573aaa4"
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Update the test count in the README\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-06T20:08:54Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/5ff29aa83f1a503b34474e0088d72598d6f45f0e"
     },
     {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Say that Headway is independent of the City of Madison\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T17:21:03Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/fd3bce269d16bfd344ae137829f6cea60755ce70"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Document lanes, route status and stops on the way\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T17:20:48Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/f99b056dc747dc668cfa07db6f7a70787307b656"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Remove references to other private projects from the docs\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T17:20:39Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/a8336e6923f8e513c5ccafe4b6a9bff796b9733a"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Make routes easier to read and plan trips with stops on the way\n\n- Routes that share a street are drawn side by side in lanes instead of on top of each other; both directions of a route share a lane, and a route crossing a street is not pushed sideways.\n- Tapping lines of several routes asks which one; tapping one route no longer moves the camera, and tapping the empty map lets go of it.\n- The route list and the focus chip say how many buses run in each direction, or why there are none (not running today, between trips, not reporting), with the next trip.\n- Faded routes can be made fainter (default much fainter); the alert chip explains the dashed line.\n- A trip can have up to three stops on the way, each with a stay time, also working backwards from an arrival time; saved trips sit under the saved places and keep their stops, and more recent trips are shown.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T17:20:21Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/7c88eb7d3d01aa5b2bf33ab5ab45e70d2acbd962"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Show the project version in the app and call this 0.2.0\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T16:59:51Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/9df7b6c3085b0ff612d6ac0d141740af0af274c6"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Update the project label",
-      "date": "2026-10-04T16:04:35Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/cda40f6b9e26b6c8ac1f863e6f0ffad83a22fdcd"
-    },
-    {
-      "repoName": "headway",
-      "repoUrl": "https://github.com/kosuke-satake/headway",
-      "message": "Add third-party notices and the font licence text\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-04T16:03:50Z",
-      "url": "https://github.com/kosuke-satake/headway/commit/040572cb7f99be60615165f396788cc8569e4c51"
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Show each bus's direction as a letter and a white or black ring, and shrink markers and lines with zoom\n\nThe heading arrow is gone: it ignored the route focus and the feed's bearing changes at every turn. A bus now shows\nthe way its trip runs (\"E\", \"W\", \"N\", \"S\", \"In\", \"Out\") from the feed's trip_direction_name, and a white ring for\ndirection 1 or a black one for direction 0. Bus markers, route lines, lane gaps and journey lines are smaller on the\nwhole-city view and reach full size at zoom 15 and 16. Version 0.3.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-06T20:08:38Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/6b64301ba6f3276e8b3d66b6fe2f2d3d3b6ae338"
     }
   ],
-  "lastFetched": "2026-10-11T05:07:22.533Z"
+  "lastFetched": "2026-10-12T05:21:10.125Z"
 }
