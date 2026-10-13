@@ -14,10 +14,10 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3533
+    "totalDiskUsage": 3652
   },
   "calendar": {
-    "totalContributions": 717,
+    "totalContributions": 729,
     "weeks": [
       {
         "contributionDays": [
@@ -2050,13 +2050,18 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 5,
+            "contributionCount": 9,
             "date": "2026-10-11",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 8,
             "date": "2026-10-12",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-10-13",
             "color": "#ebedf0"
           }
         ]
@@ -2108,8 +2113,8 @@
       "url": "https://github.com/kosuke-apps/Headway",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 2561,
-      "pushedAt": "2026-10-11T15:00:37Z",
+      "diskUsage": 2676,
+      "pushedAt": "2026-10-12T21:32:16Z",
       "language": "Swift",
       "languageColor": "#F05138",
       "topics": [
@@ -2180,8 +2185,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 138,
-      "pushedAt": "2026-10-11T05:07:23Z",
+      "diskUsage": 142,
+      "pushedAt": "2026-10-12T05:21:11Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2367,6 +2372,55 @@
   ],
   "activity": [
     {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Say in the README that building with run_on_device.sh is the main way to install\n\nThe Installing section led with the unsigned .ipa from a release, but the way the author installs, and the one the project\nsupports first, is building from source with tools/run_on_device.sh. It now comes first with the steps, and the .ipa route is\nsecond, with a note that it has only been checked for its contents. docs/run-on-iphone.md no longer says \"already done on\nthis Mac\". Version 0.6.2.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-12T21:32:11Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/d0c8b4c39ef68d6f3d3457c800d6d99e7328d2dc"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Move Language under Behavior and write the Japanese with full-width commas and periods\n\nThe language choice sits in the Behavior section, next to the link to iOS Settings for language and location, instead\nof at the top of Settings. The Japanese text of the app (the catalog and the permission message) uses the full-width\ncomma and period, as the author writes Japanese; a test keeps the other forms out. Version 0.6.1.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-12T21:11:48Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/abacabcd8462e48db5b9ffdea134728d2b4d42eb"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Choose the app's language in Settings: system default, English or Japanese\n\nSettings > Language switches the whole app at once, without a restart. LanguageState holds the chosen language, its\nlocale (the language with the phone's region, so units and 12/24 hours keep following the phone) and its translation\nbundle; every string built in code goes through L10n.string, and the root view puts the locale into the environment for\nSwiftUI text. \"System default\" follows what iOS gives the app, including its per-app language. The choice is one more\nsetting, stored on the phone only; settings saved before it existed load as system default.\n\nTests: language resolution, the locale, lookups in both languages, old and odd saved settings, every catalog entry having a\nJapanese translation with the same format specifiers (one key with unescaped percent signs was fixed), and a check that\nno code under App/ uses String(localized:) or NSLocalizedString, which would ignore the choice. Version 0.6.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-12T19:51:22Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/ef95144e451dd04a12a83002743279809dc803ce"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Bump sharp and wrangler in /collector (#1)\n\nBumps [sharp](https://github.com/lovell/sharp) to 0.35.5 and updates ancestor dependency [wrangler](https://github.com/cloudflare/workers-sdk/tree/HEAD/packages/wrangler). These dependencies need to be updated together.\n\n\nUpdates `sharp` from 0.35.4 to 0.35.5\n- [Release notes](https://github.com/lovell/sharp/releases)\n- [Commits](https://github.com/lovell/sharp/compare/v0.35.4...v0.35.5)\n\nUpdates `wrangler` from 4.147.0 to 4.149.0\n- [Release notes](https://github.com/cloudflare/workers-sdk/releases)\n- [Commits](https://github.com/cloudflare/workers-sdk/commits/wrangler@4.149.0/packages/wrangler)\n\n---\nupdated-dependencies:\n- dependency-name: sharp\n  dependency-version: 0.35.5\n  dependency-type: indirect\n- dependency-name: wrangler\n  dependency-version: 4.149.0\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "date": "2026-10-12T14:06:28Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/8f44b960eb36270efdad4a2ce39d1b6c7ff163bc"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-12T05:21:10Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/93ac0d10aa96cf16170bf50b60844514c6211b08"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Version 0.5.2: the first build that carries the licence texts\n\nThe 0.5.1 build has no Settings > Licences screen, so its binary would not come with the licence texts that BSD and\nApache require. 0.5.2 adds them (and the copyright holder's full name); the release .ipa is built from this version.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-11T23:06:33Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/dcb33c5409cd04c5ad7f313f2a21c1438a2f21d3"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Say how to install the unsigned release build\n\nThe release gets an unsigned .ipa with a checksum, to be signed with the reader's own Apple ID by a sideloading tool.\nThe README gives the check, the two tools, and the limits that are reported for a free Apple ID, labelled as reports\nand not as Apple's documentation. Building from source stays as the second way.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "date": "2026-10-11T23:06:20Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/06d0d33c03d34bc0d679c3589475aadfd1ce8a26"
+    },
+    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2402,13 +2456,6 @@
       "url": "https://github.com/kosuke-apps/Headway/commit/701fce745aacdb60ca185a6d7e8ebdfdbd12207b"
     },
     {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Name the copyright holder in full, in LICENSE and in the app's Info.plist\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-10T15:30:30Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/b28ada9eeaf5fabbcbb25861d8ee95ccde13ea81"
-    },
-    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2428,49 +2475,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-10-08T05:28:38Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/0e026c812a9233f40991d769694d1e0628bc6935"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-07T05:19:30Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e242eb024530c44b5f909ce650ee36743ef121a6"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Open the history behind a punctuality bar, fix the squeezed bus counts, and tidy the tiles, credits and favourite stops\n\nTouching a punctuality bar under \"Usually at this stop\" opens a screen with hour-by-hour charts for weekdays, Saturdays\nor Sundays (this stop or the whole route): the share of early, on-time and late arrivals, and the spread from the\ntimetable. The bus counts beside a route are coloured numbers (red, green, blue) instead of numbers in capsules, which\nwere squeezed on a real phone. The first and last stop of a route are purple and black (white on the dark map) so that\nthey differ from the lateness colours. The three tiles on the service board are equal squares across the full width.\nFavourite stops are solid dots instead of an orange ring. The map credits sit level with each other, lower and in from\nthe corners of a rounded screen. Version 0.5.1.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-07T02:14:14Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/09e353e19f37ea6116b1985010743c84c276811d"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Colour the buses of each route by lateness, mark buses that are not on a trip, ring first and last stops, and open the live bar\n\nLateness: the routes list, the route chooser and the chip over the map count the buses of a route, of each direction and of\neach destination, and colour them red (over 5 min late), green (on time) or blue (over 2 min early); routes with an alert\nget a triangle. A bus's sheet says how far it is from its timetable and what trip it runs next. The live bar over the map\nopens a card with the same for the whole network and a refresh button. Settings > Times is one choice: off, minutes, or\nminutes with the timetable's time; the last leads the stop board with the timetable's time and puts the live countdown\nunder it.\n\nBuses that are not on a trip (5 to 7 of about 125) are pale with an orange ring and \"!\", or show the route they will run\nnext and when, from the trip updates. A route in focus rings its first stop green and its last red, labelled D1/D2 where a\ndirection has several destinations.\n\nAlso: the service info summary is three square tiles with the number under the symbol, the map credits sit lower and in\nfrom the corners on phones with rounded screens, and feedanalysis gets `fleet` and `layover`. Version 0.5.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-06T21:13:08Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/57868774820e9218b9851dc37e741bed406c468d"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Make the launch five times faster, and add destination focus, back to list and scheduled times beside live ones\n\nLaunch: slides between lanes were cut into pieces of a few metres, so the saved map data held 90 000 line pieces and\n13 MB. Slides now go in steps of an eighth of a lane and one route, and every line is thinned to 1 m: 23 000 pieces and\n3 MB, and the saved data is read and drawn in 0.5 s instead of 2.5 s on a Mac.\n\nFocus: the chip over the map opens its choices from anywhere on it and lists the destinations of each direction (D1,\nD2, ...); one can be shown on its own (line, stops, buses). \"Show on map\" from the service info or the routes list leaves\na back button. A journey is drawn on the map only while its steps are open.\n\nTimes: a live bus keeps its timetable time (stop board, next stops, full timetable with +3 / -2 marks); a setting turns\nit off. Also: the routes list shows the bus count beside each name, the service info chips wrap and say which ones are\nbuttons, the status pill stays on one line, the map credits sit in from the screen corners, and the buses and route\nlines are smaller when zoomed out. Version 0.4.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-06T20:40:48Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/c38cd40b2d3e84074a6d02e17e836cacc19d320a"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Update the test count in the README\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-06T20:08:54Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/5ff29aa83f1a503b34474e0088d72598d6f45f0e"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Show each bus's direction as a letter and a white or black ring, and shrink markers and lines with zoom\n\nThe heading arrow is gone: it ignored the route focus and the feed's bearing changes at every turn. A bus now shows\nthe way its trip runs (\"E\", \"W\", \"N\", \"S\", \"In\", \"Out\") from the feed's trip_direction_name, and a white ring for\ndirection 1 or a black one for direction 0. Bus markers, route lines, lane gaps and journey lines are smaller on the\nwhole-city view and reach full size at zoom 15 and 16. Version 0.3.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-06T20:08:38Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/6b64301ba6f3276e8b3d66b6fe2f2d3d3b6ae338"
     }
   ],
-  "lastFetched": "2026-10-12T05:21:10.125Z"
+  "lastFetched": "2026-10-13T06:19:34.602Z"
 }
