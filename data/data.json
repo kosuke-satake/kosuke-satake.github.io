@@ -14,10 +14,10 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3652
+    "totalDiskUsage": 3656
   },
   "calendar": {
-    "totalContributions": 729,
+    "totalContributions": 736,
     "weeks": [
       {
         "contributionDays": [
@@ -2055,13 +2055,18 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 8,
+            "contributionCount": 10,
             "date": "2026-10-12",
+            "color": "#40c463"
+          },
+          {
+            "contributionCount": 5,
+            "date": "2026-10-13",
             "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
-            "date": "2026-10-13",
+            "date": "2026-10-14",
             "color": "#ebedf0"
           }
         ]
@@ -2113,8 +2118,8 @@
       "url": "https://github.com/kosuke-apps/Headway",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 2676,
-      "pushedAt": "2026-10-12T21:32:16Z",
+      "diskUsage": 2677,
+      "pushedAt": "2026-10-13T13:41:11Z",
       "language": "Swift",
       "languageColor": "#F05138",
       "topics": [
@@ -2185,8 +2190,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 142,
-      "pushedAt": "2026-10-12T05:21:11Z",
+      "diskUsage": 145,
+      "pushedAt": "2026-10-13T06:19:35Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2374,6 +2379,20 @@
     {
       "repoName": "Headway",
       "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Stop repeating test counts in AGENTS.md\n\nThe counts there (120 and 42) had gone stale. The README's Quality checks holds the counts (checked today: data layer 136,\napp 66, collector 9); AGENTS.md now points there.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-13T13:41:09Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/76c16c4b7dbd51e2270b947a051080d5f9bb11fd"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-13T06:19:34Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/6bc4c0b1ed7c6164e4d3091cee494d2713795592"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
       "message": "Say in the README that building with run_on_device.sh is the main way to install\n\nThe Installing section led with the unsigned .ipa from a release, but the way the author installs, and the one the project\nsupports first, is building from source with tools/run_on_device.sh. It now comes first with the steps, and the .ipa route is\nsecond, with a note that it has only been checked for its contents. docs/run-on-iphone.md no longer says \"already done on\nthis Mac\". Version 0.6.2.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
       "date": "2026-10-12T21:32:11Z",
       "url": "https://github.com/kosuke-apps/Headway/commit/d0c8b4c39ef68d6f3d3457c800d6d99e7328d2dc"
@@ -2449,13 +2468,6 @@
       "url": "https://github.com/kosuke-apps/Headway/commit/02065cf6da69c9abea0bb76ff92017a5826b7956"
     },
     {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Show the licence of everything the app contains, inside the app\n\nBSD and Apache licences require their text to come with a binary. Settings > Licences lists MapLibre Native,\nSwiftProtobuf, the GTFS Realtime definition, ZIPFoundation, Noto Sans and the Protomaps styles with their full\nlicence texts (bundled as App/Resources/Licenses/*.txt), the OpenStreetMap and City of Madison credits, and the\napp's own MIT licence. A test checks that every entry's text is in the app.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-10T15:30:30Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/701fce745aacdb60ca185a6d7e8ebdfdbd12207b"
-    },
-    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2468,14 +2480,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-10-09T05:32:33Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/32a434b7c65acea1692149cfda997cf9029bb351"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-08T05:28:38Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/0e026c812a9233f40991d769694d1e0628bc6935"
     }
   ],
-  "lastFetched": "2026-10-13T06:19:34.602Z"
+  "lastFetched": "2026-10-14T04:20:53.791Z"
 }
