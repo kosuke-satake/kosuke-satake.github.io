@@ -6,7 +6,7 @@
     "bio": "",
     "url": "https://github.com/kosuke-satake",
     "createdAt": "2025-11-26T05:56:12Z",
-    "followers": 1,
+    "followers": 2,
     "following": 0,
     "totalRepos": 12,
     "totalStars": 0,
@@ -17,7 +17,7 @@
     "totalDiskUsage": 3658
   },
   "calendar": {
-    "totalContributions": 738,
+    "totalContributions": 739,
     "weeks": [
       {
         "contributionDays": [
@@ -2075,8 +2075,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-10-16",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-10-17",
             "color": "#ebedf0"
           }
         ]
@@ -2201,7 +2206,7 @@
       "stars": 0,
       "forks": 0,
       "diskUsage": 147,
-      "pushedAt": "2026-10-15T04:03:08Z",
+      "pushedAt": "2026-10-16T03:59:45Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2390,6 +2395,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-16T03:59:44Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/fda642b3def5653a951d3a259b1e909d9db174ad"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-10-15T04:03:07Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ec9cd369b1a3b2645f0c9b0ed017df4c068602b7"
     },
@@ -2483,14 +2495,7 @@
       "message": "Stop tracking the private label file\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
       "date": "2026-10-10T15:30:30Z",
       "url": "https://github.com/kosuke-apps/Headway/commit/34030f3bf41a66d174cbbec94907870fb21badae"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Document third-party material, privacy and the use of AI\n\nTHIRD_PARTY.md lists what ships and what only builds or tests, with licences, and says that no copyleft or\nnon-commercial licence is used. PRIVACY.md says what stays on the phone and lists every network address in the code. The\nREADME gains permissions, installation, licence and the AI-assistance statement. data-sources.md notes the clause that\nmakes the city the owner of derived data, compared again with the feed's terms of use.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-10T15:30:30Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/02065cf6da69c9abea0bb76ff92017a5826b7956"
     }
   ],
-  "lastFetched": "2026-10-16T03:59:44.556Z"
+  "lastFetched": "2026-10-17T03:50:19.522Z"
 }
