@@ -14,50 +14,11 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3658
+    "totalDiskUsage": 3659
   },
   "calendar": {
-    "totalContributions": 739,
+    "totalContributions": 752,
     "weeks": [
-      {
-        "contributionDays": [
-          {
-            "contributionCount": 0,
-            "date": "2025-10-12",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-13",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-14",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-15",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-16",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-17",
-            "color": "#ebedf0"
-          },
-          {
-            "contributionCount": 0,
-            "date": "2025-10-18",
-            "color": "#ebedf0"
-          }
-        ]
-      },
       {
         "contributionDays": [
           {
@@ -2060,7 +2021,7 @@
             "color": "#40c463"
           },
           {
-            "contributionCount": 5,
+            "contributionCount": 7,
             "date": "2026-10-13",
             "color": "#9be9a8"
           },
@@ -2080,8 +2041,17 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 11,
             "date": "2026-10-17",
+            "color": "#40c463"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-10-18",
             "color": "#ebedf0"
           }
         ]
@@ -2205,8 +2175,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 147,
-      "pushedAt": "2026-10-16T03:59:45Z",
+      "diskUsage": 148,
+      "pushedAt": "2026-10-17T03:50:20Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2395,6 +2365,13 @@
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-17T03:50:19Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/8fe113e85b298e7fd3ddfb948e9e3d34ca457c32"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
       "date": "2026-10-16T03:59:44Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/fda642b3def5653a951d3a259b1e909d9db174ad"
     },
@@ -2488,14 +2465,7 @@
       "message": "Open a licence text from its row\n\nTapping a row in Settings > Licences left a blank page: a value-based link had no destination it could use, because the\nSettings sheet already reaches this screen through its own link. Each row now carries its own destination.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
       "date": "2026-10-10T15:46:04Z",
       "url": "https://github.com/kosuke-apps/Headway/commit/3d05a6bde57a8a0f055d1c5f642910589844b7fd"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Stop tracking the private label file\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-10T15:30:30Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/34030f3bf41a66d174cbbec94907870fb21badae"
     }
   ],
-  "lastFetched": "2026-10-17T03:50:19.522Z"
+  "lastFetched": "2026-10-18T03:56:44.061Z"
 }
