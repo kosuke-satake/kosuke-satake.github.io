@@ -14,10 +14,10 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3660
+    "totalDiskUsage": 3786
   },
   "calendar": {
-    "totalContributions": 753,
+    "totalContributions": 804,
     "weeks": [
       {
         "contributionDays": [
@@ -1982,9 +1982,9 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 8,
+            "contributionCount": 14,
             "date": "2026-10-06",
-            "color": "#9be9a8"
+            "color": "#40c463"
           },
           {
             "contributionCount": 7,
@@ -2002,7 +2002,7 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 22,
+            "contributionCount": 27,
             "date": "2026-10-10",
             "color": "#30a14e"
           }
@@ -2011,17 +2011,17 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 9,
+            "contributionCount": 15,
             "date": "2026-10-11",
-            "color": "#9be9a8"
+            "color": "#40c463"
           },
           {
-            "contributionCount": 10,
+            "contributionCount": 14,
             "date": "2026-10-12",
             "color": "#40c463"
           },
           {
-            "contributionCount": 7,
+            "contributionCount": 8,
             "date": "2026-10-13",
             "color": "#9be9a8"
           },
@@ -2041,22 +2041,27 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 11,
+            "contributionCount": 20,
             "date": "2026-10-17",
-            "color": "#40c463"
+            "color": "#30a14e"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 12,
             "date": "2026-10-18",
+            "color": "#40c463"
+          },
+          {
+            "contributionCount": 9,
+            "date": "2026-10-19",
             "color": "#9be9a8"
           },
           {
             "contributionCount": 0,
-            "date": "2026-10-19",
+            "date": "2026-10-20",
             "color": "#ebedf0"
           }
         ]
@@ -2108,8 +2113,8 @@
       "url": "https://github.com/kosuke-apps/Headway",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 2677,
-      "pushedAt": "2026-10-13T13:41:11Z",
+      "diskUsage": 2813,
+      "pushedAt": "2026-10-19T14:56:47Z",
       "language": "Swift",
       "languageColor": "#F05138",
       "topics": [
@@ -2180,8 +2185,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 149,
-      "pushedAt": "2026-10-18T03:56:45Z",
+      "diskUsage": 139,
+      "pushedAt": "2026-10-19T04:05:39Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2367,6 +2372,69 @@
   ],
   "activity": [
     {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Keep PRIVACY.md and AGENTS.md in line with the data settings\n\nThe timetable's Wi-Fi-only rule is its own setting now (Settings > Mobile data), not part of \"Save mobile data\". The\nprivacy table also says how often each live feed is asked for.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T14:56:41Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/361c3908fbebee6b8e655526792619ac7b2abe4a"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Add a mobile-data screen, a data meter, and stop re-fetching positions whenever a sheet opens\n\nSettings > Live buses > the icon beside \"Save mobile data\" opens a screen with the data choices and the explanation that\nmade the old footer too long: how often arrival predictions are fetched on Wi-Fi and on mobile data (automatic, 30 s, 1,\n2, 5 minutes, manual), the timetable on Wi-Fi only, and a meter of what the app has downloaded by kind and connection,\nwith a reset. Bus positions are shown as always live and are not on the list of things that can be slowed.\n\nThe vehicle poll lost its place in the cycle every time a sheet opened or the mode changed: it asked at once, usually got\nthe same feed, and then retried every two seconds for up to eight more 7 KB requests. It now keeps its schedule in the\nmodel and carries on with it; only the foreground, the first start and \"refresh now\" ask at once. Opening a stop, a bus or\na list fetches fresh predictions by itself (older than 30 s), so the poll no longer has to be restarted for that.\n\nThe stop board's rows no longer show a chevron (it pushed the times out of line); \"no position yet\" already says that a\nrow has nothing to open.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T14:13:17Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/8d9941feef3bd7050db1137ed579dc0536e9c472"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Make \"Later departures\" keep working, and keep slow downloads from holding up the positions\n\n\"Later departures\" showed more only once: the board listed at most 40 departures whatever the window, so at a busy stop the\nsecond tap added nothing. The limit now grows with the window. \"Back to now\" also scrolls to the top of the list, and\nshows next to \"Later departures\" as well, since it was only offered while earlier departures were open.\n\nThe vehicle poll awaited the alerts and the trip predictions (160 KB) before sleeping until the next beat, so a slow\nconnection delayed the next positions by as long as the predictions took. They now run beside the poll, one at a time.\nLive positions are not throttled by any setting except the rider's own \"Refresh\".\n\nA \"poll\" log category records how old each new vehicle feed was when it arrived and how many requests it took.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T13:57:15Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/fe5c46bbb3560a7bd5ec93f5eb4ac6e584b8eebe"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Fetch less data, and let the stop board look back and forward\n\nData: measured with nettop, a stop open cost about 22 MB an hour, because the 160 KB trip updates were fetched with every\n30 s beat of the vehicle feed (the \"at most once a minute\" in the notes was not in the code). They are now fetched at most\nevery minute (stop, bus, planner, watched route) or two minutes (a focus, a list, the service board), doubled on mobile\ndata and quadrupled in Low Data Mode while the new \"Save mobile data\" setting is on, and the 7 MB timetable then waits for\nWi-Fi unless the phone's copy is past its end date. The vehicle poll learns how long after its stamp the city publishes a\nfeed (PublishLag) instead of asking 1.5 s after and retrying every 2 s; positions and alerts went from 34 to 16 KB a\nminute. A stop open now costs about 7 MB an hour.\n\nStop board: \"Earlier departures\" (an hour at a time, dimmed, with a \"Now\" line), \"Later departures\" and pull-down to go\nback to now and refresh. A trip nobody has seen a bus on stays among what is coming for 20 minutes (it was 10) and then\nmoves to the earlier departures instead of disappearing; a bus that turns up makes it live again.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T12:52:28Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/a89313e989cfe02bb7d818057b2f63ba7dd67459"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Say where the launchd jobs must live and how to check them after a restart\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T04:12:24Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/9ebcdb172cc2f4745306d96b9a2da42c7548eef7"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-19T04:05:39Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/9a9e5f41c10d40729c010129d782f3d305684385"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Keep a trip nobody has seen a bus on for ten minutes, marked \"No bus seen yet\"\n\nA bus has no position until it starts its trip, so a late bus looked as if it had vanished: the trip dropped off a\nstop's board the moment its timetable time passed. A trip with no bus (and not cancelled in the trip updates) now stays\nfor ten minutes, with \"No bus seen yet\" and how long ago it was due. Ten minutes covers the trips that start late in the\nrecordings (7% start more than 5 minutes late, 1% more than 10), and a trip that never runs does not linger. The\nfavourites summary on the service board leaves such trips out.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T03:58:37Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/793e7f8af1ac2f96894401f41d45ee689f130bdb"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Pull snapshots in parallel and retry hiccups; say that launchd jobs must live in ~/Library/LaunchAgents\n\nA catch-up after the Mac had been away pulled one snapshot at a time (about an hour per 3,000) and stopped at the first\nfailed name lookup. Eight requests now run at a time and a dropped connection is retried before giving up.\n\nThe README told readers to load the pull job straight from data/launchd/, which is forgotten at the next restart: the\njob stopped after the restart of 2026-10-08, and the collector keeps only 6 days, so four days of recordings were lost.\nIt now says to copy the plist into ~/Library/LaunchAgents first. (It also said two weeks where the collector keeps six\ndays.)\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T03:58:28Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/5aeedc803771f8f6ec6b87b497bcdda381c2ffdf"
+    },
+    {
+      "repoName": "Headway",
+      "repoUrl": "https://github.com/kosuke-apps/Headway",
+      "message": "Open a bus on its own destination, keep put-away sheets in a dock, mark estimated positions\n\n- Opening a bus shows the line of its own trip (D2 to Epic Campus or to Verona, not both), and replaces the line another\n  bus put on the map, so a bus opened from a stop's board is never hidden by the previous bus's focus.\n- Swiping a stop or bus sheet down (or opening the menu) puts it into a dock at the bottom right of the map instead of\n  losing it: one chip per bus, stop and journey, stacked; a tap brings the sheet back, the cross lets go of it. The map\n  keeps the docked stop or bus marked. This replaces the journey bar.\n- A bus drawn ahead of its last report (dead reckoning) has a dashed ring, so an estimate is not mistaken for a fix.\n- Rows of a stop's board that can be opened show a chevron; a trip with no bus position says so.\n- The live status card and Settings say how often buses report, from a measurement: every bus about every 30 s, 68% of\n  single intervals within 25 to 35 s, 4% over 50 s.\n- feedanalysis: per-bus report intervals, `early` and `notstarted` commands; findings in docs/data-sources.md.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-19T03:30:38Z",
+      "url": "https://github.com/kosuke-apps/Headway/commit/01af9742a2fda2e4154b8fe18149696eab9f6d83"
+    },
+    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore(data): auto-update github metrics",
@@ -2407,70 +2475,7 @@
       "message": "Stop repeating test counts in AGENTS.md\n\nThe counts there (120 and 42) had gone stale. The README's Quality checks holds the counts (checked today: data layer 136,\napp 66, collector 9); AGENTS.md now points there.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
       "date": "2026-10-13T13:41:09Z",
       "url": "https://github.com/kosuke-apps/Headway/commit/76c16c4b7dbd51e2270b947a051080d5f9bb11fd"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-13T06:19:34Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/6bc4c0b1ed7c6164e4d3091cee494d2713795592"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Say in the README that building with run_on_device.sh is the main way to install\n\nThe Installing section led with the unsigned .ipa from a release, but the way the author installs, and the one the project\nsupports first, is building from source with tools/run_on_device.sh. It now comes first with the steps, and the .ipa route is\nsecond, with a note that it has only been checked for its contents. docs/run-on-iphone.md no longer says \"already done on\nthis Mac\". Version 0.6.2.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-12T21:32:11Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/d0c8b4c39ef68d6f3d3457c800d6d99e7328d2dc"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Move Language under Behavior and write the Japanese with full-width commas and periods\n\nThe language choice sits in the Behavior section, next to the link to iOS Settings for language and location, instead\nof at the top of Settings. The Japanese text of the app (the catalog and the permission message) uses the full-width\ncomma and period, as the author writes Japanese; a test keeps the other forms out. Version 0.6.1.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-12T21:11:48Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/abacabcd8462e48db5b9ffdea134728d2b4d42eb"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Choose the app's language in Settings: system default, English or Japanese\n\nSettings > Language switches the whole app at once, without a restart. LanguageState holds the chosen language, its\nlocale (the language with the phone's region, so units and 12/24 hours keep following the phone) and its translation\nbundle; every string built in code goes through L10n.string, and the root view puts the locale into the environment for\nSwiftUI text. \"System default\" follows what iOS gives the app, including its per-app language. The choice is one more\nsetting, stored on the phone only; settings saved before it existed load as system default.\n\nTests: language resolution, the locale, lookups in both languages, old and odd saved settings, every catalog entry having a\nJapanese translation with the same format specifiers (one key with unescaped percent signs was fixed), and a check that\nno code under App/ uses String(localized:) or NSLocalizedString, which would ignore the choice. Version 0.6.0.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-12T19:51:22Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/ef95144e451dd04a12a83002743279809dc803ce"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Bump sharp and wrangler in /collector (#1)\n\nBumps [sharp](https://github.com/lovell/sharp) to 0.35.5 and updates ancestor dependency [wrangler](https://github.com/cloudflare/workers-sdk/tree/HEAD/packages/wrangler). These dependencies need to be updated together.\n\n\nUpdates `sharp` from 0.35.4 to 0.35.5\n- [Release notes](https://github.com/lovell/sharp/releases)\n- [Commits](https://github.com/lovell/sharp/compare/v0.35.4...v0.35.5)\n\nUpdates `wrangler` from 4.147.0 to 4.149.0\n- [Release notes](https://github.com/cloudflare/workers-sdk/releases)\n- [Commits](https://github.com/cloudflare/workers-sdk/commits/wrangler@4.149.0/packages/wrangler)\n\n---\nupdated-dependencies:\n- dependency-name: sharp\n  dependency-version: 0.35.5\n  dependency-type: indirect\n- dependency-name: wrangler\n  dependency-version: 4.149.0\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-      "date": "2026-10-12T14:06:28Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/8f44b960eb36270efdad4a2ce39d1b6c7ff163bc"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-12T05:21:10Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/93ac0d10aa96cf16170bf50b60844514c6211b08"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Version 0.5.2: the first build that carries the licence texts\n\nThe 0.5.1 build has no Settings > Licences screen, so its binary would not come with the licence texts that BSD and\nApache require. 0.5.2 adds them (and the copyright holder's full name); the release .ipa is built from this version.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-11T23:06:33Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/dcb33c5409cd04c5ad7f313f2a21c1438a2f21d3"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Say how to install the unsigned release build\n\nThe release gets an unsigned .ipa with a checksum, to be signed with the reader's own Apple ID by a sideloading tool.\nThe README gives the check, the two tools, and the limits that are reported for a free Apple ID, labelled as reports\nand not as Apple's documentation. Building from source stays as the second way.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "date": "2026-10-11T23:06:20Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/06d0d33c03d34bc0d679c3589475aadfd1ce8a26"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore(data): auto-update github metrics",
-      "date": "2026-10-11T05:07:22Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ff9e76e0c40e5555830c6d60151f922c20938458"
     }
   ],
-  "lastFetched": "2026-10-19T04:05:39.020Z"
+  "lastFetched": "2026-10-20T04:18:23.457Z"
 }
