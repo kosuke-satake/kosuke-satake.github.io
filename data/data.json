@@ -6,7 +6,7 @@
     "bio": "",
     "url": "https://github.com/kosuke-satake",
     "createdAt": "2025-11-26T05:56:12Z",
-    "followers": 2,
+    "followers": 3,
     "following": 0,
     "totalRepos": 12,
     "totalStars": 0,
@@ -14,10 +14,10 @@
     "totalPRs": 6,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 3786
+    "totalDiskUsage": 3790
   },
   "calendar": {
-    "totalContributions": 804,
+    "totalContributions": 805,
     "weeks": [
       {
         "contributionDays": [
@@ -2060,8 +2060,13 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 0,
+            "contributionCount": 1,
             "date": "2026-10-20",
+            "color": "#9be9a8"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-10-21",
             "color": "#ebedf0"
           }
         ]
@@ -2185,8 +2190,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 139,
-      "pushedAt": "2026-10-19T04:05:39Z",
+      "diskUsage": 143,
+      "pushedAt": "2026-10-20T04:18:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": []
@@ -2372,6 +2377,13 @@
   ],
   "activity": [
     {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(data): auto-update github metrics",
+      "date": "2026-10-20T04:18:23Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/18d69ee35e5715cdfe6215d1123f56e0dec1b873"
+    },
+    {
       "repoName": "Headway",
       "repoUrl": "https://github.com/kosuke-apps/Headway",
       "message": "Keep PRIVACY.md and AGENTS.md in line with the data settings\n\nThe timetable's Wi-Fi-only rule is its own setting now (Settings > Mobile data), not part of \"Save mobile data\". The\nprivacy table also says how often each live feed is asked for.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
@@ -2468,14 +2480,7 @@
       "message": "chore(data): auto-update github metrics",
       "date": "2026-10-14T04:20:53Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/ba8c55167999d50571ad79c947cdeb92b84c11d1"
-    },
-    {
-      "repoName": "Headway",
-      "repoUrl": "https://github.com/kosuke-apps/Headway",
-      "message": "Stop repeating test counts in AGENTS.md\n\nThe counts there (120 and 42) had gone stale. The README's Quality checks holds the counts (checked today: data layer 136,\napp 66, collector 9); AGENTS.md now points there.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-13T13:41:09Z",
-      "url": "https://github.com/kosuke-apps/Headway/commit/76c16c4b7dbd51e2270b947a051080d5f9bb11fd"
     }
   ],
-  "lastFetched": "2026-10-20T04:18:23.457Z"
+  "lastFetched": "2026-10-21T04:07:13.047Z"
 }
