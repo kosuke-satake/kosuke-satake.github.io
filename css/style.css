@@ -349,6 +349,13 @@ body {
   gap: 0.4rem;
 }
 
+.lang-color {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: var(--muted-color);
+}
+
 .repo-topics {
   display: flex;
   flex-wrap: wrap;
@@ -394,6 +401,19 @@ body {
   font-size: 0.8rem;
   color: var(--muted-color);
   margin-top: auto;
+}
+
+.empty-state {
+  color: var(--muted-color);
+  font-size: 0.9rem;
+}
+
+.load-error {
+  padding: 1rem 1.2rem;
+  border: 1px solid #f85149;
+  border-radius: 10px;
+  background-color: rgba(248, 81, 73, 0.1);
+  color: #ffa198;
 }
 
 footer {

@@ -28,7 +28,7 @@
           <p id="total-stars">-- stars</p>
           <p id="joined-date">Joined --</p>
         </div>
-        <a id="github-link" href="#" target="_blank" class="github-link" style="display: none;">View Profile</a>
+        <a id="github-link" href="#" target="_blank" rel="noopener noreferrer" class="github-link" style="display: none;">View Profile</a>
       </header>
 
       <section class="sidebar-section">
@@ -43,6 +43,10 @@
     </aside>
 
     <main class="main-content">
+      <p id="load-error" class="load-error" role="alert" hidden>
+        The dashboard data could not be loaded. Please try again later.
+      </p>
+
       <section class="content-section">
         <div class="section-header">
           <h2>Account Insights</h2>
