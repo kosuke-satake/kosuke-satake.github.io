@@ -8,6 +8,13 @@
   --accent-hover: #1f6feb;
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --sidebar-width: 320px;
+
+  /* Contribution levels, from none to most (GitHub's dark palette) */
+  --level-0: #21262d;
+  --level-1: #0e4429;
+  --level-2: #006d32;
+  --level-3: #26a641;
+  --level-4: #39d353;
 }
 
 * {
@@ -259,8 +266,13 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 2px;
-  background-color: #21262d; /* Improved visibility for empty days */
 }
+
+.level-0 { background-color: var(--level-0); }
+.level-1 { background-color: var(--level-1); }
+.level-2 { background-color: var(--level-2); }
+.level-3 { background-color: var(--level-3); }
+.level-4 { background-color: var(--level-4); }
 
 .calendar-footer {
   display: flex;

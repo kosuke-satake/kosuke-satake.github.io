@@ -129,6 +129,21 @@ function renderBarChart(containerId, items, labelFn, valueFn, total) {
   });
 }
 
+// GitHub's API reports each day's level as a color from its light palette.
+// Map those to levels so the calendar can be drawn with the dark palette.
+const LEVEL_BY_API_COLOR = {
+  '#ebedf0': 0,
+  '#9be9a8': 1,
+  '#40c463': 2,
+  '#30a14e': 3,
+  '#216e39': 4,
+};
+
+function contributionLevel(day) {
+  if (day.contributionCount === 0) return 0;
+  return LEVEL_BY_API_COLOR[String(day.color).toLowerCase()] ?? 1;
+}
+
 function renderCalendar(calendar) {
   if (!calendar) return;
 
@@ -142,15 +157,15 @@ function renderCalendar(calendar) {
     
     week.contributionDays.forEach(day => {
       const dayEl = document.createElement('div');
-      dayEl.className = 'calendar-day';
-      
-      // Override empty days to dark gray
-      const color = (day.contributionCount === 0 || day.color === '#ebedf0') ? '#161b22' : day.color;
-      dayEl.style.backgroundColor = color;
+      dayEl.className = `calendar-day level-${contributionLevel(day)}`;
       dayEl.title = `${day.contributionCount} contributions on ${day.date}`;
       weekEl.appendChild(dayEl);
     });
     
     container.appendChild(weekEl);
   });
+
+  // On narrow screens the calendar scrolls inside its box: show the latest weeks first.
+  const wrapper = container.closest('.calendar-wrapper');
+  if (wrapper) wrapper.scrollLeft = wrapper.scrollWidth;
 }
