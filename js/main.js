@@ -112,10 +112,13 @@ function renderDashboard(data) {
     renderEmpty(activityContainer, 'No recent commits.');
   }
 
-  // All Repositories
+  // All Repositories: most starred first, then most recently pushed
   const reposContainer = document.getElementById('repos-container');
   if (repositories.length > 0) {
-    reposContainer.append(...repositories.map(createRepoCard));
+    const ordered = [...repositories].sort(
+      (a, b) => b.stars - a.stars || new Date(b.pushedAt) - new Date(a.pushedAt),
+    );
+    reposContainer.append(...ordered.map(createRepoCard));
   } else {
     renderEmpty(reposContainer, 'No public repositories yet.');
   }
