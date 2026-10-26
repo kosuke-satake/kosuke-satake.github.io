@@ -26,7 +26,7 @@ body {
 
 .app-layout {
   display: grid;
-  grid-template-columns: var(--sidebar-width) 1fr;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
   gap: 2.5rem;
   max-width: 1400px;
   margin: 0 auto;
@@ -38,6 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  min-width: 0;
 }
 
 .profile-card {
@@ -176,6 +177,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  min-width: 0;
 }
 
 .content-section {
@@ -284,7 +286,7 @@ body {
 /* Repos Grid */
 .repos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
   gap: 1.5rem;
 }
 
@@ -305,6 +307,7 @@ body {
 }
 
 .repo-card h3 a {
+  overflow-wrap: anywhere;
   color: var(--accent-color);
   text-decoration: none;
   font-size: 1.2rem;
@@ -351,7 +354,7 @@ body {
 /* Activity Timeline Horizontal */
 .activity-timeline-horizontal {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
   gap: 1.5rem;
 }
 
@@ -408,13 +411,26 @@ a:hover {
 
 @media (max-width: 900px) {
   .app-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     padding: 1.5rem;
   }
   .sidebar {
     position: static;
   }
   .insights-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .app-layout {
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .repo-card {
+    padding: 1.25rem;
+  }
+  .calendar-wrapper {
+    padding: 1rem;
   }
 }
