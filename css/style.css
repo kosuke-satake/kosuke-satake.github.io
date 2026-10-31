@@ -315,15 +315,31 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 10px;
   padding: 1.8rem;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
 }
 
-.repo-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--accent-color);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+/* Hover effects only where hovering exists; on touch screens they stick after a tap. */
+@media (hover: hover) {
+  .repo-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .repo-card:hover {
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .repo-card,
+  .chart-bar-fill,
+  .github-link {
+    transition: none;
+  }
 }
 
 .repo-card h3 a {
