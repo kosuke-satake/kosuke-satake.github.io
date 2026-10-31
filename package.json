@@ -1,16 +1,18 @@
 {
   "name": "kosuke-satake.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "GitHub activity dashboard, rebuilt and deployed daily by GitHub Actions",
+  "private": true,
+  "type": "module",
   "scripts": {
     "fetch-data": "node scripts/fetch-github-data.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "node --check js/main.js && node --check scripts/fetch-github-data.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
+  "author": "Kosuke Satake",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "dotenv": "^17.4.2"
   }
