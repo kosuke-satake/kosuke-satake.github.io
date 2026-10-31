@@ -215,7 +215,7 @@ body {
   color: var(--text-color);
 }
 
-/* Insights Grid - 2x4 Layout */
+/* Insights Grid */
 .insights-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -482,9 +482,6 @@ a:focus-visible {
   .app-layout {
     grid-template-columns: minmax(0, 1fr);
     padding: 1.5rem;
-  }
-  .sidebar {
-    position: static;
   }
   .insights-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
