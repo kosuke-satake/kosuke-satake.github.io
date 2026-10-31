@@ -37,6 +37,9 @@ jobs:
       - name: Check Scripts
         run: npm run check
 
+      - name: Run Tests
+        run: npm test
+
       - name: Fetch GitHub Data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

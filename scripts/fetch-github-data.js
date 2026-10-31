@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 // Load environment variables for local development
 try {
@@ -10,14 +10,7 @@ try {
   // Ignore missing dotenv in production/GitHub Actions
 }
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-
-if (!GITHUB_TOKEN) {
-  console.error('Error: GITHUB_TOKEN environment variable is not set.');
-  process.exit(1);
-}
-
-const GRAPHQL_QUERY = `
+export const GRAPHQL_QUERY = `
   query($username: String!) {
     user(login: $username) {
       login
@@ -106,6 +99,9 @@ const GRAPHQL_QUERY = `
                     message
                     committedDate
                     url
+                    author {
+                      name
+                    }
                   }
                 }
               }
@@ -117,7 +113,19 @@ const GRAPHQL_QUERY = `
   }
 `;
 
+// Commits made by GitHub Actions or other bots are not the owner's activity.
+export function isAutomatedCommit(commit) {
+  return /\[bot\]$/.test(commit.author?.name ?? '');
+}
+
 async function fetchGitHubData() {
+  const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+
+  if (!GITHUB_TOKEN) {
+    console.error('Error: GITHUB_TOKEN environment variable is not set.');
+    process.exit(1);
+  }
+
   console.log('Fetching GitHub data...');
   const response = await fetch('https://api.github.com/graphql', {
     method: 'POST',
@@ -153,7 +161,7 @@ async function fetchGitHubData() {
   const repos = user.repositories.nodes.map(repo => {
     // Extract commits if they exist
     const repoCommits = repo.defaultBranchRef?.target?.history?.nodes || [];
-    repoCommits.forEach(commit => {
+    repoCommits.filter(commit => !isAutomatedCommit(commit)).forEach(commit => {
       allCommits.push({
         repoName: repo.name,
         repoUrl: repo.url,
@@ -260,7 +268,10 @@ async function fetchGitHubData() {
   console.log('Successfully fetched and saved GitHub data to data/data.json.');
 }
 
-fetchGitHubData().catch(err => {
-  console.error('Unexpected error:', err);
-  process.exit(1);
-});
+// Run only when executed as a script, so that tests can import the helpers above.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  fetchGitHubData().catch(err => {
+    console.error('Unexpected error:', err);
+    process.exit(1);
+  });
+}
