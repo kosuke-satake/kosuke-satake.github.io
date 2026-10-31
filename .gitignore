@@ -4,3 +4,6 @@ node_modules/
 
 # Workspace label: holds private notes, never published
 .label.toml
+
+# Generated: the assembled site that is uploaded to GitHub Pages
+_site/

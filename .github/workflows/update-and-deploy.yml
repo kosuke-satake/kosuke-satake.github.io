@@ -8,39 +8,54 @@ on:
     branches:
       - main # Run when pushing to main
 
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  fetch-and-update:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      pages: write
-      id-token: write
-
+      contents: write # to commit the refreshed data file
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: npm
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Fetch GitHub Data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run fetch-data
 
-      - name: Commit data.json if changed
+      # Commit as the Actions bot, never as the repository owner. A commit only counts toward the owner's
+      # contribution graph when its author email is linked to the owner's account.
+      - name: Commit refreshed data as github-actions[bot]
+        if: github.ref == 'refs/heads/main'
         run: |
-          git config --local user.email "246223926+kosuke-satake@users.noreply.github.com"
-          git config --local user.name "kosuke"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update github metrics" && git push)
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): refresh github metrics"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Assemble Site
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -48,8 +63,18 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: _site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
