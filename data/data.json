@@ -1,0 +1,2548 @@
+{
+  "profile": {
+    "username": "kosuke-satake",
+    "name": "kosuke",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/246223926?u=841fdc4ab18622fdf042a519b454086682167784&v=4",
+    "bio": "",
+    "url": "https://github.com/kosuke-satake",
+    "createdAt": "2025-11-26T05:56:12Z",
+    "followers": 4,
+    "following": 0,
+    "totalRepos": 12,
+    "totalStars": 0,
+    "totalForks": 0,
+    "totalPRs": 6,
+    "totalIssues": 0,
+    "totalStarred": 0,
+    "totalDiskUsage": 1016
+  },
+  "calendar": {
+    "totalContributions": 934,
+    "weeks": [
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-10-26",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-10-27",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-10-28",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-10-29",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-10-30",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-10-31",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-01",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-11-02",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-03",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-04",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-05",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-06",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-07",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-08",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-11-09",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-10",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-11",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-12",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-13",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-14",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-15",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-11-16",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-17",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-18",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-19",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-20",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-21",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-22",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-11-23",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-24",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-25",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2025-11-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-27",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-11-28",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2025-11-29",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-11-30",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-01",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-02",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-03",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-04",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-05",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-06",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-12-07",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-08",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-09",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-10",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2025-12-11",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2025-12-12",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-13",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-12-14",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-15",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-16",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-17",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2025-12-18",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 2,
+            "date": "2025-12-19",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-20",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-12-21",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-22",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-23",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 2,
+            "date": "2025-12-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-25",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-26",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-27",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2025-12-28",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-29",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-30",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2025-12-31",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-01",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-02",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-03",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-01-04",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-05",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-06",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-07",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-08",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-09",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-10",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-01-11",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-12",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-13",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-14",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-15",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-16",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 11,
+            "date": "2026-01-17",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-01-18",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-19",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-20",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-21",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-22",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 11,
+            "date": "2026-01-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-24",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-01-25",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-26",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-27",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-28",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-29",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 7,
+            "date": "2026-01-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-01-31",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-02-01",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-02",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-03",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 10,
+            "date": "2026-02-04",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 5,
+            "date": "2026-02-05",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-06",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-07",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-02-08",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-09",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-10",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-11",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-12",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-13",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-14",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-02-15",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-16",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-17",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-18",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-19",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-20",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-21",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-02-22",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-23",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-24",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-25",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-26",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-27",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-02-28",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-03-01",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-02",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-03",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-04",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-05",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-06",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-07",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-03-08",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-09",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-10",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-11",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-12",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-13",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-14",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-03-15",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-16",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-17",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-18",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-19",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-20",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-21",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-03-22",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-23",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-24",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-25",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-26",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-27",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-28",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 0,
+            "date": "2026-03-29",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 2,
+            "date": "2026-03-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-03-31",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-04-01",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-02",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-03",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 25,
+            "date": "2026-04-04",
+            "color": "#fe9600"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 18,
+            "date": "2026-04-05",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 9,
+            "date": "2026-04-06",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 5,
+            "date": "2026-04-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-08",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 34,
+            "date": "2026-04-09",
+            "color": "#03001c"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-04-10",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-11",
+            "color": "#ebedf0"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 7,
+            "date": "2026-04-12",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-04-13",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 0,
+            "date": "2026-04-14",
+            "color": "#ebedf0"
+          },
+          {
+            "contributionCount": 5,
+            "date": "2026-04-15",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 39,
+            "date": "2026-04-16",
+            "color": "#03001c"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-17",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-18",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-04-19",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-20",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2026-04-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-22",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 9,
+            "date": "2026-04-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 8,
+            "date": "2026-04-25",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-04-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2026-04-27",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 2,
+            "date": "2026-04-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-04-29",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 2,
+            "date": "2026-04-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-01",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-02",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 2,
+            "date": "2026-05-03",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 16,
+            "date": "2026-05-04",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 18,
+            "date": "2026-05-05",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-06",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-08",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-09",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-05-10",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-11",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-12",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 3,
+            "date": "2026-05-13",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-14",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-15",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-16",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-05-17",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-18",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-19",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-20",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-22",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-23",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-05-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-25",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-27",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 3,
+            "date": "2026-05-29",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-05-30",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-05-31",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-01",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-02",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-03",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-04",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 8,
+            "date": "2026-06-05",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-06",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-06-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-08",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-09",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-10",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-11",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-12",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-13",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-06-14",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-15",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-16",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-17",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-18",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-19",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-20",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-06-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-22",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-25",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-27",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-06-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-29",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-06-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-01",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-02",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-03",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-04",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-07-05",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-06",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-08",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-09",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-10",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-07-11",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 9,
+            "date": "2026-07-12",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 2,
+            "date": "2026-07-13",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-14",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-15",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-16",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-17",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-18",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-07-19",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2026-07-20",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-22",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-25",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 2,
+            "date": "2026-07-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-27",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-29",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-07-31",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-01",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-08-02",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-03",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-04",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-05",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-06",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-08-08",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 6,
+            "date": "2026-08-09",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-10",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-11",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-12",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-13",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-14",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-15",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-08-16",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-17",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-18",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-19",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-20",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-22",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-08-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-25",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-27",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-29",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 1,
+            "date": "2026-08-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-08-31",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-01",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-02",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-03",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-04",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-05",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 4,
+            "date": "2026-09-06",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-08",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-09",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2026-09-10",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 7,
+            "date": "2026-09-11",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 3,
+            "date": "2026-09-12",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 37,
+            "date": "2026-09-13",
+            "color": "#03001c"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-14",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-15",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-16",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-17",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 7,
+            "date": "2026-09-18",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 16,
+            "date": "2026-09-19",
+            "color": "#ffc501"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 24,
+            "date": "2026-09-20",
+            "color": "#fe9600"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-22",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 9,
+            "date": "2026-09-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-09-24",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 6,
+            "date": "2026-09-25",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 5,
+            "date": "2026-09-26",
+            "color": "#ffee4a"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 37,
+            "date": "2026-09-27",
+            "color": "#03001c"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-29",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-09-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-01",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-02",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 16,
+            "date": "2026-10-03",
+            "color": "#ffc501"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 16,
+            "date": "2026-10-04",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-05",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 14,
+            "date": "2026-10-06",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 7,
+            "date": "2026-10-07",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-08",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-09",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 27,
+            "date": "2026-10-10",
+            "color": "#fe9600"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 15,
+            "date": "2026-10-11",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 14,
+            "date": "2026-10-12",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 8,
+            "date": "2026-10-13",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-14",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-15",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-16",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 21,
+            "date": "2026-10-17",
+            "color": "#ffc501"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 44,
+            "date": "2026-10-18",
+            "color": "#03001c"
+          },
+          {
+            "contributionCount": 15,
+            "date": "2026-10-19",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-20",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-21",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-22",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-23",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 35,
+            "date": "2026-10-24",
+            "color": "#03001c"
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "contributionCount": 20,
+            "date": "2026-10-25",
+            "color": "#ffc501"
+          },
+          {
+            "contributionCount": 4,
+            "date": "2026-10-26",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-27",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-28",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-29",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 1,
+            "date": "2026-10-30",
+            "color": "#ffee4a"
+          },
+          {
+            "contributionCount": 16,
+            "date": "2026-10-31",
+            "color": "#ffc501"
+          }
+        ]
+      }
+    ]
+  },
+  "pinnedRepositories": [
+    {
+      "name": "scholar-static",
+      "description": "A lightning-fast, ultra-lightweight academic portfolio template powered by raw HTML/JS/CSS and a fully functional Keystatic CMS. Zero backend required.",
+      "url": "https://github.com/kosuke-satake/scholar-static",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 264,
+      "pushedAt": "2026-04-04T09:14:47Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": [
+        "academic-portfolio",
+        "astro",
+        "cms",
+        "keystatic",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "keyastro",
+      "description": "A lightning-fast, multilingual website template powered by Astro, Tailwind CSS, and Keystatic CMS. Zero backend required.",
+      "url": "https://github.com/kosuke-satake/keyastro",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 220,
+      "pushedAt": "2026-04-07T01:30:07Z",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "topics": [
+        "astro",
+        "cms",
+        "i18n",
+        "keystatic",
+        "mulitilingual"
+      ]
+    },
+    {
+      "name": "Kitbag",
+      "description": "One iPhone app that holds a student's everyday tools (timetable, GPA, calendar, notes, weather) and runs Headway and Mantissa inside itself.",
+      "url": "https://github.com/kosuke-apps/Kitbag",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 3609,
+      "pushedAt": "2026-10-31T15:35:10Z",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "topics": [
+        "calendar",
+        "gpa",
+        "ios",
+        "sideloading",
+        "swift"
+      ]
+    },
+    {
+      "name": "Headway",
+      "description": "Live Madison, WI bus map for iPhone: offline map with every route and stop, live buses, trip planner with transfers, and punctuality measured from its own recordings.",
+      "url": "https://github.com/kosuke-apps/Headway",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 4061,
+      "pushedAt": "2026-10-26T13:44:35Z",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "topics": [
+        "cloudflare-workers",
+        "gtfs",
+        "gtfs-realtime",
+        "ios",
+        "madison"
+      ]
+    },
+    {
+      "name": "Mantissa",
+      "description": "Offline scientific and graphing calculator for iPhone: exact answers, equations, calculus and graphs. No ads, no accounts, no network.",
+      "url": "https://github.com/kosuke-apps/Mantissa",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 3715,
+      "pushedAt": "2026-10-26T12:40:37Z",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "topics": [
+        "calculator",
+        "ios",
+        "offline",
+        "swift",
+        "swiftui"
+      ]
+    },
+    {
+      "name": "NotchShelf",
+      "description": "Opens the menu bar items hidden behind the MacBook notch, from the notch itself.",
+      "url": "https://github.com/kosuke-apps/NotchShelf",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 139,
+      "pushedAt": "2026-10-12T13:53:21Z",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "topics": [
+        "appkit",
+        "macos",
+        "swift"
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "name": "VLN_B2",
+      "description": null,
+      "url": "https://github.com/DARC-UW-Madison/VLN_B2",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 0,
+      "pushedAt": "2026-10-27T20:45:10Z",
+      "language": null,
+      "languageColor": null,
+      "topics": []
+    },
+    {
+      "name": "esp32-ros2-rover",
+      "description": "A low-cost ROS 2 mobile robot with an ESP32 body, built up in stages toward vision, SLAM, autonomous driving, and natural-language interaction.",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 96,
+      "pushedAt": "2026-10-02T22:58:21Z",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "topics": [
+        "arduino",
+        "esp32",
+        "mobile-robot",
+        "robotics",
+        "ros2"
+      ]
+    },
+    {
+      "name": "mujoco_ws",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/mujoco_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 13,
+      "pushedAt": "2026-08-09T04:14:15Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
+      "name": "go2-w_ws",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/go2-w_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 150,
+      "pushedAt": "2026-07-25T05:22:04Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
+      "name": "jules_ws",
+      "description": "test repo for jules",
+      "url": "https://github.com/kosuke-satake/jules_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 61,
+      "pushedAt": "2026-07-11T12:27:09Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
+      "name": "kosuke-satake.github.io",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 182,
+      "pushedAt": "2026-10-31T20:56:11Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": []
+    },
+    {
+      "name": "ros2_ws",
+      "description": "A containerized ROS 2 workspace for experimenting and learning robotics.",
+      "url": "https://github.com/kosuke-satake/ros2_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 12,
+      "pushedAt": "2026-08-08T09:40:29Z",
+      "language": "Dockerfile",
+      "languageColor": "#384d54",
+      "topics": []
+    },
+    {
+      "name": "ros2_tutorial_ws",
+      "description": "My ROS 2 Jazzy learning workspace and sandbox.",
+      "url": "https://github.com/kosuke-satake/ros2_tutorial_ws",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 1,
+      "pushedAt": "2026-04-06T01:50:23Z",
+      "language": "Dockerfile",
+      "languageColor": "#384d54",
+      "topics": []
+    },
+    {
+      "name": "keyastro",
+      "description": "A lightning-fast, multilingual website template powered by Astro, Tailwind CSS, and Keystatic CMS. Zero backend required.",
+      "url": "https://github.com/kosuke-satake/keyastro",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 220,
+      "pushedAt": "2026-04-07T01:30:07Z",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "topics": [
+        "astro",
+        "cms",
+        "i18n",
+        "keystatic",
+        "mulitilingual"
+      ]
+    },
+    {
+      "name": "scholar-static",
+      "description": "A lightning-fast, ultra-lightweight academic portfolio template powered by raw HTML/JS/CSS and a fully functional Keystatic CMS. Zero backend required.",
+      "url": "https://github.com/kosuke-satake/scholar-static",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 264,
+      "pushedAt": "2026-04-04T09:14:47Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": [
+        "academic-portfolio",
+        "astro",
+        "cms",
+        "keystatic",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "ros2_mac_workspace",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/ros2_mac_workspace",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 17,
+      "pushedAt": "2026-04-06T08:39:52Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": []
+    },
+    {
+      "name": "my_first_container",
+      "description": null,
+      "url": "https://github.com/kosuke-satake/my_first_container",
+      "stars": 0,
+      "forks": 0,
+      "diskUsage": 0,
+      "pushedAt": "2026-03-30T03:22:36Z",
+      "language": "Dockerfile",
+      "languageColor": "#384d54",
+      "topics": []
+    }
+  ],
+  "languages": [
+    {
+      "name": "Python",
+      "count": 4,
+      "color": "#3572A5"
+    },
+    {
+      "name": "Dockerfile",
+      "count": 3,
+      "color": "#384d54"
+    },
+    {
+      "name": "JavaScript",
+      "count": 2,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "C++",
+      "count": 1,
+      "color": "#f34b7d"
+    },
+    {
+      "name": "Astro",
+      "count": 1,
+      "color": "#ff5a03"
+    }
+  ],
+  "topics": [
+    {
+      "name": "astro",
+      "count": 2
+    },
+    {
+      "name": "cms",
+      "count": 2
+    },
+    {
+      "name": "keystatic",
+      "count": 2
+    },
+    {
+      "name": "arduino",
+      "count": 1
+    },
+    {
+      "name": "esp32",
+      "count": 1
+    },
+    {
+      "name": "mobile-robot",
+      "count": 1
+    },
+    {
+      "name": "robotics",
+      "count": 1
+    },
+    {
+      "name": "ros2",
+      "count": 1
+    },
+    {
+      "name": "i18n",
+      "count": 1
+    },
+    {
+      "name": "mulitilingual",
+      "count": 1
+    },
+    {
+      "name": "academic-portfolio",
+      "count": 1
+    },
+    {
+      "name": "portfolio",
+      "count": 1
+    }
+  ],
+  "activity": [
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "ci: drop the unused Setup Pages step\n\nactions/configure-pages reads the Pages site's base URL and configures static\nsite generators such as Next.js and Nuxt. This site is plain HTML and uses\nnone of its outputs. The step also reads the Pages API, which the build job\ndoes not have permission for now that its permissions are limited to what it\nneeds, so it could only add a failure.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:24:04Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e202948a1f07a395d86aa05a916316557c48f736"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "docs(readme): describe the data flow, checks, AI assistance and the license\n\nThe README did not say what the workflow publishes, why the daily data commit\nis made by the Actions bot, or how to recover when GitHub disables the\nscheduled workflow after 60 idle days. Document those, the checks, a plain\nstatement that the dashboard was first generated with Gemini and has been\nreworked with Claude Code, and the license.\n\nUse the workspace branch prefixes (feat/, fix/, refactor/) instead of\nfeature/, bugfix/ and chore/, so the README and the workspace rules agree.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:15:46Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/98e8044753b55a2f96fc79e10f3f717711a9c0e9"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore: add editor settings and agent instruction files\n\nAdd .editorconfig and .gitattributes from the workspace template, and an\nAGENTS.md that records the stack, the file-by-file architecture, the commands\nand the constraints a new session needs. The main one: the daily data commit\nmust stay under the Actions bot identity, or it fills the owner's\ncontribution graph again. CLAUDE.md and GEMINI.md only import AGENTS.md.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:15:45Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/2f20ffac77bc2b6504657a82ca39b901166985b9"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "fix(data): leave bot commits out of Recent Activity\n\nThe daily data commit made by GitHub Actions, and commits by agents such as\nJules, are not the owner's activity, but they filled the Recent Activity\nlist: 10 of its 15 entries were data updates. Ask the API for each commit's\nauthor name and skip names that end in \"[bot]\".\n\nThe script ran on import, which made the filter impossible to test. Read the\ntoken inside the fetch function and run it only when the file is executed\ndirectly. Add unit tests for the filter with `node --test` (no dependency)\nand run them in the workflow before fetching.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:15:14Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/87929c0045eefb652d22e0d6501b8a78ff3fd896"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "ci: bound the data fetch and move the schedule off the hour\n\n- A hung request to the GitHub API would have held the job until the default\n  six-hour limit. Abort the fetch after 30 seconds and give both jobs a\n  10-minute timeout.\n- GitHub documents that scheduled runs are delayed most at the start of each\n  hour. The recent runs started about four hours after the 00:00 schedule.\n  Run at 03:17 UTC instead.\n- Run `npm run check` before fetching so a syntax error fails the build early.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:14:19Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c79e5df817a6648241f9f19f21cb9a74395dc70d"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "ci: update workflow actions to current major versions and Node 24\n\nThe Actions runner already forced these v4-era actions onto Node 24 and\nreported \"Node.js 20 is deprecated\" on every run. Move to the current majors\n(checkout v7, setup-node v7, configure-pages v6, upload-pages-artifact v5,\ndeploy-pages v5) and run the fetch script on Node 24 as well.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:14:19Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/f850ba0ebab3276c6b79ad3564dbc43f4996a87c"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "ci: publish only site files and commit refreshed data as the Actions bot\n\nThe workflow uploaded the whole repository (`path: '.'`) to GitHub Pages, so\nnode_modules/, scripts/, package files and the README were publicly served.\n`scripts/build-site.js` now copies an allow-list (index.html, css/, js/,\ndata/data.json) into _site/ and only that folder is deployed.\n\nThe daily data commit stays, but it must not look like the owner's work. A\ncommit counts toward a profile's contribution graph only when its author email\nis linked to that account. 9d08bc1 switched the commit identity from the\nActions bot to the owner; in the last year those 198 commits were 22.6% of the\n875 contributions, and on 147 of the 216 active days the data commit was the\nonly contribution. Commit as github-actions[bot] again, and only on main so a\nmanual run from another branch cannot push.\n\nAlso split the workflow into build and deploy jobs: only the build job gets\n`contents: write`, only the deploy job gets `pages: write` and `id-token:\nwrite`, and deployments are queued instead of running in parallel.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:14:07Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/934ba650b2975478fab71dec88a48d084a99adcb"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore: add the MIT license and a third-party notice\n\nThe repository is public but had no license, which leaves all rights reserved.\nAdd the MIT license with the author as copyright holder, and record the one\ndevelopment dependency and the actions the workflow uses, with licenses taken\nfrom the lockfile and from GitHub.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:13:04Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c299f13c2d576999e46d8a42eb7a934c6b679a55"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "chore(package): correct package metadata and replace the placeholder test\n\n- `main` pointed at an index.js that does not exist.\n- `npm test` ran `echo \"Error: no test specified\" && exit 1`, so it could\n  only fail. Replace it with `npm run check`, a syntax check of every script.\n- The license was ISC; the workspace rule for this account is MIT.\n- Mark the package private so it cannot be published by accident, name the\n  author, and declare the Node version the scripts need (fs.cp is stable from\n  Node 22).\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:13:04Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c7998d576dfe3a2eec2ba93da59694e53037f360"
+    },
+    {
+      "repoName": "kosuke-satake.github.io",
+      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
+      "message": "refactor(ui): remove a no-op sidebar rule and a stale comment\n\n`.sidebar { position: static }` in the narrow-screen block did nothing: no rule\nmakes the sidebar sticky or fixed, so it was always static. It is a leftover\nfrom an earlier layout. The insights grid comment also described a 2x4 layout\nthat has not existed for a while.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-10-31T16:12:57Z",
+      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/1c879c0c22b1eae78b05f4a313a5711f2092ab63"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Merge pull request #5 from kosuke-satake/feat/message-protocol\n\nSpecify the brain-body message format and implement it on the body",
+      "date": "2026-09-27T16:00:21Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/dab7b63f8752a945dd2aac0e5009317e057e6723"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Merge pull request #4 from kosuke-satake/docs/member-branches\n\nDocument personal branches for hardware members",
+      "date": "2026-09-27T16:00:07Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/25265e32eab7599236f67ab71c985aec4f739bbe"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Point the READMEs and guides to the message protocol\n\nStage 1 now has a defined message format, so the status lines move on\nto choosing the parts, and the software guide names protocol.md as the\nreference every implementation follows.",
+      "date": "2026-09-27T05:09:55Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/2bde679ecb62f58ade56627f181941d394260e52"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Add a line reader for serial input\n\nSerial delivers bytes, not lines. The reader is fed whatever has\narrived and reports each complete line, so the main loop never waits.\nA line that is too long or contains a NUL is dropped whole rather than\ncut, so a truncated command can never be parsed as a valid one.",
+      "date": "2026-09-27T05:09:32Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/49fc9febebac231a47365779be19ed6d44fe2adf"
+    },
+    {
+      "repoName": "esp32-ros2-rover",
+      "repoUrl": "https://github.com/kosuke-satake/esp32-ros2-rover",
+      "message": "Parse velocity commands and format odometry on the body\n\nImplements docs/protocol.md for the body side. The number check is\nstricter than strtof, which would also accept exponents, hexadecimal,\nnan and inf. A rejected line leaves the last command untouched, and an\ninvalid state produces no line rather than being reported as OK.",
+      "date": "2026-09-27T05:08:33Z",
+      "url": "https://github.com/kosuke-satake/esp32-ros2-rover/commit/339fb871bdff94736c9246b36b20b6c0fd90a0dc"
+    }
+  ],
+  "lastFetched": "2026-10-31T20:56:22.581Z"
+}
