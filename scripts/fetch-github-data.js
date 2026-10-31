@@ -129,6 +129,7 @@ async function fetchGitHubData() {
       query: GRAPHQL_QUERY,
       variables: { username: 'kosuke-satake' } 
     }),
+    signal: AbortSignal.timeout(30_000), // fail instead of hanging until the job's own timeout
   });
 
   if (!response.ok) {
