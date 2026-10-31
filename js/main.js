@@ -202,6 +202,15 @@ function renderCalendar(calendar) {
   const container = document.getElementById('calendar-container');
   container.replaceChildren();
 
+  // The squares carry their numbers only in tooltips, so describe the whole grid in words.
+  const days = calendar.weeks.flatMap((week) => week.contributionDays);
+  const activeDays = days.filter((day) => day.contributionCount > 0).length;
+  container.setAttribute('role', 'img');
+  container.setAttribute(
+    'aria-label',
+    `${calendar.totalContributions} contributions on ${activeDays} days between ${days[0].date} and ${days[days.length - 1].date}`,
+  );
+
   calendar.weeks.forEach(week => {
     const weekEl = h('div', { class: 'calendar-week' });
 
