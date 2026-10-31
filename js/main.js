@@ -59,6 +59,7 @@ function renderDashboard(data) {
   const avatar = document.getElementById('avatar');
   const avatarUrl = safeUrl(profile.avatarUrl);
   if (avatarUrl) {
+    avatar.alt = `${profile.name || profile.username} on GitHub`;
     avatar.src = avatarUrl;
     avatar.style.display = 'block';
   }
