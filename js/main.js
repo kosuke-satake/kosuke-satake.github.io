@@ -216,6 +216,6 @@ function renderCalendar(calendar) {
   });
 
   // On narrow screens the calendar scrolls inside its box: show the latest weeks first.
-  const wrapper = container.closest('.calendar-wrapper');
-  if (wrapper) wrapper.scrollLeft = wrapper.scrollWidth;
+  const scroller = container.closest('.calendar-scroll');
+  if (scroller) scroller.scrollLeft = scroller.scrollWidth;
 }
