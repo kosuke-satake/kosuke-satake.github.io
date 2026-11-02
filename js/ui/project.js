@@ -38,7 +38,9 @@ function metaItem(label, ...content) {
 // One project as a list item. `showPath` adds the area when the list is not grouped by area.
 export function projectItem(project, { now, showPath = false, featured = false }) {
   const release = project.releases.latest;
-  const tags = [...new Map([...project.tags, ...project.topics].map((tag) => [tag.toLowerCase(), tag])).values()];
+  const spelled = new Map(); // a tag and a topic that differ only in letter case are shown once, as the catalog spells it
+  for (const tag of [...project.tags, ...project.topics]) if (!spelled.has(tag.toLowerCase())) spelled.set(tag.toLowerCase(), tag);
+  const tags = [...spelled.values()];
 
   const dot = project.language ? h('span', { class: 'dot', 'aria-hidden': 'true' }) : null;
   if (dot && project.language.color) dot.style.backgroundColor = project.language.color;
