@@ -1,6 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { parseCatalog } from './lib/catalog.js';
+import { buildData, buildRequest } from './lib/build-data.js';
 
 // Load environment variables for local development
 try {
@@ -10,133 +12,35 @@ try {
   // Ignore missing dotenv in production/GitHub Actions
 }
 
-export const GRAPHQL_QUERY = `
-  query($username: String!) {
-    user(login: $username) {
-      login
-      name
-      avatarUrl
-      bio
-      url
-      createdAt
-      followers {
-        totalCount
-      }
-      following {
-        totalCount
-      }
-      pullRequests {
-        totalCount
-      }
-      issues {
-        totalCount
-      }
-      starredRepositories {
-        totalCount
-      }
-      pinnedItems(first: 6, types: [REPOSITORY]) {
-        nodes {
-          ... on Repository {
-            name
-            description
-            url
-            stargazerCount
-            forkCount
-            diskUsage
-            pushedAt
-            primaryLanguage {
-              name
-              color
-            }
-            repositoryTopics(first: 5) {
-              nodes {
-                topic {
-                  name
-                }
-              }
-            }
-          }
-        }
-      }
-      contributionsCollection {
-        contributionCalendar {
-          totalContributions
-          weeks {
-            contributionDays {
-              contributionCount
-              date
-              color
-            }
-          }
-        }
-      }
-      repositories(first: 100, privacy: PUBLIC, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
-        totalCount
-        nodes {
-          name
-          description
-          url
-          stargazerCount
-          forkCount
-          diskUsage
-          pushedAt
-          primaryLanguage {
-            name
-            color
-          }
-          repositoryTopics(first: 5) {
-            nodes {
-              topic {
-                name
-              }
-            }
-          }
-          defaultBranchRef {
-            target {
-              ... on Commit {
-                history(first: 10) {
-                  nodes {
-                    message
-                    committedDate
-                    url
-                    author {
-                      name
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+const LOGIN = 'kosuke-satake';
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
+const CATALOG_PATH = path.join(ROOT, 'config', 'catalog.json');
+const OUTPUT_PATH = path.join(ROOT, 'data', 'data.json');
 
-// Commits made by GitHub Actions or other bots are not the owner's activity.
-export function isAutomatedCommit(commit) {
-  return /\[bot\]$/.test(commit.author?.name ?? '');
+// A catalog entry that GitHub cannot find comes back as a NOT_FOUND error on its alias (p0, p1, ...) next to the
+// rest of the data. Those are reported as warnings later; every other error is fatal.
+export function fatalErrors(errors = []) {
+  return errors.filter((error) => !(error.type === 'NOT_FOUND' && /^p\d+$/.test(error.path?.[0] ?? '')));
 }
 
-async function fetchGitHubData() {
-  const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-
-  if (!GITHUB_TOKEN) {
-    console.error('Error: GITHUB_TOKEN environment variable is not set.');
-    process.exit(1);
+function parseArguments(argv) {
+  const options = { printRequest: false, fromFile: null };
+  for (let index = 0; index < argv.length; index++) {
+    if (argv[index] === '--print-request') options.printRequest = true;
+    else if (argv[index] === '--from-file') options.fromFile = argv[++index];
+    else throw new Error(`Unknown argument: ${argv[index]}`);
   }
+  return options;
+}
 
-  console.log('Fetching GitHub data...');
+async function requestFromGitHub(request, token) {
   const response = await fetch('https://api.github.com/graphql', {
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${GITHUB_TOKEN}`,
+      'Authorization': `Bearer ${token}`,
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ 
-      query: GRAPHQL_QUERY,
-      variables: { username: 'kosuke-satake' } 
-    }),
+    body: JSON.stringify(request),
     signal: AbortSignal.timeout(30_000), // fail instead of hanging until the job's own timeout
   });
 
@@ -145,133 +49,57 @@ async function fetchGitHubData() {
     console.error(`GitHub API error: ${response.status} ${response.statusText}`, errorText);
     process.exit(1);
   }
+  return response.json();
+}
 
-  const result = await response.json();
+function reportWarnings(warnings) {
+  for (const warning of warnings) {
+    // In GitHub Actions this becomes an annotation on the run; elsewhere it is a plain line.
+    console.warn(process.env.GITHUB_ACTIONS ? `::warning title=Dashboard catalog::${warning}` : `Warning: ${warning}`);
+  }
+}
 
-  if (result.errors) {
-    console.error('GraphQL Errors:', JSON.stringify(result.errors, null, 2));
+async function fetchGitHubData() {
+  const options = parseArguments(process.argv.slice(2));
+  const catalog = parseCatalog(await fs.readFile(CATALOG_PATH, 'utf8'));
+  const request = buildRequest(catalog, LOGIN);
+
+  if (options.printRequest) {
+    console.log(JSON.stringify(request));
+    return;
+  }
+
+  let result;
+  if (options.fromFile) {
+    result = JSON.parse(await fs.readFile(options.fromFile, 'utf8'));
+  } else {
+    const token = process.env.GITHUB_TOKEN;
+    if (!token) {
+      console.error('Error: GITHUB_TOKEN environment variable is not set.');
+      process.exit(1);
+    }
+    console.log('Fetching GitHub data...');
+    result = await requestFromGitHub(request, token);
+  }
+
+  const fatal = fatalErrors(result.errors);
+  if (fatal.length > 0) {
+    console.error('GraphQL Errors:', JSON.stringify(fatal, null, 2));
     process.exit(1);
   }
 
-  const user = result.data.user;
-  const allCommits = [];
-  const topicCounts = {};
+  const { data, warnings } = buildData({ response: result, catalog, login: LOGIN });
+  reportWarnings(warnings);
 
-  // Process all repos
-  const repos = user.repositories.nodes.map(repo => {
-    // Extract commits if they exist
-    const repoCommits = repo.defaultBranchRef?.target?.history?.nodes || [];
-    repoCommits.filter(commit => !isAutomatedCommit(commit)).forEach(commit => {
-      allCommits.push({
-        repoName: repo.name,
-        repoUrl: repo.url,
-        message: commit.message,
-        date: commit.committedDate,
-        url: commit.url
-      });
-    });
-
-    // Extract topics
-    repo.repositoryTopics.nodes.forEach(node => {
-      const topicName = node.topic.name;
-      topicCounts[topicName] = (topicCounts[topicName] || 0) + 1;
-    });
-
-    return {
-      name: repo.name,
-      description: repo.description,
-      url: repo.url,
-      stars: repo.stargazerCount,
-      forks: repo.forkCount,
-      diskUsage: repo.diskUsage,
-      pushedAt: repo.pushedAt,
-      language: repo.primaryLanguage ? repo.primaryLanguage.name : null,
-      languageColor: repo.primaryLanguage ? repo.primaryLanguage.color : null,
-      topics: repo.repositoryTopics.nodes.map(node => node.topic.name)
-    };
-  });
-
-  // Process pinned repos
-  const pinnedRepos = user.pinnedItems.nodes.map(repo => ({
-    name: repo.name,
-    description: repo.description,
-    url: repo.url,
-    stars: repo.stargazerCount,
-    forks: repo.forkCount,
-    diskUsage: repo.diskUsage,
-    pushedAt: repo.pushedAt,
-    language: repo.primaryLanguage ? repo.primaryLanguage.name : null,
-    languageColor: repo.primaryLanguage ? repo.primaryLanguage.color : null,
-    topics: repo.repositoryTopics.nodes.map(node => node.topic.name)
-  }));
-
-  // Sort and slice all commits to get the most recent activity across all repos
-  const recentActivity = allCommits
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 15);
-
-  // Aggregate language stats
-  const languages = {};
-  for (const repo of repos) {
-    if (repo.language) {
-      if (!languages[repo.language]) {
-        languages[repo.language] = { count: 0, color: repo.languageColor };
-      }
-      languages[repo.language].count++;
-    }
-  }
-
-  const sortedLanguages = Object.entries(languages)
-    .sort(([, a], [, b]) => b.count - a.count)
-    .map(([name, data]) => ({ name, ...data }));
-
-  // Sort topics by frequency
-  const sortedTopics = Object.entries(topicCounts)
-    .sort(([, a], [, b]) => b - a)
-    .slice(0, 15)
-    .map(([name, count]) => ({ name, count }));
-
-  const data = {
-    profile: {
-      username: user.login,
-      name: user.name,
-      avatarUrl: user.avatarUrl,
-      bio: user.bio,
-      url: user.url,
-      createdAt: user.createdAt,
-      followers: user.followers.totalCount,
-      following: user.following.totalCount,
-      totalRepos: user.repositories.totalCount,
-      totalStars: repos.reduce((sum, r) => sum + r.stars, 0),
-      totalForks: repos.reduce((sum, r) => sum + r.forks, 0),
-      totalPRs: user.pullRequests.totalCount,
-      totalIssues: user.issues.totalCount,
-      totalStarred: user.starredRepositories.totalCount,
-      totalDiskUsage: repos.reduce((sum, r) => sum + r.diskUsage, 0), // in KB
-    },
-    calendar: user.contributionsCollection.contributionCalendar,
-    pinnedRepositories: pinnedRepos,
-    repositories: repos,
-    languages: sortedLanguages,
-    topics: sortedTopics,
-    activity: recentActivity,
-    lastFetched: new Date().toISOString(),
-  };
-
-  const __filename = fileURLToPath(import.meta.url);
-  const __dirname = path.dirname(__filename);
-  const dataDir = path.join(__dirname, '..', 'data');
-  
-  await fs.mkdir(dataDir, { recursive: true });
-  await fs.writeFile(path.join(dataDir, 'data.json'), JSON.stringify(data, null, 2));
-
-  console.log('Successfully fetched and saved GitHub data to data/data.json.');
+  await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
+  await fs.writeFile(OUTPUT_PATH, JSON.stringify(data, null, 1));
+  console.log(`Wrote data/data.json: ${data.projects.length} projects, ${warnings.length} warning(s).`);
 }
 
 // Run only when executed as a script, so that tests can import the helpers above.
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   fetchGitHubData().catch(err => {
-    console.error('Unexpected error:', err);
+    console.error(err instanceof Error ? err.message : err);
     process.exit(1);
   });
 }
