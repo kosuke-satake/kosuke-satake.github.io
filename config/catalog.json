@@ -30,7 +30,7 @@
     { "repo": "kosuke-satake/esp32-ros2-rover",    "group": "Robotics/ROS 2", "status": "in-progress", "featured": false, "tags": ["ros2", "esp32", "slam"], "summary": null },
     { "repo": "kosuke-satake/ros2_ws",             "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2", "docker"], "summary": null },
     { "repo": "kosuke-satake/ros2_tutorial_ws",    "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2"], "summary": null },
-    { "repo": "kosuke-satake/ros2_mac_workspace",  "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2", "macos"], "summary": "TODO: one sentence. This repository has no README or description." },
+    { "repo": "kosuke-satake/ros2_mac_workspace",  "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2", "python", "devcontainer"], "summary": "A ROS 2 workspace in a dev container, with a first Python package: a publisher, a subscriber, and a simulated temperature sensor whose publish rate can be changed at run time." },
 
     { "repo": "kosuke-satake/mujoco_ws", "group": "Robotics/Simulation and robots", "status": "learning", "featured": false, "tags": ["mujoco", "simulation", "python"], "summary": "A step-by-step MuJoCo workspace: physics simulation, actuation and control, sensors, and reinforcement-learning environments." },
     { "repo": "kosuke-satake/go2-w_ws",  "group": "Robotics/Simulation and robots", "status": "learning", "featured": false, "tags": ["unitree", "python", "simulation"], "summary": "Learning workspace for the Unitree Go2-W wheeled quadruped: Python SDK, middleware configuration and simulation." },
