@@ -8,16 +8,16 @@
     "createdAt": "2025-11-26T05:56:12Z",
     "followers": 5,
     "following": 0,
-    "totalRepos": 13,
+    "totalRepos": 12,
     "totalStars": 0,
     "totalForks": 0,
-    "totalPRs": 7,
+    "totalPRs": 8,
     "totalIssues": 0,
     "totalStarred": 0,
-    "totalDiskUsage": 894
+    "totalDiskUsage": 933
   },
   "calendar": {
-    "totalContributions": 970,
+    "totalContributions": 752,
     "weeks": [
       {
         "contributionDays": [
@@ -444,7 +444,7 @@
           {
             "contributionCount": 11,
             "date": "2026-01-17",
-            "color": "#9be9a8"
+            "color": "#40c463"
           }
         ]
       },
@@ -478,7 +478,7 @@
           {
             "contributionCount": 11,
             "date": "2026-01-23",
-            "color": "#9be9a8"
+            "color": "#40c463"
           },
           {
             "contributionCount": 0,
@@ -939,56 +939,56 @@
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 51,
+            "contributionCount": 25,
             "date": "2026-04-16",
-            "color": "#216e39"
+            "color": "#30a14e"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-17",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-18",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-19",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-20",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 4,
+            "contributionCount": 3,
             "date": "2026-04-21",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-23",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 9,
+            "contributionCount": 8,
             "date": "2026-04-24",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 8,
+            "contributionCount": 7,
             "date": "2026-04-25",
             "color": "#9be9a8"
           }
@@ -997,427 +997,427 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-26",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 4,
+            "contributionCount": 3,
             "date": "2026-04-27",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 2,
+            "contributionCount": 1,
             "date": "2026-04-28",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-04-29",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 2,
+            "contributionCount": 1,
             "date": "2026-04-30",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-01",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-02",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 2,
+            "contributionCount": 1,
             "date": "2026-05-03",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 16,
+            "contributionCount": 15,
             "date": "2026-05-04",
             "color": "#40c463"
           },
           {
-            "contributionCount": 18,
+            "contributionCount": 17,
             "date": "2026-05-05",
             "color": "#40c463"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-06",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-07",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-08",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-09",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-10",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-11",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-12",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 3,
+            "contributionCount": 2,
             "date": "2026-05-13",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-14",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-15",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-16",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-17",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-18",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-19",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-20",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-21",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-23",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-24",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-25",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-26",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-27",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-28",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 3,
+            "contributionCount": 2,
             "date": "2026-05-29",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-30",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-05-31",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-01",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-02",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-03",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-04",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 8,
+            "contributionCount": 7,
             "date": "2026-06-05",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-06",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-07",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-08",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-09",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-10",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-11",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-12",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-13",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-14",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-15",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-16",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-17",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-18",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-19",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-20",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-21",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-23",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-24",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-25",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-26",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-27",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-28",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-29",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-06-30",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-01",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-02",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-03",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-04",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-05",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-06",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-07",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-08",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-09",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-10",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 6,
+            "contributionCount": 5,
             "date": "2026-07-11",
             "color": "#9be9a8"
           }
@@ -1426,154 +1426,154 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 9,
+            "contributionCount": 8,
             "date": "2026-07-12",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 2,
+            "contributionCount": 1,
             "date": "2026-07-13",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-14",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-15",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-16",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-17",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-18",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-19",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 4,
+            "contributionCount": 3,
             "date": "2026-07-20",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-21",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-23",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-24",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-25",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 2,
+            "contributionCount": 1,
             "date": "2026-07-26",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-27",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-28",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-29",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-30",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-07-31",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-01",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-02",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-03",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-04",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-05",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-06",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-07",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 6,
+            "contributionCount": 5,
             "date": "2026-08-08",
             "color": "#9be9a8"
           }
@@ -1582,193 +1582,193 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 6,
+            "contributionCount": 5,
             "date": "2026-08-09",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-10",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-11",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-12",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-13",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-14",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-15",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-16",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-17",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-18",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-19",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-20",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-21",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-23",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-24",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-25",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-26",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-27",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-28",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-29",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-30",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-08-31",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-01",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-02",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-03",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-04",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-05",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 4,
+            "contributionCount": 3,
             "date": "2026-09-06",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-07",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-08",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-09",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 4,
+            "contributionCount": 3,
             "date": "2026-09-10",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 7,
+            "contributionCount": 6,
             "date": "2026-09-11",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 3,
+            "contributionCount": 2,
             "date": "2026-09-12",
             "color": "#9be9a8"
           }
@@ -1777,37 +1777,37 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 37,
+            "contributionCount": 36,
             "date": "2026-09-13",
             "color": "#216e39"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-14",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-15",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-16",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-17",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 7,
+            "contributionCount": 6,
             "date": "2026-09-18",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 16,
+            "contributionCount": 15,
             "date": "2026-09-19",
             "color": "#40c463"
           }
@@ -1816,37 +1816,37 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 24,
+            "contributionCount": 23,
             "date": "2026-09-20",
             "color": "#30a14e"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-21",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 9,
+            "contributionCount": 8,
             "date": "2026-09-23",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 6,
+            "contributionCount": 5,
             "date": "2026-09-24",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 6,
+            "contributionCount": 5,
             "date": "2026-09-25",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 5,
+            "contributionCount": 4,
             "date": "2026-09-26",
             "color": "#9be9a8"
           }
@@ -1855,37 +1855,37 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 37,
+            "contributionCount": 36,
             "date": "2026-09-27",
             "color": "#216e39"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-28",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-29",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-09-30",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-01",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-02",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 16,
+            "contributionCount": 15,
             "date": "2026-10-03",
             "color": "#40c463"
           }
@@ -1894,37 +1894,37 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 16,
+            "contributionCount": 15,
             "date": "2026-10-04",
             "color": "#40c463"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-05",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 14,
+            "contributionCount": 13,
             "date": "2026-10-06",
             "color": "#40c463"
           },
           {
-            "contributionCount": 7,
+            "contributionCount": 6,
             "date": "2026-10-07",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-08",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-09",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 27,
+            "contributionCount": 26,
             "date": "2026-10-10",
             "color": "#30a14e"
           }
@@ -1933,37 +1933,37 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 15,
+            "contributionCount": 14,
             "date": "2026-10-11",
             "color": "#40c463"
           },
           {
-            "contributionCount": 14,
+            "contributionCount": 13,
             "date": "2026-10-12",
             "color": "#40c463"
           },
           {
-            "contributionCount": 8,
+            "contributionCount": 7,
             "date": "2026-10-13",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-14",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-15",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-16",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 21,
+            "contributionCount": 20,
             "date": "2026-10-17",
             "color": "#40c463"
           }
@@ -1972,37 +1972,37 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 44,
+            "contributionCount": 43,
             "date": "2026-10-18",
             "color": "#216e39"
           },
           {
-            "contributionCount": 15,
+            "contributionCount": 14,
             "date": "2026-10-19",
             "color": "#40c463"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-20",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-21",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-22",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-23",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 35,
+            "contributionCount": 34,
             "date": "2026-10-24",
             "color": "#216e39"
           }
@@ -2011,48 +2011,48 @@
       {
         "contributionDays": [
           {
-            "contributionCount": 26,
+            "contributionCount": 19,
             "date": "2026-10-25",
-            "color": "#30a14e"
+            "color": "#40c463"
           },
           {
-            "contributionCount": 4,
+            "contributionCount": 3,
             "date": "2026-10-26",
             "color": "#9be9a8"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-27",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-28",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-29",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 1,
+            "contributionCount": 0,
             "date": "2026-10-30",
-            "color": "#9be9a8"
+            "color": "#ebedf0"
           },
           {
-            "contributionCount": 32,
+            "contributionCount": 21,
             "date": "2026-10-31",
-            "color": "#30a14e"
+            "color": "#40c463"
           }
         ]
       },
       {
         "contributionDays": [
           {
-            "contributionCount": 1,
+            "contributionCount": 23,
             "date": "2026-11-01",
-            "color": "#9be9a8"
+            "color": "#30a14e"
           },
           {
             "contributionCount": 1,
@@ -2070,8 +2070,8 @@
       "url": "https://github.com/kosuke-satake/scholar-static",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 264,
-      "pushedAt": "2026-04-04T09:14:47Z",
+      "diskUsage": 300,
+      "pushedAt": "2026-11-02T01:22:13Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": [
@@ -2178,8 +2178,8 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 0,
-      "pushedAt": "2026-11-02T01:00:48Z",
+      "diskUsage": 55,
+      "pushedAt": "2026-11-02T01:01:07Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": [
@@ -2206,8 +2206,8 @@
       "url": "https://github.com/kosuke-satake/esp32-ros2-rover",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 95,
-      "pushedAt": "2026-11-01T22:53:49Z",
+      "diskUsage": 104,
+      "pushedAt": "2026-11-02T01:40:11Z",
       "language": "C++",
       "languageColor": "#f34b7d",
       "topics": [
@@ -2252,18 +2252,6 @@
       "pushedAt": "2026-07-11T12:27:09Z",
       "language": "Python",
       "languageColor": "#3572A5",
-      "topics": []
-    },
-    {
-      "name": "kosuke-satake.github.io-old",
-      "description": null,
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "stars": 0,
-      "forks": 0,
-      "diskUsage": 61,
-      "pushedAt": "2026-11-01T10:36:58Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
       "topics": []
     },
     {
@@ -2314,8 +2302,8 @@
       "url": "https://github.com/kosuke-satake/scholar-static",
       "stars": 0,
       "forks": 0,
-      "diskUsage": 264,
-      "pushedAt": "2026-04-04T09:14:47Z",
+      "diskUsage": 300,
+      "pushedAt": "2026-11-02T01:22:13Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": [
@@ -2358,14 +2346,14 @@
       "color": "#3572A5"
     },
     {
-      "name": "JavaScript",
-      "count": 3,
-      "color": "#f1e05a"
-    },
-    {
       "name": "Dockerfile",
       "count": 3,
       "color": "#384d54"
+    },
+    {
+      "name": "JavaScript",
+      "count": 2,
+      "color": "#f1e05a"
     },
     {
       "name": "C++",
@@ -2442,18 +2430,81 @@
   ],
   "activity": [
     {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "chore: release v1.1.0\n\nBump the package version and the main.js cache buster for the release.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:12:32Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/b7fbf884411829e13a26e6370b14b99626c034c2"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "Merge branch 'feat/news-scroll-fade'\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:12:24Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/c692cb0e28a548001c8f043698f396f208a19138"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "Merge branch 'feat/browser-language-default'\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:12:24Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/fbc9b359341711d45378787498afa4f991e6015e"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "feat: fade the bottom of the news list so it reads as scrollable\n\nThe list is clipped at a fixed height and, with overlay scrollbars, nothing showed\nthat more items could be scrolled into view. Fade the bottom edge and pad it so the\nlast item is fully visible at the end of the scroll.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:12:10Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/4dccfbe90f17aafd716f70cf52b768267af2af0b"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "feat: open in the browser's language on a first visit\n\nThe site always started in English until the visitor pressed the language button.\nWithout a saved choice, use the first browser language the site supports (Japanese\nor English). A saved choice still wins, and an unsupported saved value is ignored\ninstead of requesting data that does not exist.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:12:10Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/bd77d06757799762ab92a5517e273de7d54c53bf"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "Merge branch 'chore/add-agent-instructions'\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:04:06Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/e9547746aa0f049334a7f502f47efcd69dfa1965"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "Merge branch 'feat/static-seo-defaults'\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:04:06Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/41f40de7d17d4aba45dd0f1a032c919466ffed68"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "Merge branch 'feat/language-toggle-label'\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:04:06Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/34673a12b3600060121f813978c22cff3af053c6"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "docs: add agent instructions for the template\n\nDescribe the project, its architecture, the commands and the rule that code shared\nwith sites built from the template is changed here first and reflected downstream.\nThis branch builds on feat/static-seo-defaults because it documents that script.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T01:04:02Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/a2b1051183f24463d769dcc2053cf8735e974876"
+    },
+    {
+      "repoName": "scholar-static",
+      "repoUrl": "https://github.com/kosuke-satake/scholar-static",
+      "message": "feat: write the English SEO tags into the built index.html\n\nindex.html ships empty description and og:* tags that js/main.js fills in after\nload, so crawlers and link-preview bots, which do not run JavaScript, saw nothing,\nand og:image and og:url were not absolute URLs. Add scripts/inject-seo.mjs to the\nbuild, resolve og:image against ogUrl in the runtime code as well, and point the\nsample data at a 1200x630 PNG, since most platforms do not show SVG.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
+      "date": "2026-11-02T00:26:58Z",
+      "url": "https://github.com/kosuke-satake/scholar-static/commit/836002c9e3fdef9815099b8e0284b135ae4ce55b"
+    },
+    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "ci: drop the unused Setup Pages step\n\nactions/configure-pages reads the Pages site's base URL and configures static\nsite generators such as Next.js and Nuxt. This site is plain HTML and uses\nnone of its outputs. The step also reads the Pages API, which the build job\ndoes not have permission for now that its permissions are limited to what it\nneeds, so it could only add a failure.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
       "date": "2026-10-31T16:24:04Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/e202948a1f07a395d86aa05a916316557c48f736"
-    },
-    {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "ci: drop the unused Setup Pages step\n\nactions/configure-pages reads the Pages site's base URL and configures static\nsite generators such as Next.js and Nuxt. This site is plain HTML and uses\nnone of its outputs. The step also reads the Pages API, which the build job\ndoes not have permission for now that its permissions are limited to what it\nneeds, so it could only add a failure.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:24:04Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/e202948a1f07a395d86aa05a916316557c48f736"
     },
     {
       "repoName": "kosuke-satake.github.io",
@@ -2463,25 +2514,11 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/98e8044753b55a2f96fc79e10f3f717711a9c0e9"
     },
     {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "docs(readme): describe the data flow, checks, AI assistance and the license\n\nThe README did not say what the workflow publishes, why the daily data commit\nis made by the Actions bot, or how to recover when GitHub disables the\nscheduled workflow after 60 idle days. Document those, the checks, a plain\nstatement that the dashboard was first generated with Gemini and has been\nreworked with Claude Code, and the license.\n\nUse the workspace branch prefixes (feat/, fix/, refactor/) instead of\nfeature/, bugfix/ and chore/, so the README and the workspace rules agree.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:15:46Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/98e8044753b55a2f96fc79e10f3f717711a9c0e9"
-    },
-    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "chore: add editor settings and agent instruction files\n\nAdd .editorconfig and .gitattributes from the workspace template, and an\nAGENTS.md that records the stack, the file-by-file architecture, the commands\nand the constraints a new session needs. The main one: the daily data commit\nmust stay under the Actions bot identity, or it fills the owner's\ncontribution graph again. CLAUDE.md and GEMINI.md only import AGENTS.md.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
       "date": "2026-10-31T16:15:45Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/2f20ffac77bc2b6504657a82ca39b901166985b9"
-    },
-    {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "chore: add editor settings and agent instruction files\n\nAdd .editorconfig and .gitattributes from the workspace template, and an\nAGENTS.md that records the stack, the file-by-file architecture, the commands\nand the constraints a new session needs. The main one: the daily data commit\nmust stay under the Actions bot identity, or it fills the owner's\ncontribution graph again. CLAUDE.md and GEMINI.md only import AGENTS.md.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:15:45Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/2f20ffac77bc2b6504657a82ca39b901166985b9"
     },
     {
       "repoName": "kosuke-satake.github.io",
@@ -2491,61 +2528,12 @@
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/87929c0045eefb652d22e0d6501b8a78ff3fd896"
     },
     {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "fix(data): leave bot commits out of Recent Activity\n\nThe daily data commit made by GitHub Actions, and commits by agents such as\nJules, are not the owner's activity, but they filled the Recent Activity\nlist: 10 of its 15 entries were data updates. Ask the API for each commit's\nauthor name and skip names that end in \"[bot]\".\n\nThe script ran on import, which made the filter impossible to test. Read the\ntoken inside the fetch function and run it only when the file is executed\ndirectly. Add unit tests for the filter with `node --test` (no dependency)\nand run them in the workflow before fetching.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:15:14Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/87929c0045eefb652d22e0d6501b8a78ff3fd896"
-    },
-    {
       "repoName": "kosuke-satake.github.io",
       "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
       "message": "ci: bound the data fetch and move the schedule off the hour\n\n- A hung request to the GitHub API would have held the job until the default\n  six-hour limit. Abort the fetch after 30 seconds and give both jobs a\n  10-minute timeout.\n- GitHub documents that scheduled runs are delayed most at the start of each\n  hour. The recent runs started about four hours after the 00:00 schedule.\n  Run at 03:17 UTC instead.\n- Run `npm run check` before fetching so a syntax error fails the build early.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
       "date": "2026-10-31T16:14:19Z",
       "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c79e5df817a6648241f9f19f21cb9a74395dc70d"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "ci: update workflow actions to current major versions and Node 24\n\nThe Actions runner already forced these v4-era actions onto Node 24 and\nreported \"Node.js 20 is deprecated\" on every run. Move to the current majors\n(checkout v7, setup-node v7, configure-pages v6, upload-pages-artifact v5,\ndeploy-pages v5) and run the fetch script on Node 24 as well.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:14:19Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/f850ba0ebab3276c6b79ad3564dbc43f4996a87c"
-    },
-    {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "ci: bound the data fetch and move the schedule off the hour\n\n- A hung request to the GitHub API would have held the job until the default\n  six-hour limit. Abort the fetch after 30 seconds and give both jobs a\n  10-minute timeout.\n- GitHub documents that scheduled runs are delayed most at the start of each\n  hour. The recent runs started about four hours after the 00:00 schedule.\n  Run at 03:17 UTC instead.\n- Run `npm run check` before fetching so a syntax error fails the build early.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:14:19Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/c79e5df817a6648241f9f19f21cb9a74395dc70d"
-    },
-    {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "ci: update workflow actions to current major versions and Node 24\n\nThe Actions runner already forced these v4-era actions onto Node 24 and\nreported \"Node.js 20 is deprecated\" on every run. Move to the current majors\n(checkout v7, setup-node v7, configure-pages v6, upload-pages-artifact v5,\ndeploy-pages v5) and run the fetch script on Node 24 as well.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:14:19Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/f850ba0ebab3276c6b79ad3564dbc43f4996a87c"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "ci: publish only site files and commit refreshed data as the Actions bot\n\nThe workflow uploaded the whole repository (`path: '.'`) to GitHub Pages, so\nnode_modules/, scripts/, package files and the README were publicly served.\n`scripts/build-site.js` now copies an allow-list (index.html, css/, js/,\ndata/data.json) into _site/ and only that folder is deployed.\n\nThe daily data commit stays, but it must not look like the owner's work. A\ncommit counts toward a profile's contribution graph only when its author email\nis linked to that account. 9d08bc1 switched the commit identity from the\nActions bot to the owner; in the last year those 198 commits were 22.6% of the\n875 contributions, and on 147 of the 216 active days the data commit was the\nonly contribution. Commit as github-actions[bot] again, and only on main so a\nmanual run from another branch cannot push.\n\nAlso split the workflow into build and deploy jobs: only the build job gets\n`contents: write`, only the deploy job gets `pages: write` and `id-token:\nwrite`, and deployments are queued instead of running in parallel.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:14:07Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/934ba650b2975478fab71dec88a48d084a99adcb"
-    },
-    {
-      "repoName": "kosuke-satake.github.io-old",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io-old",
-      "message": "ci: publish only site files and commit refreshed data as the Actions bot\n\nThe workflow uploaded the whole repository (`path: '.'`) to GitHub Pages, so\nnode_modules/, scripts/, package files and the README were publicly served.\n`scripts/build-site.js` now copies an allow-list (index.html, css/, js/,\ndata/data.json) into _site/ and only that folder is deployed.\n\nThe daily data commit stays, but it must not look like the owner's work. A\ncommit counts toward a profile's contribution graph only when its author email\nis linked to that account. 9d08bc1 switched the commit identity from the\nActions bot to the owner; in the last year those 198 commits were 22.6% of the\n875 contributions, and on 147 of the 216 active days the data commit was the\nonly contribution. Commit as github-actions[bot] again, and only on main so a\nmanual run from another branch cannot push.\n\nAlso split the workflow into build and deploy jobs: only the build job gets\n`contents: write`, only the deploy job gets `pages: write` and `id-token:\nwrite`, and deployments are queued instead of running in parallel.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:14:07Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io-old/commit/934ba650b2975478fab71dec88a48d084a99adcb"
-    },
-    {
-      "repoName": "kosuke-satake.github.io",
-      "repoUrl": "https://github.com/kosuke-satake/kosuke-satake.github.io",
-      "message": "chore: add the MIT license and a third-party notice\n\nThe repository is public but had no license, which leaves all rights reserved.\nAdd the MIT license with the author as copyright holder, and record the one\ndevelopment dependency and the actions the workflow uses, with licenses taken\nfrom the lockfile and from GitHub.\n\nCo-Authored-By: Claude Sonnet 5.5 Extra <noreply@anthropic.com>",
-      "date": "2026-10-31T16:13:04Z",
-      "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/c299f13c2d576999e46d8a42eb7a934c6b679a55"
     }
   ],
-  "lastFetched": "2026-11-02T01:01:05.961Z"
+  "lastFetched": "2026-11-02T11:23:27.478Z"
 }
