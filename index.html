@@ -4,141 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kosuke Satake - GitHub Dashboard</title>
-  <meta name="description" content="GitHub activity dashboard for Kosuke Satake: repositories, languages, topics and contribution history, refreshed daily.">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#0d1117">
+  <meta name="description" content="What Kosuke Satake has built on GitHub: apps, robotics and web projects, with status, releases and activity. Search and filter by area, status, language and tag.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%230d1117'/%3E%3Crect%20x='5'%20y='5'%20width='6'%20height='6'%20rx='1'%20fill='%230e4429'/%3E%3Crect%20x='13'%20y='5'%20width='6'%20height='6'%20rx='1'%20fill='%23006d32'/%3E%3Crect%20x='21'%20y='5'%20width='6'%20height='6'%20rx='1'%20fill='%2326a641'/%3E%3Crect%20x='5'%20y='13'%20width='6'%20height='6'%20rx='1'%20fill='%23006d32'/%3E%3Crect%20x='13'%20y='13'%20width='6'%20height='6'%20rx='1'%20fill='%2339d353'/%3E%3Crect%20x='21'%20y='13'%20width='6'%20height='6'%20rx='1'%20fill='%23006d32'/%3E%3Crect%20x='5'%20y='21'%20width='6'%20height='6'%20rx='1'%20fill='%2326a641'/%3E%3Crect%20x='13'%20y='21'%20width='6'%20height='6'%20rx='1'%20fill='%230e4429'/%3E%3Crect%20x='21'%20y='21'%20width='6'%20height='6'%20rx='1'%20fill='%2339d353'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="app-layout">
-    <aside class="sidebar">
-      <header class="profile-card">
-        <img id="avatar" src="" alt="" class="avatar" style="display: none;">
-        <h1 id="name">Loading...</h1>
-        <p id="bio" class="bio"></p>
-        <div class="profile-stats">
-          <div class="stat-item">
-            <span class="stat-value" id="followers">0</span>
-            <span class="stat-label">followers</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value" id="following">0</span>
-            <span class="stat-label">following</span>
-          </div>
-        </div>
-        <div class="account-meta">
-          <p id="total-repos">-- repositories</p>
-          <p id="total-stars">-- stars</p>
-          <p id="joined-date">Joined --</p>
-        </div>
-        <a id="github-link" href="#" target="_blank" rel="noopener noreferrer" class="github-link" style="display: none;">View Profile</a>
-      </header>
+  <a class="skip-link" href="#work">Skip to the projects</a>
+  <header id="hero" class="hero"><p class="loading" role="status">Loading…</p></header>
+  <main>
+    <noscript><p class="notice">This dashboard needs JavaScript to show the GitHub data.</p></noscript>
+    <p id="load-error" class="notice" role="alert" hidden>The dashboard data could not be loaded. Please try again later.</p>
 
-      <section class="sidebar-section">
-        <h2>Language Analysis</h2>
-        <div id="languages-chart" class="analysis-chart"></div>
-      </section>
+    <section id="featured" class="section" aria-labelledby="featured-title" hidden>
+      <h2 id="featured-title">Featured</h2>
+      <ul class="featured-grid projects" tabindex="0" aria-label="Featured projects"></ul>
+    </section>
 
-      <section class="sidebar-section">
-        <h2>Topic Analysis</h2>
-        <div id="topics-chart" class="analysis-chart"></div>
-      </section>
-    </aside>
+    <section id="work" class="section" aria-labelledby="work-title" tabindex="-1" hidden>
+      <h2 id="work-title">All work</h2>
+    </section>
 
-    <main class="main-content">
-      <noscript>
-        <p class="load-error">This dashboard needs JavaScript to show the GitHub data.</p>
-      </noscript>
-      <p id="load-error" class="load-error" role="alert" hidden>
-        The dashboard data could not be loaded. Please try again later.
-      </p>
-
-      <section class="content-section">
-        <div class="section-header">
-          <h2>Account Insights</h2>
-        </div>
-        <div id="insights-container" class="insights-grid">
-          <div class="insight-card">
-            <span class="insight-label">Contributions</span>
-            <span class="insight-value" id="insight-contributions">--</span>
-          </div>
-          <div class="insight-card">
-            <span class="insight-label">Pull Requests</span>
-            <span class="insight-value" id="insight-prs">--</span>
-          </div>
-          <div class="insight-card">
-            <span class="insight-label">Issues</span>
-            <span class="insight-value" id="insight-issues">--</span>
-          </div>
-          <div class="insight-card">
-            <span class="insight-label">Stars Earned</span>
-            <span class="insight-value" id="insight-stars">--</span>
-          </div>
-          <div class="insight-card">
-            <span class="insight-label">Total Forks</span>
-            <span class="insight-value" id="insight-forks">--</span>
-          </div>
-          <div class="insight-card">
-            <span class="insight-label">Starred Repos</span>
-            <span class="insight-value" id="insight-starred">--</span>
-          </div>
-          <div class="insight-card">
-            <span class="insight-label">Storage Used</span>
-            <span class="insight-value" id="insight-storage">--</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-section">
-        <div class="section-header">
-          <h2>Pinned Repositories</h2>
-        </div>
-        <div id="pinned-container" class="repos-grid"></div>
-      </section>
-
-      <section class="content-section">
-        <div class="section-header">
-          <h2>Contribution History</h2>
-          <span id="total-contributions" class="badge">-- total</span>
-        </div>
-        <div class="calendar-wrapper">
-          <div class="calendar-scroll">
-            <div id="calendar-container" class="calendar-grid"></div>
-          </div>
-          <div class="calendar-footer">
-            <span>Less</span>
-            <div class="calendar-legend">
-              <div class="level-0"></div>
-              <div class="level-1"></div>
-              <div class="level-2"></div>
-              <div class="level-3"></div>
-              <div class="level-4"></div>
-            </div>
-            <span>More</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-section">
-        <div class="section-header">
-          <h2>Repositories</h2>
-        </div>
-        <div id="repos-container" class="repos-grid"></div>
-      </section>
-
-      <section class="content-section">
-        <div class="section-header">
-          <h2>Recent Activity</h2>
-        </div>
-        <div id="activity-container" class="activity-timeline-horizontal"></div>
-      </section>
-    </main>
-
-    <footer>
-      <p id="last-fetched" class="last-fetched"></p>
-    </footer>
-  </div>
+    <section id="activity" class="section" aria-labelledby="activity-title" hidden></section>
+  </main>
+  <footer id="footer" class="footer"></footer>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
