@@ -1,13 +1,35 @@
 # GitHub Dashboard
 
-A zero-maintenance, automated GitHub profile dashboard hosted on GitHub Pages.
+A searchable dashboard of what I have built on GitHub, hosted on GitHub Pages and rebuilt every day.
 
 ## Overview
-This repository serves as a dedicated portfolio strictly for GitHub activity. It replaces the standard GitHub dashboard with a more detailed, customizable interface showing repository stats and language distribution.
+A plain GitHub profile lists repositories flat and says little about them. This page groups the work by area (apps,
+robotics, web), and each project shows what it is, its status, its latest release and how active it is. The list can be
+searched and filtered by area, status, language, tag, recent activity, release and license, and the filtered view has
+its own address so it can be shared.
+
+The projects, their areas, statuses and tags are listed by hand in `config/catalog.json`; the numbers come from the
+GitHub API. Repositories of the `kosuke-apps` organization are included.
+
+## Searching and filtering
+Type words, or qualifiers, in the search box, or click the filters; they edit the same query.
+
+| Query | Meaning |
+|---|---|
+| `status:released` | released, in-progress, learning, paused or archived |
+| `lang:swift` | the main language, or one that is at least 10% of the code |
+| `tag:ios` | a tag from the catalog or a GitHub topic |
+| `area:apps` | an area, a sub-area, or a path such as `Apps/iPhone` |
+| `active:30d` | active within 7d, 30d, 90d or 1y (also `2w`, `6m`) |
+| `has:release`, `is:featured`, `is:stale` | has a release; featured; idle for 180 days |
+| `license:mit` | a license identifier |
+| `-tag:template` | a leading minus excludes |
+
+Several values of one qualifier mean "or", different qualifiers mean "and". Press `/` to jump to the search box.
 
 ## How It Works
 - **Vanilla Frontend:** Built with pure HTML, CSS, and JavaScript. No build step or heavy dependencies required for the frontend.
-- **Automated Data Fetching:** A Node.js script (`scripts/fetch-github-data.js`) uses the GitHub GraphQL API to fetch detailed statistics and writes them to `data/data.json`.
+- **Automated Data Fetching:** A Node.js script (`scripts/fetch-github-data.js`) reads `config/catalog.json`, asks the GitHub GraphQL API for each listed project (languages, releases, recent commits, commits per week) and writes `data/data.json`. A public repository of mine that is missing from the catalog is reported as a warning in the workflow run, so a new project is never forgotten.
 - **GitHub Actions:** A workflow (`.github/workflows/update-and-deploy.yml`) runs daily, on every push to `main`, and on demand. It checks and tests the scripts, fetches the data, commits `data/data.json` (on `main` only), assembles the site into `_site/` with `scripts/build-site.js`, and deploys only that folder to GitHub Pages. Only `index.html`, `css/`, `js/`, and `data/data.json` are published.
 - **Bot-authored data commits:** The daily data commit is made by `github-actions[bot]` on purpose. GitHub counts a commit toward a profile's contribution graph only when its author email is linked to that account, so these automated commits do not show up as the owner's contributions. Commits by bots are also left out of the Recent Activity list.
 
@@ -35,6 +57,12 @@ This repository serves as a dedicated portfolio strictly for GitHub activity. It
    ```bash
    npm run fetch-data
    ```
+   Without a token you can use the GitHub CLI instead:
+   ```bash
+   node scripts/fetch-github-data.js --print-request > request.json
+   gh api graphql --input request.json > response.json
+   node scripts/fetch-github-data.js --from-file response.json
+   ```
 
 5. **Run Locally:**
    Serve the repository root with any local web server for quick edits, or build the site and serve exactly what is published.
@@ -52,9 +80,14 @@ The workflow uses the built-in `GITHUB_TOKEN`, so it needs no secrets. A run fro
 
 GitHub disables scheduled workflows in a public repository after 60 days without repository activity. If the "Data last updated" line at the bottom of the page gets old, re-enable the workflow in the **Actions** tab or run `gh workflow enable update-and-deploy.yml`.
 
+## Editing the project list
+Edit `config/catalog.json`: add an entry for a new project (`owner/name`, an area from `groups`, a status, tags), set
+`featured` for the cards at the top, or `hidden` to keep a repository off the page. `npm run check` validates the file
+and explains every mistake.
+
 ## Quality Checks
 ```bash
-npm run check   # syntax check of every script
+npm run check   # syntax check of every script, and validation of the catalog
 npm test        # unit tests
 npm run build   # assemble _site/ and confirm the data file exists
 ```
