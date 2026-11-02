@@ -209,6 +209,7 @@ export function buildData({ response, catalog, login, now = new Date() }) {
     }
     const project = buildProject(entry, repo, activity.get(repo.nameWithOwner.toLowerCase()) ?? [], now);
     if (!project.summary) warnings.push(`${entry.repo}: has no summary. Add one to the catalog or a description on GitHub.`);
+    else if (/\bTODO\b/.test(project.summary)) warnings.push(`${entry.repo}: the summary still says TODO and would be published as it is.`);
     projects.push(project);
   });
 
