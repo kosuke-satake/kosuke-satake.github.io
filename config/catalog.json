@@ -1,0 +1,44 @@
+{
+  "$comment": "Hand-maintained list of the work shown on the dashboard. A project's summary falls back to its GitHub description when 'summary' is null. Repositories of the account that are not listed here are shown under 'Unsorted' and reported as a warning in the workflow run.",
+  "profile": {
+    "tagline": "I build small, offline-first apps for iPhone and Mac, and I am learning robotics with ROS 2 and MuJoCo.",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/kosuke-satake" },
+      { "label": "kosuke-apps", "url": "https://github.com/kosuke-apps" }
+    ]
+  },
+  "groups": [
+    "Apps",
+    "Apps/iPhone",
+    "Apps/Mac",
+    "Robotics",
+    "Robotics/ROS 2",
+    "Robotics/Simulation and robots",
+    "Web",
+    "Web/Templates and sites"
+  ],
+  "projects": [
+    { "repo": "kosuke-apps/Headway",  "group": "Apps/iPhone", "status": "released", "featured": true, "tags": ["swift", "maps", "transit", "offline"], "summary": null },
+    { "repo": "kosuke-apps/Mantissa", "group": "Apps/iPhone", "status": "released", "featured": true, "tags": ["swift", "calculator", "offline"], "summary": null },
+    { "repo": "kosuke-apps/Kitbag",   "group": "Apps/iPhone", "status": "released", "featured": true, "tags": ["swift", "widgets", "university"], "summary": "One iPhone app for a student's everyday tools (timetable, GPA, calendar, notes, weather) that also runs Headway and Mantissa inside itself." },
+
+    { "repo": "kosuke-apps/Tapdeck",    "group": "Apps/Mac", "status": "released", "featured": false, "tags": ["swift", "audio", "core-audio"], "summary": null },
+    { "repo": "kosuke-apps/NotchShelf", "group": "Apps/Mac", "status": "released", "featured": true,  "tags": ["swift", "menu-bar"], "summary": null },
+    { "repo": "kosuke-apps/Paddock",    "group": "Apps/Mac", "status": "released", "featured": false, "tags": ["swift", "menu-bar", "ollama"], "summary": null },
+
+    { "repo": "kosuke-satake/esp32-ros2-rover",    "group": "Robotics/ROS 2", "status": "in-progress", "featured": false, "tags": ["ros2", "esp32", "slam"], "summary": null },
+    { "repo": "kosuke-satake/ros2_ws",             "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2", "docker"], "summary": null },
+    { "repo": "kosuke-satake/ros2_tutorial_ws",    "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2"], "summary": null },
+    { "repo": "kosuke-satake/ros2_mac_workspace",  "group": "Robotics/ROS 2", "status": "learning", "featured": false, "tags": ["ros2", "macos"], "summary": "TODO: one sentence. This repository has no README or description." },
+
+    { "repo": "kosuke-satake/mujoco_ws", "group": "Robotics/Simulation and robots", "status": "learning", "featured": false, "tags": ["mujoco", "simulation", "python"], "summary": "A step-by-step MuJoCo workspace: physics simulation, actuation and control, sensors, and reinforcement-learning environments." },
+    { "repo": "kosuke-satake/go2-w_ws",  "group": "Robotics/Simulation and robots", "status": "learning", "featured": false, "tags": ["unitree", "python", "simulation"], "summary": "Learning workspace for the Unitree Go2-W wheeled quadruped: Python SDK, middleware configuration and simulation." },
+
+    { "repo": "kosuke-satake/keyastro",                  "group": "Web/Templates and sites", "status": "released", "featured": true,  "tags": ["astro", "cms", "template"], "summary": null },
+    { "repo": "kosuke-satake/scholar-static",            "group": "Web/Templates and sites", "status": "released", "featured": true,  "tags": ["astro", "cms", "template"], "summary": null },
+    { "repo": "kosuke-satake/kosuke-satake.github.io",   "group": "Web/Templates and sites", "status": "in-progress", "featured": false, "tags": ["github-api", "github-pages"], "summary": "This dashboard: it summarizes the work above and is rebuilt every day by GitHub Actions." },
+
+    { "repo": "kosuke-satake/jules_ws",          "hidden": true, "summary": "An AI-agent demo repository." },
+    { "repo": "kosuke-satake/my_first_container", "hidden": true, "summary": "A first Docker exercise." }
+  ]
+}
