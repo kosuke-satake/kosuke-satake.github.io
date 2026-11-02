@@ -11,6 +11,12 @@ its own address so it can be shared.
 The projects, their areas, statuses and tags are listed by hand in `config/catalog.json`; the numbers come from the
 GitHub API. Repositories of the `kosuke-apps` organization are included.
 
+## Charts and numbers
+Below the project list: the contribution calendar with the longest streak and the busiest month; a timeline with a
+row per project and a column per week (darker means more commits, a diamond is a release); commits per week by area;
+releases per month; the latest releases; languages by code size; the status split; the most used tags (select one to
+filter the list); and a table that sums each area up. Commits by bots are never counted.
+
 ## Searching and filtering
 Type words, or qualifiers, in the search box, or click the filters; they edit the same query.
 
