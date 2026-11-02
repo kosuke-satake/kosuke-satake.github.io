@@ -1,7 +1,7 @@
 // Turns the GitHub API response and the catalog into the data the page renders (data/data.json, schema 2).
 // Everything here is pure: no network, no file access, so it can be tested with fixtures.
 
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 export const WEEKS = 52;
 const MS_PER_DAY = 86_400_000;
 const LEVELS = { NONE: 0, FIRST_QUARTILE: 1, SECOND_QUARTILE: 2, THIRD_QUARTILE: 3, FOURTH_QUARTILE: 4 };
@@ -25,7 +25,7 @@ const PROJECT_FIELDS = `
       edges { size node { name color } }
     }
     repositoryTopics(first: 12) { nodes { topic { name } } }
-    releases(first: 1, orderBy: { field: CREATED_AT, direction: DESC }) {
+    releases(first: 50, orderBy: { field: CREATED_AT, direction: DESC }) {
       totalCount
       nodes { tagName name publishedAt url isPrerelease }
     }
@@ -126,7 +126,8 @@ function buildProject(entry, repo, activityEntries, now) {
     .reduce((sum, item) => sum + item.commitCount, 0);
 
   const totalSize = repo.languages?.totalSize ?? 0;
-  const latest = repo.releases?.nodes?.[0] ?? null;
+  const published = (repo.releases?.nodes ?? []).filter((node) => node.publishedAt);
+  const latest = published[0] ?? null;
   const licence = repo.licenseInfo?.spdxId;
 
   return {
@@ -167,6 +168,8 @@ function buildProject(entry, repo, activityEntries, now) {
       latest: latest
         ? { tag: latest.tagName, name: latest.name, publishedAt: latest.publishedAt, url: latest.url, prerelease: latest.isPrerelease }
         : null,
+      // Every published release, newest first, for the timeline and the releases-per-month chart.
+      history: published.map((node) => ({ tag: node.tagName, publishedAt: node.publishedAt, prerelease: node.isPrerelease })),
     },
     recent,
   };
@@ -235,6 +238,8 @@ export function buildData({ response, catalog, login, now = new Date() }) {
   const data = {
     schema: SCHEMA_VERSION,
     generatedAt: now.toISOString(),
+    // The start of each of the 52 weekly bins in `projects[].weekly`, oldest first.
+    weekStarts: Array.from({ length: WEEKS }, (_, index) => new Date(now.getTime() - (WEEKS - index) * 7 * MS_PER_DAY).toISOString()),
     profile: {
       login: user.login,
       name: catalog.profile?.name || user.name || user.login,
