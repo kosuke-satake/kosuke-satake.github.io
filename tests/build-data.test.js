@@ -118,6 +118,14 @@ test('a project without any summary is reported', () => {
   assert.deepEqual(warnings, ['owner/app: has no summary. Add one to the catalog or a description on GitHub.']);
 });
 
+test('a summary that still says TODO is reported', () => {
+  const draft = catalog([{ repo: 'owner/app', group: 'Apps', status: 'released', summary: 'TODO: one sentence.' }]);
+  const { warnings } = build({ response: response(), catalog: draft });
+  assert.deepEqual(warnings, ['owner/app: the summary still says TODO and would be published as it is.']);
+  const fine = catalog([{ repo: 'owner/app', group: 'Apps', status: 'released', summary: 'Todoist client' }]);
+  assert.deepEqual(build({ response: response(), catalog: fine }).warnings, []);
+});
+
 test('bot commits are left out of recent work and of the last activity', () => {
   const [project] = build({ response: response(), catalog: catalog() }).data.projects;
   assert.deepEqual(project.recent, [{ subject: 'feat: add thing', date: '2026-10-30T00:00:00Z', url: 'u2' }]);
