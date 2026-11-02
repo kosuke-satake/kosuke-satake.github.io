@@ -236,7 +236,7 @@ export function buildData({ response, catalog, login, now = new Date() }) {
     generatedAt: now.toISOString(),
     profile: {
       login: user.login,
-      name: user.name || user.login,
+      name: catalog.profile?.name || user.name || user.login,
       avatarUrl: user.avatarUrl,
       bio: user.bio || '',
       url: user.url,

@@ -15,8 +15,10 @@ export function validateCatalog(catalog) {
   if (!isObject(profile)) {
     errors.push('"profile" must be an object.');
   } else {
-    if (profile.tagline !== undefined && typeof profile.tagline !== 'string') {
-      errors.push('"profile.tagline" must be a string.');
+    for (const field of ['name', 'tagline']) {
+      if (profile[field] !== undefined && typeof profile[field] !== 'string') {
+        errors.push(`"profile.${field}" must be a string.`);
+      }
     }
     (profile.links ?? []).forEach((link, index) => {
       if (!isObject(link) || typeof link.label !== 'string' || !/^https:\/\//.test(link.url ?? '')) {

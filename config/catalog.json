@@ -1,6 +1,7 @@
 {
   "$comment": "Hand-maintained list of the work shown on the dashboard. A project's summary falls back to its GitHub description when 'summary' is null. Repositories of the account that are not listed here are shown under 'Unsorted' and reported as a warning in the workflow run.",
   "profile": {
+    "name": "Kosuke Satake",
     "tagline": "I build small, offline-first apps for iPhone and Mac, and I am learning robotics with ROS 2 and MuJoCo.",
     "links": [
       { "label": "GitHub", "url": "https://github.com/kosuke-satake" },

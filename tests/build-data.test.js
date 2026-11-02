@@ -62,7 +62,7 @@ const response = ({ repos = [repo()], activity = [], owned = ['app'], days } = {
 });
 
 const catalog = (projects) => ({
-  profile: { tagline: 'Hi', links: [{ label: 'GitHub', url: 'https://github.com/owner' }] },
+  profile: { name: 'Display Name', tagline: 'Hi', links: [{ label: 'GitHub', url: 'https://github.com/owner' }] },
   groups: ['Apps', 'Web'],
   projects: projects ?? [{ repo: 'owner/app', group: 'Apps', status: 'released', featured: true, tags: ['swift'] }],
 });
@@ -102,6 +102,8 @@ test('catalog and API data are merged into one project', () => {
   assert.equal(project.releases.count, 2);
   assert.equal(project.languages[0].share, 0.75);
   assert.equal(data.schema, 2);
+  assert.equal(data.profile.name, 'Display Name');
+  assert.equal(data.profile.tagline, 'Hi');
 });
 
 test('the summary comes from the catalog, else from the GitHub description', () => {
