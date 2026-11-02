@@ -1,5 +1,7 @@
 import { h } from '../lib/dom.js';
 import { formatCount, formatDate, plural } from '../lib/format.js';
+import { MONTH_NAMES, streaks } from '../lib/stats.js';
+import { areaTableCard, effortCard, releasesCard, statusCard, tagsCard, timelineCard } from './charts.js';
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -28,7 +30,7 @@ function calendar(data) {
 
   const legend = h('div', { class: 'cal-legend', 'aria-hidden': 'true' },
     h('span', {}, 'Less'), [0, 1, 2, 3, 4].map((level) => h('span', { class: `cal-day level-${level}` })), h('span', {}, 'More'));
-  const card = h('div', { class: 'card calendar' }, scroll, legend);
+  const card = h('div', { class: 'card calendar span-2' }, scroll, legend);
   // On a narrow screen the grid scrolls inside its card; show the latest weeks first.
   requestAnimationFrame(() => { scroll.scrollLeft = scroll.scrollWidth; });
   return card;
@@ -65,11 +67,30 @@ function languages(stats) {
   return h('div', { class: 'card' }, h('h3', {}, 'Languages, by code size'), bar, legend);
 }
 
-export function renderActivity(root, data) {
+function streakFacts(data) {
+  const result = streaks(data.calendar.weeks);
+  const month = result.busiestMonth ? `${MONTH_NAMES[Number(result.busiestMonth.slice(5)) - 1]} ${result.busiestMonth.slice(0, 4)}` : 'None';
+  const facts = [
+    ['Contributions', formatCount(data.calendar.total), 'in the last 12 months'],
+    ['Active days', formatCount(result.activeDays), 'with at least one contribution'],
+    ['Longest streak', plural(result.longest, 'day'), result.longestEnd ? `ending ${formatDate(result.longestEnd)}` : ''],
+    ['Busiest month', month, `${formatCount(result.busiestMonthCount)} contributions`],
+  ];
+  return h('dl', { class: 'facts wide span-2' }, facts.map(([label, value, note]) => h('div', {}, h('dt', {}, label), h('dd', {}, value), h('p', { class: 'fact-note' }, note))));
+}
+
+// `onTag` is called when a tag is chosen in the tag chart; `now` is the time used for "last active".
+export function renderActivity(root, data, { now, onTag }) {
   root.replaceChildren(
-    h('h2', { id: 'activity-title' }, 'Activity and stack'),
-    h('p', { class: 'section-note' }, `${formatCount(data.calendar.total)} public contributions in the last 12 months, on ${plural(data.calendar.activeDays, 'day')}. Commits by bots are not counted.`),
-    h('div', { class: 'activity-grid' }, calendar(data), latestReleases(data.projects), languages(data.stats)),
+    h('h2', { id: 'activity-title' }, 'Activity and numbers'),
+    h('p', { class: 'section-note' }, 'Figures come from the public GitHub API. Commits by bots are not counted.'),
+    h('div', { class: 'activity-grid' },
+      streakFacts(data), calendar(data),
+      timelineCard(data),
+      effortCard(data), releasesCard(data),
+      latestReleases(data.projects), languages(data.stats),
+      statusCard(data), tagsCard(data, onTag),
+      areaTableCard(data, now)),
   );
   root.hidden = false;
 }
