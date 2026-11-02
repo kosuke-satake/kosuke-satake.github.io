@@ -11,7 +11,7 @@ async function start() {
   const response = await fetch('./data/data.json');
   if (!response.ok) throw new Error(`Request failed with status ${response.status}`);
   const data = await response.json();
-  if (data.schema !== 2) throw new Error(`Unsupported data version ${data.schema}`);
+  if (data.schema !== 3) throw new Error(`Unsupported data version ${data.schema}`);
 
   const now = new Date();
   const state = stateFromSearch(location.search);
@@ -40,7 +40,7 @@ async function start() {
     if (tag) work.toggleFilter('tag', tag.dataset.tag);
   });
 
-  renderActivity(document.getElementById('activity'), data);
+  renderActivity(document.getElementById('activity'), data, { now, onTag: (tag) => work.toggleFilter('tag', tag) });
   document.getElementById('footer').replaceChildren(
     h('p', {}, 'Figures come from the GitHub API and are refreshed every day. Commits by bots are not counted.'),
     h('p', {}, `Data last updated ${new Date(data.generatedAt).toLocaleString('en', { dateStyle: 'medium', timeStyle: 'short' })}. `, externalLink(SOURCE, 'Source code')),

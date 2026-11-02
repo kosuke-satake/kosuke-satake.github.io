@@ -20,7 +20,11 @@ const repo = (overrides = {}) => ({
   primaryLanguage: { name: 'Swift', color: '#F05138' },
   languages: { totalSize: 100, edges: [{ size: 75, node: { name: 'Swift', color: '#F05138' } }, { size: 25, node: { name: 'Shell', color: null } }] },
   repositoryTopics: { nodes: [{ topic: { name: 'ios' } }] },
-  releases: { totalCount: 2, nodes: [{ tagName: 'v1.1.0', name: 'One one', publishedAt: '2026-10-20T00:00:00Z', url: 'https://github.com/owner/app/releases/tag/v1.1.0', isPrerelease: false }] },
+  releases: { totalCount: 2, nodes: [
+    { tagName: 'v1.1.0', name: 'One one', publishedAt: '2026-10-20T00:00:00Z', url: 'https://github.com/owner/app/releases/tag/v1.1.0', isPrerelease: false },
+    { tagName: 'v1.0.0', name: 'One', publishedAt: '2026-09-01T00:00:00Z', url: 'https://github.com/owner/app/releases/tag/v1.0.0', isPrerelease: false },
+    { tagName: 'v1.2.0-draft', name: 'Draft', publishedAt: null, url: 'u', isPrerelease: false },
+  ] },
   defaultBranchRef: {
     target: {
       history: {
@@ -101,7 +105,14 @@ test('catalog and API data are merged into one project', () => {
   assert.deepEqual(project.releases.latest, { tag: 'v1.1.0', name: 'One one', publishedAt: '2026-10-20T00:00:00Z', url: 'https://github.com/owner/app/releases/tag/v1.1.0', prerelease: false });
   assert.equal(project.releases.count, 2);
   assert.equal(project.languages[0].share, 0.75);
-  assert.equal(data.schema, 2);
+  assert.equal(data.schema, 3);
+  assert.deepEqual(project.releases.history, [
+    { tag: 'v1.1.0', publishedAt: '2026-10-20T00:00:00Z', prerelease: false },
+    { tag: 'v1.0.0', publishedAt: '2026-09-01T00:00:00Z', prerelease: false },
+  ]);
+  assert.equal(data.weekStarts.length, 52);
+  assert.equal(data.weekStarts[51], new Date(NOW - 7 * 86_400_000).toISOString());
+  assert.equal(data.weekStarts[0], new Date(NOW - 52 * 7 * 86_400_000).toISOString());
   assert.equal(data.profile.name, 'Display Name');
   assert.equal(data.profile.tagline, 'Hi');
 });
