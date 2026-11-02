@@ -3,7 +3,9 @@
 Status: approved by the owner on 2026-11-02 and built on the branch `feat/portfolio-dashboard`: phase 1 (data), the page
 and the filter engine of phase 2, and the activity section. The requirement that came with the approval: advanced
 filtering, and a page that fixes what people dislike about the plain GitHub profile instead of being a README as a site.
-Not built yet: a timeline view of when each project was worked on, screenshots on the featured cards, a Japanese version.
+Built afterwards at the owner's request (graphics and a spec table at the bottom of the page): a timeline of when each
+project was worked on with its releases, effort by area, releases per month, the status split, the most used tags, streaks,
+and a table by area. Not built yet: screenshots on the featured cards, a Japanese version.
 
 ## Goal
 

@@ -24,16 +24,20 @@ Pages and rebuilt every day by GitHub Actions. Workspace rules are in `~/Develop
     edits this file by hand.
   - `scripts/lib/catalog.js`: validates the catalog and explains every problem.
   - `scripts/lib/build-data.js`: pure code that builds the GraphQL request and turns the API response plus the catalog
-    into the page data (schema 2). Bot commits are left out of every list and date.
+    into the page data (schema 3: every published release, commits per week, the start of each week). Bot commits are
+    left out of every list and date.
   - `scripts/fetch-github-data.js`: sends the request and writes `data/data.json`. `--print-request` prints the query and
     `--from-file <response.json>` builds the data from a saved response, both without a token.
   - `scripts/build-site.js`, `scripts/check.js`: assemble the published files; syntax-check every script and the catalog.
   - `index.html`, `css/style.css`: the page skeleton and all styles (dark and light, from design tokens in `:root`).
   - `js/main.js`: loads the data and wires the page. `js/ui/*`: hero, project card, search and filter panel, results,
-    activity. `js/lib/*`: the query language (`query.js`), matching, facet counts and sorting (`filter.js`), the
-    address-bar state, formatting, and DOM helpers. Never use `innerHTML` for GitHub text.
-  - `tests/`: unit tests (`node --test`) for the catalog, the data builder, the query language, the filter engine and
-    the URL state.
+    activity, and `charts.js` (timeline, effort by area, releases per month, status, tags, the area table). `js/lib/*`:
+    the query language (`query.js`), matching, facet counts and sorting (`filter.js`), the numbers behind the charts
+    (`stats.js`), the address-bar state, formatting, and DOM helpers. Never use `innerHTML` for GitHub text.
+  - Charts are plain HTML and CSS (bars sized in percent) or CSS grid, not scaled SVG, so axis text keeps its size on
+    a phone. Every chart has a text alternative; scroll containers are `position: relative` and focusable.
+  - `tests/`: unit tests (`node --test`) for the catalog, the data builder, the query language, the filter engine, the
+    chart statistics and the URL state.
   - `.github/workflows/update-and-deploy.yml`: a build job (check, test, fetch, commit the data, assemble, upload) and a
     deploy job.
 - Constraints:
@@ -72,5 +76,6 @@ Pages and rebuilt every day by GitHub Actions. Workspace rules are in `~/Develop
 - `npm run check`, `npm test` and `npm run build` pass.
 - The built site is inspected at 375, 768 and 1024 px, in the dark and the light theme: no horizontal scroll, no
   console errors, and the search, the filters and the sort work.
-- Text contrast is at least 4.5:1, headings do not skip levels, and interactive elements work with a keyboard.
+- Text contrast is at least 4.5:1 and graphics that carry meaning at least 3:1, headings do not skip levels, and
+  interactive elements work with a keyboard.
 - README and this file match what was delivered.
