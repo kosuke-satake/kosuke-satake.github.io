@@ -39,6 +39,7 @@
     { "repo": "kosuke-satake/scholar-static",            "group": "Web/Templates and sites", "status": "released", "featured": true,  "tags": ["astro", "cms", "template"], "summary": null },
     { "repo": "kosuke-satake/kosuke-satake.github.io",   "group": "Web/Templates and sites", "status": "in-progress", "featured": false, "tags": ["github-api", "github-pages"], "summary": "This dashboard: it summarizes the work above and is rebuilt every day by GitHub Actions." },
 
+    { "repo": "kosuke-satake/kosuke-satake", "hidden": true, "summary": "The GitHub profile README, not a project." },
     { "repo": "kosuke-satake/jules_ws",          "hidden": true, "summary": "An AI-agent demo repository." },
     { "repo": "kosuke-satake/my_first_container", "hidden": true, "summary": "A first Docker exercise." }
   ]
