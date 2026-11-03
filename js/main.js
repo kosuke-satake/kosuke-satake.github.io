@@ -2,6 +2,7 @@ import { externalLink, h } from './lib/dom.js';
 import { searchFromState, stateFromSearch } from './lib/url-state.js';
 import { renderActivity } from './ui/activity.js';
 import { renderHero } from './ui/hero.js';
+import { renderRecent } from './ui/recent.js';
 import { projectItem } from './ui/project.js';
 import { initWork } from './ui/work.js';
 
@@ -21,8 +22,16 @@ async function start() {
   const featuredList = featuredRoot.querySelector('ul');
   const featured = data.projects.filter((project) => project.featured);
   featuredList.replaceChildren(...featured.map((project) => projectItem(project, { now, featured: true })));
-  // Featured cards are only shown while no search or filter is active; the results take over then.
-  const showFeatured = (current) => { featuredRoot.hidden = featured.length === 0 || current.q.trim() !== ''; };
+  // GitHub Pages caches files for ten minutes, so right after a deploy this script can meet an older index.html
+  // that has no #recent section. That section is optional, so the page still works without it.
+  const recentRoot = document.getElementById('recent');
+  const recentCount = recentRoot ? renderRecent(recentRoot, data, now) : 0;
+  // The featured cards and the recent work are only shown while no search or filter is active; the results take over.
+  const showFeatured = (current) => {
+    const filtering = current.q.trim() !== '';
+    featuredRoot.hidden = featured.length === 0 || filtering;
+    if (recentRoot) recentRoot.hidden = recentCount === 0 || filtering;
+  };
 
   const work = initWork({
     root: document.getElementById('work'),

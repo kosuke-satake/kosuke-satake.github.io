@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { areaRows, effortByArea, monthTicks, releasesByMonth, statusCounts, streaks, tagCounts, weekIndex, weekLevel } from '../js/lib/stats.js';
+import { areaRows, effortByArea, monthTicks, recentWork, releasesByMonth, statusCounts, streaks, tagCounts, weekIndex, weekLevel } from '../js/lib/stats.js';
 
 const REFERENCE = '2026-11-02T12:00:00Z';
 const ago = (days) => new Date(new Date(REFERENCE) - days * 86_400_000).toISOString();
@@ -93,6 +93,23 @@ test('the area table has a total row and a row per area that has projects', () =
   assert.deepEqual(rows[1].languages, ['Swift', 'Shell']);
   assert.deepEqual(rows[3].languages, ['Python']);
   assert.equal(rows[0].lastActive, ago(5));
+});
+
+test('recent work is the newest commits across projects, within the window, up to the limit', () => {
+  const commit = (subject, days) => ({ subject, date: ago(days), url: `u-${subject}` });
+  const projects = [
+    project('a', { recent: [commit('a1', 2), commit('a2', 20), commit('a3', 45)] }),
+    project('b', { recent: [commit('b1', 1), commit('b2', 29)] }),
+    project('c', { recent: [] }),
+  ];
+  assert.deepEqual(recentWork(projects, REFERENCE).map((entry) => entry.subject), ['b1', 'a1', 'a2', 'b2']);
+  const busy = [project('x', { recent: [commit('x1', 1), commit('x2', 2), commit('x3', 3)] }), project('y', { recent: [commit('y1', 5)] })];
+  assert.deepEqual(recentWork(busy, REFERENCE).map((entry) => entry.subject), ['x1', 'x2', 'y1']);
+  assert.deepEqual(recentWork(busy, REFERENCE, { perProject: 3 }).map((entry) => entry.subject), ['x1', 'x2', 'x3', 'y1']);
+  assert.deepEqual(recentWork(projects, REFERENCE, { limit: 2 }).map((entry) => entry.subject), ['b1', 'a1']);
+  assert.deepEqual(recentWork(projects, REFERENCE, { days: 3 }).map((entry) => entry.subject), ['b1', 'a1']);
+  assert.equal(recentWork(projects, REFERENCE)[0].project.name, 'b');
+  assert.deepEqual(recentWork([], REFERENCE), []);
 });
 
 test('statuses follow the fixed order and skip empty ones', () => {

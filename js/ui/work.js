@@ -1,6 +1,6 @@
 import { h } from '../lib/dom.js';
-import { hasFilter, parseQuery, removeFilter, removeTerm, setFilter, toggleFilter } from '../lib/query.js';
-import { SORTS, STATUS_LABELS, STATUS_ORDER, applyQuery, facetCounts } from '../lib/filter.js';
+import { hasFilter, parseQuery, removeFilter, removeTerm, serializeQuery, setFilter, toggleFilter } from '../lib/query.js';
+import { SORTS, STATUS_LABELS, STATUS_ORDER, applyQuery, facetCounts, filterProjects } from '../lib/filter.js';
 import { plural } from '../lib/format.js';
 import { projectItem } from './project.js';
 
@@ -20,6 +20,13 @@ const SYNTAX = [
 ];
 
 const present = (nodes) => nodes.filter((node) => node !== null && node !== undefined && node !== false);
+// One-click views for people who do not want to type a query. Choosing the active one again clears it.
+const PRESETS = [
+  ['Released', 'status:released'],
+  ['Active in 30 days', 'active:30d'],
+  ['In progress and learning', 'status:in-progress status:learning'],
+  ['Featured', 'is:featured'],
+];
 const describe = (filter) => `${filter.negated ? 'not ' : ''}${filter.key}: ${filter.value}`;
 
 // The search box, the filter panel and the result list. The query string in the box is the single source of truth.
@@ -44,6 +51,17 @@ export function initWork({ root, data, now, state, onChange }) {
     h('div', { class: 'segmented', role: 'group', 'aria-label': 'View' }, viewButtons),
     panelButton);
 
+  const presets = h('div', { class: 'presets', role: 'group', 'aria-label': 'Quick views' }, PRESETS.map(([label, query]) => {
+    const count = h('span', { class: 'preset-count' });
+    const button = h('button', { type: 'button', class: 'preset' }, label, count);
+    button.addEventListener('click', () => setState({ q: button.getAttribute('aria-pressed') === 'true' ? '' : query }));
+    button.refresh = () => {
+      count.textContent = String(filterProjects(projects, parseQuery(query), now).length);
+      button.setAttribute('aria-pressed', String(serializeQuery(parseQuery(state.q)) === serializeQuery(parseQuery(query))));
+    };
+    return button;
+  }));
+
   const syntax = h('details', { class: 'syntax', id: 'syntax-help' },
     h('summary', {}, 'Search syntax'),
     h('dl', {}, SYNTAX.flatMap(([code, text]) => [h('dt', {}, h('code', {}, code)), h('dd', {}, text)])),
@@ -52,7 +70,7 @@ export function initWork({ root, data, now, state, onChange }) {
   const summary = h('p', { class: 'result-summary', role: 'status', 'aria-live': 'polite', tabindex: '-1' });
   const facets = h('aside', { id: 'facets', class: 'facets', 'aria-label': 'Filters', hidden: true });
   const results = h('div', { class: 'results' });
-  root.append(toolbar, syntax, chips, summary, h('div', { class: 'work-layout' }, facets, results));
+  root.append(toolbar, presets, syntax, chips, summary, h('div', { class: 'work-layout' }, facets, results));
 
   function setState(patch, { fromInput = false } = {}) {
     Object.assign(state, patch);
@@ -170,6 +188,7 @@ export function initWork({ root, data, now, state, onChange }) {
     sortSelect.value = state.sort;
     viewButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.view === state.view)));
     results.className = `results view-${state.view}`;
+    presets.querySelectorAll('.preset').forEach((button) => button.refresh());
     renderChips(parsed);
     renderFacets(parsed);
     renderResults(found);

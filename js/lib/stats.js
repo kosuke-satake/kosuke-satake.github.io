@@ -110,6 +110,23 @@ export function areaRows(projects, groups) {
   return [{ path: '', title: 'All work', depth: 0, ...summarize(projects) }, ...rows];
 }
 
+// The newest commits by a person across all projects, within the last `days` days, at most `perProject` from one
+// project so that a busy project does not push out the others.
+export function recentWork(projects, now, { days = 30, limit = 6, perProject = 2 } = {}) {
+  const cutoff = new Date(now) - days * DAY;
+  const taken = new Map();
+  return projects
+    .flatMap((project) => project.recent.map((commit) => ({ project, subject: commit.subject, date: commit.date, url: commit.url })))
+    .filter((commit) => new Date(commit.date) >= cutoff)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .filter((commit) => {
+      const count = taken.get(commit.project.name) ?? 0;
+      taken.set(commit.project.name, count + 1);
+      return count < perProject;
+    })
+    .slice(0, limit);
+}
+
 export function statusCounts(projects) {
   return STATUS_ORDER.map((status) => ({ status, count: projects.filter((project) => project.status === status).length })).filter((entry) => entry.count > 0);
 }
