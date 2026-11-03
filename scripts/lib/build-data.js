@@ -46,6 +46,11 @@ export function isAutomatedCommit(commit) {
   return /\[bot\]$/.test(commit.author?.name ?? '');
 }
 
+// A merge commit records that branches were joined, not what was done.
+export function isMergeCommit(commit) {
+  return /^Merge (branch|pull request|remote-tracking branch|tag) /.test(String(commit.message));
+}
+
 // One query for the profile, the calendar, the per-repository activity and every listed project. Owner and name
 // travel as variables, never inside the query text.
 export function buildRequest(catalog, login) {
@@ -108,7 +113,7 @@ export function weeklyBins(entries, now, weeks = WEEKS) {
 function buildProject(entry, repo, activityEntries, now) {
   const history = repo.defaultBranchRef?.target?.history?.nodes ?? [];
   const humanCommits = history.filter((commit) => !isAutomatedCommit(commit));
-  const recent = humanCommits.slice(0, 3).map((commit) => ({
+  const recent = humanCommits.filter((commit) => !isMergeCommit(commit)).slice(0, 3).map((commit) => ({
     subject: String(commit.message).split('\n')[0],
     date: commit.committedDate,
     url: commit.url,
