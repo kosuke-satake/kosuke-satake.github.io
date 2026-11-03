@@ -148,6 +148,16 @@ a.version:hover { color: var(--accent); text-decoration: none; border-color: var
 }
 @media (hover: hover) { .view-grid .project article:hover, .project.featured article:hover { border-color: var(--border-strong); } }
 
+/* Recent work */
+.recent-list { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); padding: 4px 18px; }
+.recent-list li { display: grid; grid-template-columns: 190px minmax(0, 1fr) auto; gap: 14px; align-items: baseline; padding: 10px 0; border-top: 1px solid var(--border); font-size: 0.92rem; }
+.recent-list li:first-child { border-top: 0; }
+.recent-project { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.recent-subject { color: var(--text); overflow-wrap: anywhere; }
+.recent-subject:hover { color: var(--accent); }
+.recent-list time { color: var(--text-2); font-size: 0.82rem; white-space: nowrap; }
+@media (max-width: 640px) { .recent-list li { grid-template-columns: minmax(0, 1fr) auto; } .recent-subject { grid-column: 1 / -1; grid-row: 2; } }
+
 /* Search, sort and view */
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; background: var(--bg); padding: 10px 0; }
 .search { position: relative; flex: 1 1 260px; }
@@ -171,6 +181,12 @@ a.version:hover { color: var(--accent); text-decoration: none; border-color: var
 .filter-count[hidden] { display: none; }
 @media (max-width: 959px) { .filters-toggle { display: inline-flex; align-items: center; gap: 6px; } }
 
+.presets { display: flex; flex-wrap: wrap; gap: 8px; margin: 2px 0 8px; }
+.preset { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--border-strong); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 0.86rem; cursor: pointer; }
+.preset:hover { border-color: var(--accent); }
+.preset[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
+.preset-count { font-size: 0.78rem; color: var(--text-2); font-variant-numeric: tabular-nums; }
+.preset[aria-pressed="true"] .preset-count { color: var(--on-accent); }
 .syntax { font-size: 0.85rem; color: var(--text-2); margin: 2px 0 8px; }
 .syntax summary { cursor: pointer; width: max-content; }
 .syntax dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 10px 0; }
