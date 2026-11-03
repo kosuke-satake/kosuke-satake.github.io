@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildData, buildRequest, isAutomatedCommit, weeklyBins } from '../scripts/lib/build-data.js';
+import { buildData, buildRequest, isAutomatedCommit, isMergeCommit, weeklyBins } from '../scripts/lib/build-data.js';
 
 const NOW = new Date('2026-11-02T12:00:00Z');
 const daysAgo = (n) => new Date(NOW - n * 86_400_000).toISOString();
@@ -142,6 +142,23 @@ test('bot commits are left out of recent work and of the last activity', () => {
   assert.deepEqual(project.recent, [{ subject: 'feat: add thing', date: '2026-10-30T00:00:00Z', url: 'u2' }]);
   assert.equal(project.lastActive, '2026-10-30T00:00:00Z');
   assert.equal(project.lastActiveFrom, 'commit');
+});
+
+test('merge commits are left out of recent work', () => {
+  const merged = repo({ defaultBranchRef: { target: { history: { nodes: [
+    { message: "Merge branch 'feat/x'", committedDate: '2026-11-01T00:00:00Z', url: 'm', author: { name: 'Kosuke Satake' } },
+    { message: 'feat: real work', committedDate: '2026-10-30T00:00:00Z', url: 'w', author: { name: 'Kosuke Satake' } },
+  ] } } } });
+  const [project] = build({ response: response({ repos: [merged] }), catalog: catalog() }).data.projects;
+  assert.deepEqual(project.recent.map((commit) => commit.subject), ['feat: real work']);
+  assert.equal(project.lastActive, '2026-11-01T00:00:00Z');
+});
+
+test('only genuine merge messages are merges', () => {
+  assert.equal(isMergeCommit({ message: "Merge branch 'main' into feat/x" }), true);
+  assert.equal(isMergeCommit({ message: 'Merge pull request #4 from a/b' }), true);
+  assert.equal(isMergeCommit({ message: 'Merged the parser fix' }), false);
+  assert.equal(isMergeCommit({ message: 'feat: merge sort' }), false);
 });
 
 test('the last activity is the newest of the latest commit and the contribution record', () => {
