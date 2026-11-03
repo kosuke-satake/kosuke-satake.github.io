@@ -32,6 +32,9 @@ Type words, or qualifiers, in the search box, or click the filters; they edit th
 | `-tag:template` | a leading minus excludes |
 
 Several values of one qualifier mean "or", different qualifiers mean "and". Press `/` to jump to the search box.
+The buttons under the search box are one-click views (released, active in 30 days, in progress and learning,
+featured), and the "Recent work" list above shows the newest commits by a person, at most two per project; merge
+commits and bot commits are left out.
 
 ## How It Works
 - **Vanilla Frontend:** Built with pure HTML, CSS, and JavaScript. No build step or heavy dependencies required for the frontend.

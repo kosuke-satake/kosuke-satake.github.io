@@ -31,7 +31,8 @@ Pages and rebuilt every day by GitHub Actions. Workspace rules are in `~/Develop
   - `scripts/build-site.js`, `scripts/check.js`: assemble the published files; syntax-check every script and the catalog.
   - `index.html`, `css/style.css`: the page skeleton and all styles (dark and light, from design tokens in `:root`).
   - `js/main.js`: loads the data and wires the page. `js/ui/*`: hero, project card, search and filter panel, results,
-    activity, and `charts.js` (timeline, effort by area, releases per month, status, tags, the area table). `js/lib/*`:
+    activity, `recent.js` (recent work), and `charts.js` (timeline, effort by area, releases per month, status, tags, the
+    area table). `js/lib/*`:
     the query language (`query.js`), matching, facet counts and sorting (`filter.js`), the numbers behind the charts
     (`stats.js`), the address-bar state, formatting, and DOM helpers. Never use `innerHTML` for GitHub text.
   - Charts are plain HTML and CSS (bars sized in percent) or CSS grid, not scaled SVG, so axis text keeps its size on
