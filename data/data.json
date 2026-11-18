@@ -1,59 +1,59 @@
 {
  "schema": 3,
- "generatedAt": "2026-11-17T12:02:11.545Z",
+ "generatedAt": "2026-11-18T11:54:19.717Z",
  "weekStarts": [
-  "2025-11-18T12:02:11.545Z",
-  "2025-11-25T12:02:11.545Z",
-  "2025-12-02T12:02:11.545Z",
-  "2025-12-09T12:02:11.545Z",
-  "2025-12-16T12:02:11.545Z",
-  "2025-12-23T12:02:11.545Z",
-  "2025-12-30T12:02:11.545Z",
-  "2026-01-06T12:02:11.545Z",
-  "2026-01-13T12:02:11.545Z",
-  "2026-01-20T12:02:11.545Z",
-  "2026-01-27T12:02:11.545Z",
-  "2026-02-03T12:02:11.545Z",
-  "2026-02-10T12:02:11.545Z",
-  "2026-02-17T12:02:11.545Z",
-  "2026-02-24T12:02:11.545Z",
-  "2026-03-03T12:02:11.545Z",
-  "2026-03-10T12:02:11.545Z",
-  "2026-03-17T12:02:11.545Z",
-  "2026-03-24T12:02:11.545Z",
-  "2026-03-31T12:02:11.545Z",
-  "2026-04-07T12:02:11.545Z",
-  "2026-04-14T12:02:11.545Z",
-  "2026-04-21T12:02:11.545Z",
-  "2026-04-28T12:02:11.545Z",
-  "2026-05-05T12:02:11.545Z",
-  "2026-05-12T12:02:11.545Z",
-  "2026-05-19T12:02:11.545Z",
-  "2026-05-26T12:02:11.545Z",
-  "2026-06-02T12:02:11.545Z",
-  "2026-06-09T12:02:11.545Z",
-  "2026-06-16T12:02:11.545Z",
-  "2026-06-23T12:02:11.545Z",
-  "2026-06-30T12:02:11.545Z",
-  "2026-07-07T12:02:11.545Z",
-  "2026-07-14T12:02:11.545Z",
-  "2026-07-21T12:02:11.545Z",
-  "2026-07-28T12:02:11.545Z",
-  "2026-08-04T12:02:11.545Z",
-  "2026-08-11T12:02:11.545Z",
-  "2026-08-18T12:02:11.545Z",
-  "2026-08-25T12:02:11.545Z",
-  "2026-09-01T12:02:11.545Z",
-  "2026-09-08T12:02:11.545Z",
-  "2026-09-15T12:02:11.545Z",
-  "2026-09-22T12:02:11.545Z",
-  "2026-09-29T12:02:11.545Z",
-  "2026-10-06T12:02:11.545Z",
-  "2026-10-13T12:02:11.545Z",
-  "2026-10-20T12:02:11.545Z",
-  "2026-10-27T12:02:11.545Z",
-  "2026-11-03T12:02:11.545Z",
-  "2026-11-10T12:02:11.545Z"
+  "2025-11-19T11:54:19.717Z",
+  "2025-11-26T11:54:19.717Z",
+  "2025-12-03T11:54:19.717Z",
+  "2025-12-10T11:54:19.717Z",
+  "2025-12-17T11:54:19.717Z",
+  "2025-12-24T11:54:19.717Z",
+  "2025-12-31T11:54:19.717Z",
+  "2026-01-07T11:54:19.717Z",
+  "2026-01-14T11:54:19.717Z",
+  "2026-01-21T11:54:19.717Z",
+  "2026-01-28T11:54:19.717Z",
+  "2026-02-04T11:54:19.717Z",
+  "2026-02-11T11:54:19.717Z",
+  "2026-02-18T11:54:19.717Z",
+  "2026-02-25T11:54:19.717Z",
+  "2026-03-04T11:54:19.717Z",
+  "2026-03-11T11:54:19.717Z",
+  "2026-03-18T11:54:19.717Z",
+  "2026-03-25T11:54:19.717Z",
+  "2026-04-01T11:54:19.717Z",
+  "2026-04-08T11:54:19.717Z",
+  "2026-04-15T11:54:19.717Z",
+  "2026-04-22T11:54:19.717Z",
+  "2026-04-29T11:54:19.717Z",
+  "2026-05-06T11:54:19.717Z",
+  "2026-05-13T11:54:19.717Z",
+  "2026-05-20T11:54:19.717Z",
+  "2026-05-27T11:54:19.717Z",
+  "2026-06-03T11:54:19.717Z",
+  "2026-06-10T11:54:19.717Z",
+  "2026-06-17T11:54:19.717Z",
+  "2026-06-24T11:54:19.717Z",
+  "2026-07-01T11:54:19.717Z",
+  "2026-07-08T11:54:19.717Z",
+  "2026-07-15T11:54:19.717Z",
+  "2026-07-22T11:54:19.717Z",
+  "2026-07-29T11:54:19.717Z",
+  "2026-08-05T11:54:19.717Z",
+  "2026-08-12T11:54:19.717Z",
+  "2026-08-19T11:54:19.717Z",
+  "2026-08-26T11:54:19.717Z",
+  "2026-09-02T11:54:19.717Z",
+  "2026-09-09T11:54:19.717Z",
+  "2026-09-16T11:54:19.717Z",
+  "2026-09-23T11:54:19.717Z",
+  "2026-09-30T11:54:19.717Z",
+  "2026-10-07T11:54:19.717Z",
+  "2026-10-14T11:54:19.717Z",
+  "2026-10-21T11:54:19.717Z",
+  "2026-10-28T11:54:19.717Z",
+  "2026-11-04T11:54:19.717Z",
+  "2026-11-11T11:54:19.717Z"
  ],
  "profile": {
   "login": "kosuke-satake",
@@ -119,10 +119,10 @@
  ],
  "projects": [
   {
-   "id": "kosuke-apps/Headway",
+   "id": "kosuke-apps/Routeline",
    "owner": "kosuke-apps",
-   "name": "Headway",
-   "url": "https://github.com/kosuke-apps/Headway",
+   "name": "Routeline",
+   "url": "https://github.com/kosuke-apps/Routeline",
    "homepage": null,
    "summary": "Live Madison, WI bus map for iPhone: offline map with every route and stop, live buses, trip planner with transfers, and punctuality measured from its own recordings.",
    "group": "Apps/iPhone",
@@ -154,32 +154,32 @@
     {
      "name": "Swift",
      "color": "#F05138",
-     "bytes": 1022841,
-     "share": 0.9623686416637734
+     "bytes": 1066577,
+     "share": 0.9624165785379903
     },
     {
      "name": "Python",
      "color": "#3572A5",
-     "bytes": 13884,
-     "share": 0.013063150793583589
-    },
-    {
-     "name": "TypeScript",
-     "color": "#3178c6",
-     "bytes": 9616,
-     "share": 0.009047483292358095
+     "bytes": 13900,
+     "share": 0.012542545396795605
     },
     {
      "name": "JavaScript",
      "color": "#f1e05a",
-     "bytes": 9611,
-     "share": 0.009042778902127043
+     "bytes": 9623,
+     "share": 0.008683231248443462
+    },
+    {
+     "name": "TypeScript",
+     "color": "#3178c6",
+     "bytes": 9620,
+     "share": 0.008680524224257103
     },
     {
      "name": "Shell",
      "color": "#89e051",
-     "bytes": 6885,
-     "share": 0.006477945348157808
+     "bytes": 8508,
+     "share": 0.007677120592513454
     }
    ],
    "license": "MIT",
@@ -187,13 +187,13 @@
    "stars": 0,
    "forks": 0,
    "createdAt": "2026-10-25T17:03:42Z",
-   "pushedAt": "2026-11-03T13:41:35Z",
-   "lastActive": "2026-10-26T13:44:33Z",
+   "pushedAt": "2026-11-17T17:19:44Z",
+   "lastActive": "2026-11-17T17:18:57Z",
    "lastActiveFrom": "commit",
    "commits": {
-    "last90d": 66,
-    "last52w": 66,
-    "activeDays": 12
+    "last90d": 82,
+    "last52w": 82,
+    "activeDays": 18
    },
    "weekly": [
     0,
@@ -245,67 +245,30 @@
     11,
     8,
     10,
-    0,
-    0,
-    0
+    4,
+    8,
+    4
    ],
    "releases": {
-    "count": 6,
-    "latest": {
-     "tag": "v0.7.5",
-     "name": "Headway 0.7.5",
-     "publishedAt": "2026-10-25T19:26:11Z",
-     "url": "https://github.com/kosuke-apps/Headway/releases/tag/v0.7.5",
-     "prerelease": false
-    },
-    "history": [
-     {
-      "tag": "v0.7.5",
-      "publishedAt": "2026-10-25T19:26:11Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.6.7",
-      "publishedAt": "2026-10-25T17:05:23Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.6.0",
-      "publishedAt": "2026-10-25T17:05:04Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.5.2",
-      "publishedAt": "2026-10-25T17:04:48Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.2.0",
-      "publishedAt": "2026-10-25T17:04:28Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.1.0",
-      "publishedAt": "2026-10-25T17:04:27Z",
-      "prerelease": false
-     }
-    ]
+    "count": 0,
+    "latest": null,
+    "history": []
    },
    "recent": [
     {
-     "subject": "Add an icon, four screenshots and a short introduction at the top of the README",
-     "date": "2026-10-26T13:44:33Z",
-     "url": "https://github.com/kosuke-apps/Headway/commit/81ff05ea5b6cdde9f57cfc6f2cf62bc7b0955b86"
+     "subject": "Point the links at the renamed repository, and send privacy questions to Discussions",
+     "date": "2026-11-17T17:18:57Z",
+     "url": "https://github.com/kosuke-apps/Routeline/commit/b6016cb266554505140956a3046024d4ad6aaa41"
     },
     {
-     "subject": "Make the nightly punctuality job build the tool first, without touching Package.resolved",
-     "date": "2026-10-25T16:55:50Z",
-     "url": "https://github.com/kosuke-apps/Headway/commit/711395b4e209d5b1a062d77f6e472e395d2207d7"
+     "subject": "Use the new name for every identifier, and document moving the local setup",
+     "date": "2026-11-17T00:32:49Z",
+     "url": "https://github.com/kosuke-apps/Routeline/commit/5f6ec9ed2d10a53aca4cc623aa44bb11d41716c8"
     },
     {
-     "subject": "Bring PRIVACY.md up to date with what version 0.7 does, and say what the nightly job really runs",
-     "date": "2026-10-25T15:54:33Z",
-     "url": "https://github.com/kosuke-apps/Headway/commit/e93589c65c0a170905730d0e55d3b5b1e5d88210"
+     "subject": "Use the new name in the sentences about the licence",
+     "date": "2026-11-16T19:22:57Z",
+     "url": "https://github.com/kosuke-apps/Routeline/commit/2517492cdc3bfd31293ce29dad05f671c112c94a"
     }
    ]
   },
@@ -605,31 +568,9 @@
     0
    ],
    "releases": {
-    "count": 3,
-    "latest": {
-     "tag": "v0.5.2",
-     "name": "Kitbag 0.5.2",
-     "publishedAt": "2026-10-31T15:35:38Z",
-     "url": "https://github.com/kosuke-apps/Kitbag/releases/tag/v0.5.2",
-     "prerelease": false
-    },
-    "history": [
-     {
-      "tag": "v0.5.2",
-      "publishedAt": "2026-10-31T15:35:38Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.5.1",
-      "publishedAt": "2026-10-25T19:53:20Z",
-      "prerelease": false
-     },
-     {
-      "tag": "v0.5.0",
-      "publishedAt": "2026-10-25T01:13:38Z",
-      "prerelease": false
-     }
-    ]
+    "count": 0,
+    "latest": null,
+    "history": []
    },
    "recent": [
     {
@@ -757,8 +698,8 @@
     0,
     2,
     47,
-    39,
-    8,
+    45,
+    2,
     0,
     14,
     9,
@@ -903,8 +844,8 @@
     0,
     0,
     3,
-    0,
-    8,
+    3,
+    5,
     0,
     0,
     0,
@@ -1043,10 +984,10 @@
     0,
     0,
     0,
-    0,
-    7,
-    0,
+    2,
     5,
+    1,
+    4,
     0,
     0,
     0,
@@ -1507,8 +1448,8 @@
     0,
     0,
     0,
-    0,
-    8,
+    3,
+    5,
     0,
     0,
     0,
@@ -1625,8 +1566,8 @@
     0,
     0,
     0,
-    0,
     1,
+    0,
     0,
     0,
     0,
@@ -2050,8 +1991,8 @@
     0,
     0,
     0,
-    0,
-    17,
+    1,
+    16,
     0,
     0,
     0,
@@ -2178,9 +2119,9 @@
    "stars": 0,
    "forks": 0,
    "createdAt": "2026-11-02T01:00:09Z",
-   "pushedAt": "2026-11-16T11:40:09Z",
-   "lastActive": "2026-11-03T22:50:37Z",
-   "lastActiveFrom": "commit",
+   "pushedAt": "2026-11-17T12:02:12Z",
+   "lastActive": "2026-11-03T08:00:00Z",
+   "lastActiveFrom": "contribution",
    "commits": {
     "last90d": 40,
     "last52w": 52,
@@ -2245,58 +2186,52 @@
     "latest": null,
     "history": []
    },
-   "recent": [
-    {
-     "subject": "chore(catalog): keep the profile README repository off the page",
-     "date": "2026-11-03T22:50:37Z",
-     "url": "https://github.com/kosuke-satake/kosuke-satake.github.io/commit/430f9e1552fe95774e353b052a94a041a1f80e53"
-    }
-   ]
+   "recent": []
   }
  ],
  "unsorted": [],
  "stats": {
   "projects": 15,
   "released": 8,
-  "releases": 25,
+  "releases": 16,
   "active90": 9,
   "languages": [
    {
     "name": "Swift",
     "color": "#F05138",
-    "share": 0.7196278814071986
+    "share": 0.7216751496659963
    },
    {
     "name": "JavaScript",
     "color": "#f1e05a",
-    "share": 0.14973732322557978
+    "share": 0.14848272195640616
    },
    {
     "name": "Astro",
     "color": "#ff5a03",
-    "share": 0.03159897540020632
+    "share": 0.03133374939324596
    },
    {
     "name": "TypeScript",
     "color": "#3178c6",
-    "share": 0.03148745991596432
+    "share": 0.031223909576312322
    },
    {
     "name": "Python",
     "color": "#3572A5",
-    "share": 0.019989430271493584
+    "share": 0.019824607632387952
    },
    {
     "name": "CSS",
     "color": "#663399",
-    "share": 0.017410215116725757
+    "share": 0.017264082472320457
    }
   ],
-  "otherLanguageShare": 0.030148714662831626
+  "otherLanguageShare": 0.03019577930333079
  },
  "calendar": {
-  "total": 889,
-  "activeDays": 86,
+  "total": 906,
+  "activeDays": 88,
   "weeks": [
    [
     {
@@ -3893,7 +3828,7 @@
     {
      "date": "2026-09-13",
      "count": 36,
-     "level": 4
+     "level": 3
     },
     {
      "date": "2026-09-14",
@@ -3967,7 +3902,7 @@
     {
      "date": "2026-09-27",
      "count": 36,
-     "level": 4
+     "level": 3
     },
     {
      "date": "2026-09-28",
@@ -4144,14 +4079,14 @@
     },
     {
      "date": "2026-10-31",
-     "count": 22,
+     "count": 23,
      "level": 2
     }
    ],
    [
     {
      "date": "2026-11-01",
-     "count": 46,
+     "count": 49,
      "level": 4
     },
     {
@@ -4181,7 +4116,7 @@
     },
     {
      "date": "2026-11-07",
-     "count": 5,
+     "count": 12,
      "level": 1
     }
    ],
@@ -4193,8 +4128,8 @@
     },
     {
      "date": "2026-11-09",
-     "count": 0,
-     "level": 0
+     "count": 1,
+     "level": 1
     },
     {
      "date": "2026-11-10",
@@ -4230,11 +4165,16 @@
     },
     {
      "date": "2026-11-16",
-     "count": 1,
+     "count": 4,
      "level": 1
     },
     {
      "date": "2026-11-17",
+     "count": 2,
+     "level": 1
+    },
+    {
+     "date": "2026-11-18",
      "count": 0,
      "level": 0
     }
